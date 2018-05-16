@@ -86,21 +86,22 @@ class Outcomes(Enum):
   CRIT_PASS = 2
 
 def skill_check(DC, relevant_attribute_score, skill_proficiency, dm_modifier=0):
-  '''When a character makes a skill check, they roll 1d100. When they roll 1 or
-     100, it is possible they may score a critical fail or pass, respectively.
-     A d10 is used to confirm a crit. A 10 confirms 100 as a critical pass, while
-     9 and below indicate an ordinary pass. A 1 confirms 1 as a critical fail,
-     while 2 and above indicate an ordinary fail. Critical passes and fails are,
-     at the DM's discretion, intended to be extraordinary, but can be forgone
-     as a rule if appropriate for the game.
+  '''When a character makes a skill check, they roll 1d100. When they roll
+     1 or 100, it is possible they may score a critical fail or pass,
+     respectively. A d10 is used to confirm a crit. A 10 confirms 100 as a
+     critical pass, while 9 and below indicate an ordinary pass. A 1
+     confirms 1 as a critical fail, while 2 and above indicate an ordinary
+     fail. Critical passes and fails are, at the DM's discretion, intended
+     to be extraordinary, but can be forgone as a rule if appropriate for
+     the game.
      
      Otherwise, the outcome is a pass when the sum of the player's skill
      proficiency, the score of the attribute relevant to the skill, and any
-     additional bonus or handicap added by the DM as the situation might call
-     for exceeds the difficulty class (DC) of the check. When the DC exceeds the
-     sum, the outcome is a fail. When the two values are exactly equal, the
-     outcome is a draw, and the DM is advised to make a ruling or commence a
-     tiebreaker roll or coinflip.'''
+     additional bonus or handicap added by the DM as the situation might
+     call for exceeds the difficulty class (DC) of the check. When the DC
+     exceeds the sum, the outcome is a fail. When the two values are
+     exactly equal, the outcome is a draw, and the DM is advised to make a
+     ruling or commence a tiebreaker roll or coinflip.'''
      
   roll = random.randint(1, 100)
   confirm_if_crit = (1, 10)
