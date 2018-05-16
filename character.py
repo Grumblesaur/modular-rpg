@@ -66,12 +66,17 @@ def skill_points(n=len(Params.SKILL_NAMES)):
   return n / 4
 
 def max_skill_ranks(character_level):
-  '''The highest rank a character's skill proficiency can be is
-     one greater than the character's level. Bonuses from equipment,
-     boons, or other things granted by the dungeon master are not
-     subject to this limitation.'''
+  '''The greatest number of points that can be allocated to a skill
+     proficiency is one greater than the character's level.
+     Bonuses from equipment, boons, or other things granted by the
+     dungeon master are not subject to this limitation.'''
   return character_level + 1
 
+def skill_proficiency_cap():
+  '''Proficiency is capped to create bounded accuracy. The cap limits
+     the total of all allocations to a skill proficiency, including
+     skill ranks, equipment, boons, perks, and other sources.'''
+  return 30
 
 class Outcomes(Enum):
   CRIT_FAIL = -2,
