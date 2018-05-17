@@ -1,5 +1,8 @@
 import util
 
+def wordcase(s):
+  return ' '.join([word.capitalize() for word in s.split(' ')])
+
 skill_tag = 's_'
 perk_tag  = 'p_'
 
