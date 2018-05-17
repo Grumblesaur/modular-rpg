@@ -1,0 +1,8 @@
+Disguise
+Lockpicking
+Hide
+Sneak
+Persuade
+Charm
+Intimidate
+
