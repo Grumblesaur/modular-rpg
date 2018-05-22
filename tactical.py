@@ -12,12 +12,16 @@ class Action:
     Taken     = 1
   
 class Turn:
+  '''Each actor's turn consists of a primary action, a secondary
+  action, a tertiary action, and a movement. These components may
+  be taken in any order, and movement may be split up before,
+  between, or after any other components of the turn.'''
   duration = 6 # seconds
   def __init__(self):
     self.components = {
       Action.Types.Primary   : Action.States.Not_Taken,
       Action.Types.Secondary : Action.States.Not_Taken,
       Action.Types.Tertiary  : Action.States.Not_Taken
-      Action.Types.Movement  : Action.States.Taken
+      Action.Types.Movement  : Action.States.Not_Taken
     }
   
