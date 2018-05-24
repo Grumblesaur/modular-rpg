@@ -1,8 +1,12 @@
 Disguise
-Lockpicking
+Pick Lock
 Hide
 Sneak
 Persuade
 Charm
 Intimidate
+Dance
+Sing
+Play <Type of Instrument>
+
 
