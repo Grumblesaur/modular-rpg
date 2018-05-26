@@ -10,18 +10,9 @@ class Agility:
   perks  = { }
 
 # Add your skills and perks here
-def s_dance(agility, proficiency, dc):
-  '''Move rhythmically on your feet.'''
+def s_example(agility, proficiency, dc):
+  '''Example skill check.'''
   return dice_kernel.skill_check(agility, proficiency, dc)
-
-def p_artful_dodger():
-  '''Actors with this perk are performant with acrobatic
-  evasive maneuvers when fewer than three other actors
-  are within 10 feet of them.'''
-  return {
-    'defense bonus' : 1,
-    'condition' : 'fewer than 3 other actors within 10 feet'
-  }
 
 # Fill the namespace without needing to type skill names and descriptions
 # into a crowded dict. Do not remove this call.

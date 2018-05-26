@@ -1,3 +1,4 @@
+import dice_kernel
 from formatinfo import digest
 class Resilience:
   '''Resilience namespace. Do not edit the class. Instead, add skills
@@ -9,9 +10,10 @@ class Resilience:
   perks  = { }
 
 # Add your skills and perks here
+def s_example(resilience, proficiency, dc):
+  '''Example skill check.'''
+  return dice_kernel.skill_check(resilience, proficiency, dc)
 
-s_swim = 'Move through deep water by your arms and legs.'
-p_tough = 'Gain an extra 1HP per level.'
 
 # Fill the namespace without needing to type skill names and descriptions
 # into a crowded dict. Do not remove this call.

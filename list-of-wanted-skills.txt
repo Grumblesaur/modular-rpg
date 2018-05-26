@@ -1,3 +1,10 @@
+Appraise
+Craft <Type of Item>
+Repair <Type of Item>
+Treat Injury
+Treat Disease
+Navigate
+Bargain
 Disguise
 Pick Lock
 Hide
@@ -8,5 +15,9 @@ Intimidate
 Dance
 Sing
 Play <Type of Instrument>
-
+Look
+Listen
+Jump
+Climb
+Swim
 
