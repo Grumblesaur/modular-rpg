@@ -1,10 +1,18 @@
 import random
 
-from Vigor import Vigor
-from Resilience import Resilience
-from Agility import Agility
+from attr.Vigor import Vigor
+from attr.Resilience import Resilience
+from attr.Agility import Agility
+from attr.Allure import Allure
+from attr.Presence import Presence
+from attr.Intuition import Intuition
+from attr.Knowledge import Knowledge
+from attr.Dexterity import Dexterity
 
-modules = (Vigor, Resilience, Agility)
+modules = (
+  Vigor, Resilience, Agility, Allure,
+  Presence, Intuition, Knowledge, Dexterity
+)
 
 all_skills = { }
 all_perks  = { }
