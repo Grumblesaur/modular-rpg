@@ -1,4 +1,4 @@
-import dice_kernel
+from dice_kernel import skill_check
 from formatinfo import digest
 class Allure:
   '''Allure namespace. Do not edit the class. Instead, add skills
@@ -12,7 +12,7 @@ class Allure:
 # Add your skills and perks here
 def s_example(allure, proficiency, dc):
   '''Example skill check.'''
-  return dice_kernel.skill_check(allure, proficiency, dc)
+  return skill_check(allure, proficiency, dc)
 
 # Fill the namespace without needing to type skill names and descriptions
 # into a crowded dict. Do not remove this call.

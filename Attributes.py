@@ -1,5 +1,7 @@
-import random
+import sys
+sys.path.append('./attr')
 
+import random
 from attr.Vigor import Vigor
 from attr.Resilience import Resilience
 from attr.Agility import Agility
@@ -42,7 +44,7 @@ class Params:
     ) - handicap
   
   def score_array(sides=sides, dice=dice, drop=drop, handicap=handicap,
-                  target=target, nscores=len(attributes):
+                  target=target, nscores=len(attributes)):
     '''Generates a full array of attributes, adjusted
     for a target attribute score total.'''
     calc_last_as_diff = target is not None

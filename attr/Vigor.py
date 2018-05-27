@@ -1,4 +1,4 @@
-import dice_kernel
+from dice_kernel import skill_check
 from formatinfo import digest
 class Vigor:
   '''Vigor namespace. Do not edit the class. Instead, add skills
@@ -12,7 +12,7 @@ class Vigor:
 # Add your skills and perks here
 def s_example(vigor, proficiency, dc):
   '''Example skill check.'''
-  return dice_kernel.skill_check(agility, proficiency, dc)
+  return skill_check(agility, proficiency, dc)
 
 
 # Fill the namespace without needing to type skill names and descriptions
