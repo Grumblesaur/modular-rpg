@@ -98,8 +98,11 @@ class Params:
     
     return growths_delta
     
-    
   def get_growing_attribute(roll, growth_distro):
+    '''Searches the growth distribution table for the roll and
+    returns the name of the attribute to be incremented. If the
+    roll value is not found, an exception is raised reporting
+    the roll value which failed.'''
     for attribute in growth_distro:
       if roll in growth_distro['attribute']:
         return attribute
