@@ -108,10 +108,10 @@ class Params:
         return attribute
     raise ValueError('growth distribution does not define range including %s' % roll)
   
-  def growth_distribution(vigor=range(1,13),      resilience=range(13,25),
-                          allure=range(25,37),    presence=range(37,50),
-                          agility=range(50,63),   dexterity=range(63,75),
-                          knowledge=range(75,88), intuition=range(88,101)):
+  def growth_distribution(vigor=range(1,13),      resilience=range(13,26),
+                          allure=range(26,38),    presence=range(38,51),
+                          agility=range(51,63),   dexterity=range(63,76),
+                          knowledge=range(76,88), intuition=range(88,101)):
     '''The growth distribution determines the weight for the
     random portion of attribute growths. These distributions
     are fixed upon character creation. A player may select
@@ -124,6 +124,7 @@ class Params:
       3) The upper and lower bounds of each range fall between 1 and 100
          (since the stat boost is randomly applied via d%).
       4) The ranges are contiguous (they don't skip numbers).
+      5) The bounds of the ranges are integers.
     
     The default array gives a roughly-even frequency to each attribute.'''
 
