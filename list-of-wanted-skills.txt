@@ -6,6 +6,7 @@ Climb
 Craft <Type of Item>
 Dance
 Disguise
+Handle Animal
 Hide
 Intimidate
 Jump
@@ -20,5 +21,6 @@ Repair <Type of Item>
 Sing
 Sneak
 Swim
+Track Creature
 Treat Disease
 Treat Injury
