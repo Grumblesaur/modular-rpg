@@ -156,7 +156,17 @@ class Rules:
       'Agility' : agility, 'Dexterity' : dexterity,
       'Knowledge' : knowledge, 'Intuition' : intuition
     }
-    
+  
+  def adversary_class(armor_value, distance, agility_score, intuition_score):
+    '''Adversary class determines how resistant to physical damage an actor
+    is. Actors roll their attacks against their target's adversary class. AC
+    is the sum of armor, one tenth of the distance between attacker and
+    target (rounded down), and one tenth of the higher of Agility and
+    Intuition, rounded down.'''
+    ac = armor_value + (distance // 10)
+    ac += max(agility_score, intuition_score) // 10
+    return ac
+   
   def hit_point_max_increase(resilience_score):
     '''Upon leveling up, an actor receives an increase in maximum hit
     points equal to 1d10 + 1. Additionally, they receive one tenth of
@@ -175,12 +185,27 @@ class Rules:
     higher.'''
     return max(resilience_score // 2, 0) + 10
   
-  
-  def attack(dmg_die, attr_score, weap_prof, s_threat=1, f_threat=1, ac):
-    attr_mod = attr_score // 10
-    dice, sides = parse_damage_die(dmg_die)
-    roll_damage = lambda: sum([random.randint(1,sides) for x in range(sides)])
+  def attack(ac, attr_score, weap_prof, dmg_die, s_threat=1, f_threat=1):
+    '''When an actor attacks, their attack must meet or beat the
+    adversary class of their target. The accuracy of an actor's attack
+    is determined by one tenth of the attribute score required by the
+    weapon in use and the actor's proficiency with the weapon. The weapon
+    (which could just be the actor's fist or foot) has a damage die, a
+    success threat, and a failure threat. The success threat determines
+    the range of values over which the weapon will roll double the number
+    of damage dice.
+    
+    The failure threat determines the range of values over which the
+    attack will automatically miss.
+    
+    The damage die is a string of the form MdN, where M is the number of
+    dice to roll, and N is the number of sides on the die.'''
+    
+    attr_mod     = attr_score // 10
+    dice, sides  = parse_damage_die(dmg_die)
+    roll_damage  = lambda: sum([random.randint(1,sides) for x in range(sides)])
     raw_hit_roll = random.randint(1,100)
+    
     critical_status = attack_crit(roll, s_threat, fail_threat)
     if critical_status == Outcomes.Crit_Pass:
       damage = roll_damage() + roll_damage() + attr_mod
@@ -200,6 +225,19 @@ class Rules:
     return tuple(s.split('d'))
 
   def attack_crit(roll, s_threat=1, f_threat=1):
+    '''Critical attacks naturally have a critical threat range of 1. An
+    attacker scores a critical automatically on 100, although if their
+    critical threat range is wider than 1, that range expands downward
+    from 100. If the threat range is 2, a critical success happens on
+    99 or 100. Critical successes and critical failures have differing
+    threat ranges, which may be affected by equipment, perks, or other
+    things.
+    
+    Critical failures expand upwards from 1 in a similar manner. If the
+    threat range is 2, a critical failure happens on 1 or 2.
+    
+    Criticals of either type do not need to be confirmed for attacks.'''
+    
     outcome = None
     if roll in range(101-s_threat,101):
       outcome = Outcomes.Crit_Pass
@@ -208,6 +246,8 @@ class Rules:
     return outcome
 
   def max_skill_ranks(character_level):
+    '''An actor cannot invest more than skill point into a skill proficiency
+    than one per their character level plus one.'''
     return character_level + 1
 
   def skill_check(DC, attribute_score, skill_proficiency, dm_modifier=0):
