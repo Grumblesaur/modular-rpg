@@ -2,7 +2,7 @@ import sys
 sys.path.append('./attr')
 
 import random
-import Tactical
+from Tactical import Outcomes
 from attr.Vigor import Vigor
 from attr.Resilience import Resilience
 from attr.Agility import Agility
@@ -182,9 +182,9 @@ class Params:
     roll_damage = lambda: sum([random.randint(1,sides) for x in range(sides)])
     raw_hit_roll = random.randint(1,100)
     critical_status = attack_crit(roll, s_threat, fail_threat)
-    if critical_status == Tactical.Outcomes.Crit_Pass:
+    if critical_status == Outcomes.Crit_Pass:
       damage = roll_damage() + roll_damage() + attr_mod
-    elif critical_status == Tactical.Outcomes.Crit_Fail:
+    elif critical_status == Outcomes.Crit_Fail:
       damage = 0
     else:
       hit_total = raw_hit_roll + weap_prof + attr_mod
@@ -202,11 +202,50 @@ class Params:
   def attack_crit(roll, s_threat=1, f_threat=1):
     outcome = None
     if roll in range(101-s_threat,101):
-      outcome = Tactical.Outcomes.Crit_Pass
+      outcome = Outcomes.Crit_Pass
     elif roll in range(1, 1+f_threat):
-      outcome = Tactical.Outcomes.Crit_Fail
+      outcome = Outcomes.Crit_Fail
     return outcome
 
+  def max_skill_ranks(character_level):
+    return character_level + 1
 
-
+  def skill_check(DC, attribute_score, skill_proficiency, dm_modifier=0):
+    '''When a character makes a skill check, they roll 1d100. When they roll
+       1 or 100, it is possible they may score a critical fail or pass,
+       respectively. A d10 is used to confirm a crit. A 10 confirms 100 as a
+       critical pass, while 9 and below indicate an ordinary pass. A 1
+       confirms 1 as a critical fail, while 2 and above indicate an ordinary
+       fail. Critical passes and fails are, at the DM's discretion, intended
+       to be extraordinary, but can be forgone as a rule if appropriate for
+       the game.
+       
+       Otherwise, the outcome is a pass when the sum of the player's skill
+       proficiency, the score of the attribute relevant to the skill, and any
+       additional bonus or handicap added by the DM as the situation might
+       call for exceeds the difficulty class (DC) of the check. When the DC
+       exceeds the sum, the outcome is a fail. When the two values are
+       exactly equal, the outcome is a draw, and the DM is advised to make a
+       ruling or commence a tiebreaker roll or coinflip.'''
+       
+    roll = random.randint(1, 100)
+    confirm_if_crit = random.randint(1, 10)
+    aggregate = roll + attribute_score + skill_proficiency + dm_modifier
+    if roll == 100:
+      if confirm_if_crit == 10:
+        outcome = Outcomes.Crit_Pass
+      else:
+        outcome = Outcomes.Pass
+    elif roll == 1:
+      if confirm_if_crit == 1:
+        outcome = Outcomes.Crit_Fail
+      else:
+        outcome = Outcomes.Fail
+    elif aggregate > DC:
+      outcome = Outcomes.Pass
+    elif aggregate < DC:
+      outcome = Outcomes.Fail
+    else:
+      outcome = Outcomes.Draw
+    return outcome
 

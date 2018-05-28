@@ -79,11 +79,11 @@ def skill_proficiency_cap():
   return 30
 
 class Outcomes(Enum):
-  CRIT_FAIL = -2,
-  FAIL      = -1,
-  DRAW      = 0,
-  PASS      = 1,
-  CRIT_PASS = 2
+  Crit_Fail = -2,
+  Fail      = -1,
+  Draw      = 0,
+  Pass      = 1,
+  Crit_Pass = 2
 
 def skill_check(DC, relevant_attribute_score, skill_proficiency, dm_modifier=0):
   '''When a character makes a skill check, they roll 1d100. When they roll
@@ -108,20 +108,20 @@ def skill_check(DC, relevant_attribute_score, skill_proficiency, dm_modifier=0):
   aggregate = roll + relevant_attribute_score + skill_proficiency + dm_modifier
   if roll == 100:
     if confirm_if_crit == 10:
-      outcome = Outcomes.CRIT_PASS
+      outcome = Outcomes.Crit_Pass
     else:
-      outcome = Outcomes.PASS
+      outcome = Outcomes.Pass
   elif roll == 1:
     if confirm_if_crit == 1:
-      outcome = Outcomes.CRIT_FAIL
+      outcome = Outcomes.Crit_Fail
     else:
-      outcome = Outcomes.FAIL
+      outcome = Outcomes.Fail
   elif aggregate > DC:
-    outcome = Outcomes.PASS
+    outcome = Outcomes.Pass
   elif aggregate < DC:
-    outcome = Outcomes.FAIL
+    outcome = Outcomes.Fail
   else:
-    outcome = Outcomes.DRAW
+    outcome = Outcomes.Draw
   return outcome
 
 
