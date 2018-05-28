@@ -1,23 +1,24 @@
 Appraise
-Craft <Type of Item>
-Repair <Type of Item>
-Treat Injury
-Treat Disease
-Navigate
 Bargain
-Disguise
-Pick Lock
-Hide
-Sneak
-Persuade
+Blend
 Charm
-Intimidate
-Dance
-Sing
-Play <Type of Instrument>
-Look
-Listen
-Jump
 Climb
+Craft <Type of Item>
+Dance
+Disguise
+Hide
+Intimidate
+Jump
+Listen
+Look
+Navigate
+Persuade
+Pick Lock
+Play <Type of Instrument>
+Recall
+Repair <Type of Item>
+Sing
+Sneak
 Swim
-
+Treat Disease
+Treat Injury

@@ -62,7 +62,7 @@ class Params:
     can be saved for later use.'''
     return len(attributes)
   
-  def attribute_points(growth_distribution, actor_attributes, attribute_focus):
+  def attribute_points(growth_distro, actor_attributes, attribute_focus):
     '''Attribute points are awarded on leveling up, and are used to
     improve the attribute score of an actor. Attribute points are
     distributed semi-randomly.
@@ -99,7 +99,7 @@ class Params:
     
     for y in range(random_growth):
       roll = random.randint(1,100)
-      gained = get_growing_attribute(roll, growth_distribution)
+      gained = get_growing_attribute(roll, growth_distro)
       actor_attributes[gained] += 1
       try:
         growths_delta[gained] += 1
@@ -113,10 +113,17 @@ class Params:
     returns the name of the attribute to be incremented. If the
     roll value is not found, an exception is raised reporting
     the roll value which failed.'''
+    found = None
     for attribute in growth_distro:
       if roll in growth_distro['attribute']:
-        return attribute
-    raise ValueError('growth distribution does not define range including %s' % roll)
+        if found is not None:
+          raise ValueError('growth distro ranges overlap')
+        found = attribute
+    if found is None:
+      raise ValueError(
+        'growth distribution does not define range including %s' % roll
+      )
+    return found
   
   def growth_distribution(vigor=range(1,13),      resilience=range(13,26),
                           allure=range(26,38),    presence=range(38,51),
