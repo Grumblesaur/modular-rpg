@@ -25,7 +25,7 @@ for module in modules:
   all_perks  = {**all_perks,  **module.perks}
   attribute_names.append(module.name)
 
-class Params:
+class Rules:
   # Gameplay Parameters
   attributes = attribute_names
   skills     = all_skills
