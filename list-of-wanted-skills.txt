@@ -5,6 +5,7 @@ Charm
 Climb
 Craft <Type of Item>
 Dance
+Deceive
 Disguise
 Handle Animal
 Hide
@@ -15,6 +16,7 @@ Look
 Navigate
 Persuade
 Pick Lock
+Pick Pocket
 Play <Type of Instrument>
 Recall
 Repair <Type of Item>

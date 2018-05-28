@@ -2,6 +2,7 @@ import sys
 sys.path.append('./attr')
 
 import random
+import Tactical
 from attr.Vigor import Vigor
 from attr.Resilience import Resilience
 from attr.Agility import Agility
@@ -173,4 +174,39 @@ class Params:
     half their Resilience score rounded down or zero, whichever is
     higher.'''
     return max(resilience_score // 2, 0) + 10
+  
+  
+  def attack(dmg_die, attr_score, weap_prof, s_threat=1, f_threat=1, ac):
+    attr_mod = attr_score // 10
+    dice, sides = parse_damage_die(dmg_die)
+    roll_damage = lambda: sum([random.randint(1,sides) for x in range(sides)])
+    raw_hit_roll = random.randint(1,100)
+    critical_status = attack_crit(roll, s_threat, fail_threat)
+    if critical_status == Tactical.Outcomes.Crit_Pass:
+      damage = roll_damage() + roll_damage() + attr_mod
+    elif critical_status == Tactical.Outcomes.Crit_Fail:
+      damage = 0
+    else:
+      hit_total = raw_hit_roll + weap_prof + attr_mod
+      if hit_total > ac:
+        damage = roll_damage() + attr_mod
+      elif hit_total < ac:
+        damage = 0
+      else:
+        damage = min(roll_damage(), roll_damage()) + attr_mod
+    return damage
+  
+  def parse_damage_die(s):
+    return tuple(s.split('d'))
+
+  def attack_crit(roll, s_threat=1, f_threat=1):
+    outcome = None
+    if roll in range(101-s_threat,101):
+      outcome = Tactical.Outcomes.Crit_Pass
+    elif roll in range(1, 1+f_threat):
+      outcome = Tactical.Outcomes.Crit_Fail
+    return outcome
+
+
+
 

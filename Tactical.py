@@ -1,4 +1,10 @@
 from enum import Enum
+class Outcomes(Enum):
+  Crit_Fail = -2,
+  Fail      = -1,
+  Draw      = 0,
+  Pass      = 1,
+  Crit_Pass = 2
 
 class Action:
   class Types(Enum):
