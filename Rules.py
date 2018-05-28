@@ -162,7 +162,9 @@ class Rules:
     is. Actors roll their attacks against their target's adversary class. AC
     is the sum of armor, one tenth of the distance between attacker and
     target (rounded down), and one tenth of the higher of Agility and
-    Intuition, rounded down.'''
+    Intuition, rounded down.
+    
+    Distance is measured in feet.'''
     ac = armor_value + (distance // 10)
     ac += max(agility_score, intuition_score) // 10
     return ac
