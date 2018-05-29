@@ -27,7 +27,7 @@ class Turn:
     self.components = {
       Action.Types.Primary   : Action.States.Not_Taken,
       Action.Types.Secondary : Action.States.Not_Taken,
-      Action.Types.Tertiary  : Action.States.Not_Taken
+      Action.Types.Tertiary  : Action.States.Not_Taken,
       Action.Types.Movement  : Action.States.Not_Taken
     }
   

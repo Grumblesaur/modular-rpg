@@ -2,7 +2,7 @@ import sys
 sys.path.append('./attr')
 
 import random
-from Tactical import Outcomes
+from Enumerations import Outcomes
 from attr.Vigor import Vigor
 from attr.Resilience import Resilience
 from attr.Agility import Agility
@@ -10,11 +10,11 @@ from attr.Allure import Allure
 from attr.Presence import Presence
 from attr.Intuition import Intuition
 from attr.Knowledge import Knowledge
-from attr.Dexterity import Dexterity
+from attr.Finesse import Finesse
 
 modules = (
   Vigor, Resilience, Agility, Allure,
-  Presence, Intuition, Knowledge, Dexterity
+  Presence, Intuition, Knowledge, Finesse
 )
 
 all_skills = { }
@@ -50,7 +50,7 @@ class Rules:
     for a target attribute score total.'''
     calc_last_as_diff = target is not None
     array = [
-      score(sides, dice, drop, handicap) for x in
+      Rules.score(sides, dice, drop, handicap) for x in
       range(nscores - int(calc_last_as_diff))
     ]
     if calc_last_as_diff:
@@ -128,7 +128,7 @@ class Rules:
   
   def growth_distribution(vigor=range(1,13),      resilience=range(13,26),
                           allure=range(26,38),    presence=range(38,51),
-                          agility=range(51,63),   dexterity=range(63,76),
+                          agility=range(51,63),   finesse=range(63,76),
                           knowledge=range(76,88), intuition=range(88,101)):
     '''The growth distribution determines the weight for the
     random portion of attribute growths. These distributions
@@ -153,19 +153,19 @@ class Rules:
     return {
       'Vigor' : vigor, 'Resilience' : resilience,
       'Allure' : allure, 'Presence' : presence,
-      'Agility' : agility, 'Dexterity' : dexterity,
+      'Agility' : agility, 'Finesse' : finesse,
       'Knowledge' : knowledge, 'Intuition' : intuition
     }
   
   def adversary_class(armor_value, distance, agility_score, intuition_score):
     '''Adversary class determines how resistant to physical damage an actor
     is. Actors roll their attacks against their target's adversary class. AC
-    is the sum of armor, one tenth of the distance between attacker and
-    target (rounded down), and one tenth of the higher of Agility and
-    Intuition, rounded down.
+    is the sum of 50, any bonus from armor, one tenth of the distance
+    between attacker and target (rounded down), and one tenth of the higher
+    of Agility and Intuition, rounded down.
     
     Distance is measured in feet.'''
-    ac = armor_value + (distance // 10)
+    ac  = 50 + armor_value + (distance // 10)
     ac += max(agility_score, intuition_score) // 10
     return ac
    
@@ -204,16 +204,16 @@ class Rules:
     dice to roll, and N is the number of sides on the die.'''
     
     attr_mod     = attr_score // 10
-    dice, sides  = parse_damage_die(dmg_die)
-    roll_damage  = lambda: sum([random.randint(1,sides) for x in range(sides)])
+    dice, sides  = Rules.parse_damage_die(dmg_die)
+    roll_damage  = lambda: sum([random.randint(1,sides) for x in range(dice)])
     raw_hit_roll = random.randint(1,100)
     
-    critical_status = attack_crit(roll, s_threat, fail_threat)
+    critical_status = Rules.attack_crit(raw_hit_roll, s_threat, f_threat)
     if critical_status == Outcomes.Crit_Pass:
       damage = roll_damage() + roll_damage() + attr_mod
     elif critical_status == Outcomes.Crit_Fail:
       damage = 0
-    else:
+    elif critical_status is None:
       hit_total = raw_hit_roll + weap_prof + attr_mod
       if hit_total > ac:
         damage = roll_damage() + attr_mod
@@ -224,7 +224,7 @@ class Rules:
     return damage
   
   def parse_damage_die(s):
-    return tuple(s.split('d'))
+    return tuple(map(int,s.split('d')))
 
   def attack_crit(roll, s_threat=1, f_threat=1):
     '''Critical attacks naturally have a critical threat range of 1. An
@@ -239,7 +239,6 @@ class Rules:
     threat range is 2, a critical failure happens on 1 or 2.
     
     Criticals of either type do not need to be confirmed for attacks.'''
-    
     outcome = None
     if roll in range(101-s_threat,101):
       outcome = Outcomes.Crit_Pass
