@@ -5,24 +5,38 @@ from Rules import Rules
 linewidth = 70
 
 try:
-  iterations = sys.argv[1]
+  iterations = int(sys.argv[1])
 except IndexError:
   iterations = 10
 
+try:
+  debug = bool(sys.argv[2])
+except IndexError:
+  debug = False
+
+def debug_print(*args):
+  if debug:
+    for arg in args:
+      print(arg,)
+
+def avg(vec):
+  return sum(vec) / len(vec)
 
 print('Attribute arrays w/ score total:')
 score_arrays = [ ]
 score_totals = [ ]
 for x in range(iterations):
   p = Rules.score_array()
+  random.shuffle(p)
   score_arrays.append(p)
   score_totals.append(sum(p))
 
-print('\t'.join([name[:3] for name in Rules.attributes]))
-print('-' * linewidth)
+debug_print('\t'.join([name[:3] for name in Rules.attributes]))
+debug_print('-' * linewidth)
 for x in range(len(score_arrays)):
-  print('\t'.join(list(map(str, score_arrays[x])) + [str(score_totals[x])]))
-print('-' * linewidth)
+  debug_print('\t'.join(list(map(str,score_arrays[x])) + [str(score_totals[x])]))
+debug_print('-' * linewidth)
+print('avg attribute score:', avg([avg(array) for array in score_arrays]))
 print()
 
 print('Adversary class test')
@@ -37,8 +51,9 @@ for x in range(iterations):
     random.choice(random.choice(score_arrays)),
     random.choice(random.choice(score_arrays))
   ))
-print('Some possible lv 1 values are')
-print(adversary_classes)
+debug_print('Some possible lv 1 values are')
+debug_print(adversary_classes)
+print('avg ac:', avg(adversary_classes))
 print()
 
 print('Attack outcomes test')
@@ -54,8 +69,28 @@ for x in range(iterations):
     random.choice([0,1,2]),
     "1d6"
   ))
-print("some possible attack outcomes:")
-print(attack_damages)
+debug_print("some possible attack outcomes:")
+debug_print(attack_damages)
+print('avg damage:', avg(attack_damages))
+print()
+
+print('Level 3 hit points test')
+print('Parameters:')
+print('resilience_score is a random value from the attribute arrays')
+starting_hit_points_values = [ ]
+level_three_hp = [ ]
+for x in range(iterations):
+  resilience = random.choice(random.choice(score_arrays))
+  starting_hit_points_values.append(Rules.starting_hit_points(resilience))
+  level_three_hp.append(
+    starting_hit_points_values[x]
+    + Rules.hit_point_max_increase(resilience)
+    + Rules.hit_point_max_increase(resilience)
+  )
+  
+debug_print('some possible level 3 hit points values:')
+debug_print(level_three_hp)
+print('avg HP at lv 3:', avg(level_three_hp))
 print()
 
 
