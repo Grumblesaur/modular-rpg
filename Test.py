@@ -34,10 +34,33 @@ for x in range(iterations):
 debug_print('\t'.join([name[:3] for name in Rules.attributes]))
 debug_print('-' * linewidth)
 for x in range(len(score_arrays)):
-  debug_print('\t'.join(list(map(str,score_arrays[x])) + [str(score_totals[x])]))
+  debug_print('\t'.join(
+    list(map(str,score_arrays[x])) + [str(score_totals[x])]
+  ))
 debug_print('-' * linewidth)
 print('avg attribute score:', avg([avg(array) for array in score_arrays]))
 print()
+
+print('Attribute arrays w/no target score total:')
+notarget_arrays = [ ]
+notarget_totals = [ ]
+for x in range(iterations):
+  p = Rules.score_array(target=None)
+  random.shuffle(p)
+  notarget_arrays.append(p)
+  notarget_totals.append(sum(p))
+debug_print('\t'.join([name[:3] for name in Rules.attributes]))
+debug_print('-' * linewidth)
+for x in range(len(score_arrays)):
+  debug_print('\t'.join(
+    list(map(str, notarget_arrays[x])) + [str(notarget_totals[x])]
+  ))
+debug_print('-' * linewidth)
+print('avg unbounded attribute score:', avg(
+  [avg(array) for array in notarget_arrays])
+)
+print()
+
 
 print('Adversary class test')
 print('Parameters:')
@@ -56,11 +79,14 @@ debug_print(adversary_classes)
 print('avg ac:', avg(adversary_classes))
 print()
 
+
 print('Attack outcomes test')
 print('Parameters:')
-print("ac is a random value from the previous test's output; attr_score is a")
-print("random value from the Attribute arrays test; weap_prof is a random value")
-print("in the range [0,2]; dmg_die is 1d6; s_threat and f_threat are default")
+print("ac is a random value from the previous test's output")
+print("attr_score is a random value from the attribute arrays test")
+print("weap_prof is a random valuein the range [0,2]")
+print("dmg_die is 1d6")
+print("s_threat and f_threat are default")
 attack_damages = [ ]
 for x in range(iterations):
   attack_damages.append(Rules.attack(
@@ -74,6 +100,7 @@ debug_print(attack_damages)
 print('avg damage:', avg(attack_damages))
 print()
 
+
 print('Level 3 hit points test')
 print('Parameters:')
 print('resilience_score is a random value from the attribute arrays')
@@ -86,8 +113,7 @@ for x in range(iterations):
     starting_hit_points_values[x]
     + Rules.hit_point_max_increase(resilience)
     + Rules.hit_point_max_increase(resilience)
-  )
-  
+  )  
 debug_print('some possible level 3 hit points values:')
 debug_print(level_three_hp)
 print('avg HP at lv 3:', avg(level_three_hp))

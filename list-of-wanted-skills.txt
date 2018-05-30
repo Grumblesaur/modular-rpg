@@ -1,15 +1,27 @@
+------------------ Skill Proficiencies-------------------
+The following skill checks are equivalent to checks with
+the toolkit appropriate to performing the skill. Worded
+differently, skill proficiencies are tool proficiencies
+and vice-versa.
+---------------------------------------------------------
+
 Appraise
 Bargain
 Blend
+Calligraph (Forge)
 Charm
 Climb
+Cook <Type of Food?>
 Craft <Type of Item>
 Dance
 Deceive
 Disguise
+Fasten
+Forage
 Handle Animal
 Hide
 Intimidate
+Investigate
 Jump
 Listen
 Look
@@ -20,9 +32,14 @@ Pick Pocket
 Play <Type of Instrument>
 Recall
 Repair <Type of Item>
+Search
+Sense Motive
 Sing
 Sneak
 Swim
 Track Creature
 Treat Disease
 Treat Injury
+
+
+
