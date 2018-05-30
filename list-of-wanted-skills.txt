@@ -43,5 +43,15 @@ Treat Injury
 
 --------------------- Optional Skills ---------------------
 
+Conjuration  [Anima]
+Illusion     [Anima]
+Restoration  [Corpus]
+Destruction  [Corpus]
+Augmentation [Corpus]
+Diminution   [Corpus]
+Divination   [Anima]
+Manipulation [Anima]
+Enchantment  [Arcana]
+Alchemy      [Arcana]
 
 
