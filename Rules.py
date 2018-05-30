@@ -157,7 +157,7 @@ class Rules:
       'Knowledge' : knowledge, 'Intuition' : intuition
     }
   
-  def adversary_class(armor_value, distance, agility_score, intuition_score):
+  def adversary_class(armor, distance, agility_score, intuition_score):
     '''Adversary class determines how resistant to physical damage an actor
     is. Actors roll their attacks against their target's adversary class. AC
     is the sum of 50, any bonus from armor, one tenth of the distance
@@ -165,7 +165,7 @@ class Rules:
     of Agility and Intuition, rounded down.
     
     Distance is measured in feet.'''
-    ac  = 50 + armor_value + (distance // 10)
+    ac  = 50 + armor + (distance // 10)
     ac += max(agility_score, intuition_score) // 10
     return ac
    
@@ -205,7 +205,9 @@ class Rules:
     
     attr_mod     = attr_score // 10
     dice, sides  = Rules.parse_damage_die(dmg_die)
-    roll_damage  = lambda: sum([random.randint(1,sides) for x in range(dice)])
+    roll_damage  = lambda: sum(
+      [random.randint(1,sides) for x in range(dice)]
+    )
     raw_hit_roll = random.randint(1,100)
     
     critical_status = Rules.attack_crit(raw_hit_roll, s_threat, f_threat)
@@ -224,6 +226,9 @@ class Rules:
     return damage
   
   def parse_damage_die(s):
+    '''Returns a tuple of `(dice, sides)` from a string `'MdN'` where
+    M is the number of dice to roll and N is the number of sides of each
+    die.'''
     return tuple(map(int,s.split('d')))
 
   def attack_crit(roll, s_threat=1, f_threat=1):

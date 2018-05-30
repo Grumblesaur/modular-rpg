@@ -64,8 +64,10 @@ print()
 
 print('Adversary class test')
 print('Parameters:')
-print('armor_value is 0; distance is 0; agility_score and intuition_score are')
-print('random numbers from the previous score arrays')
+print(' armor_value is 0')
+print(' distance is 0')
+print(' agility_score and intuition_score are')
+print(' random numbers from the previous score arrays')
 adversary_classes = [ ]
 for x in range(iterations):
   adversary_classes.append(Rules.adversary_class(
@@ -82,11 +84,11 @@ print()
 
 print('Attack outcomes test')
 print('Parameters:')
-print("ac is a random value from the previous test's output")
-print("attr_score is a random value from the attribute arrays test")
-print("weap_prof is a random valuein the range [0,2]")
-print("dmg_die is 1d6")
-print("s_threat and f_threat are default")
+print(" ac is a random value from the previous test's output")
+print(" attr_score is a random value from the attribute arrays test")
+print(" weap_prof is a random valuein the range [0,2]")
+print(" dmg_die is 1d6")
+print(" s_threat and f_threat are default")
 attack_damages = [ ]
 for x in range(iterations):
   attack_damages.append(Rules.attack(
@@ -103,7 +105,7 @@ print()
 
 print('Level 3 hit points test')
 print('Parameters:')
-print('resilience_score is a random value from the attribute arrays')
+print(' resilience_score is a random value from the attribute arrays')
 starting_hit_points_values = [ ]
 level_three_hp = [ ]
 for x in range(iterations):
