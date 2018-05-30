@@ -11,10 +11,14 @@ from attr.Presence import Presence
 from attr.Intuition import Intuition
 from attr.Knowledge import Knowledge
 from attr.Finesse import Finesse
+from opt.Faith import Faith
+from opt.Arcana import Arcana
+
 
 modules = (
   Vigor, Resilience, Agility, Allure,
-  Presence, Intuition, Knowledge, Finesse
+  Presence, Intuition, Knowledge, Finesse,
+  Faith, Arcana
 )
 
 all_skills = { }

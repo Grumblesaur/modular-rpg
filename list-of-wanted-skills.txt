@@ -1,4 +1,4 @@
------------------- Skill Proficiencies-------------------
+------------------ Skill Proficiencies ------------------
 The following skill checks are equivalent to checks with
 the toolkit appropriate to performing the skill. Worded
 differently, skill proficiencies are tool proficiencies
@@ -40,6 +40,8 @@ Swim
 Track Creature
 Treat Disease
 Treat Injury
+
+--------------------- Optional Skills ---------------------
 
 
 
