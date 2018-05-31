@@ -43,16 +43,17 @@ Treat Injury
 
 --------------------- Optional Skills ---------------------
 
-Forms of Magic [Attribute]:
-  Conjuration  [Anima]
-  Illusion     [Anima]
-  Restoration  [Corpus]
-  Destruction  [Corpus]
-  Augmentation [Corpus]
-  Diminution   [Corpus]
-  Divination   [Anima]
-  Manipulation [Anima]
-  Enchantment  [Arcana]
-  Alchemy      [Arcana]
-
+Forms of Magic  [Attribute]:
+  Conjuration   [Anima]
+  Illusion      [Anima]
+  Divination    [Anima]
+  Manipulation  [Anima]
+  Restoration   [Corpus]
+  Destruction   [Corpus]
+  Augmentation  [Corpus]
+  Diminution    [Corpus]
+  Enchantment   [Arcana]
+  Alchemy       [Arcana]
+  Transmutation [Arcana]
+  Obvocation    [Arcana]
 
