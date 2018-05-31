@@ -10,9 +10,26 @@ class Corpus:
   perks  = { }
 
 # Add your skills and perks here
-def s_example(corpus, proficiency, dc):
-  '''Example skill check.'''
+def s_restoration(corpus, proficiency, dc):
+  '''Restoration is a school of magic which involves the mending of wounds
+  and broken objects, the revivification or enthrallment of mortal
+  creatures, and the purification of substances. Should a perk or a spell
+  call for Restoration, it will require a skill check with this skill.'''
   return skill_check(corpus, proficiency, dc)
+
+def s_destruction(corpus, proficiency, dc):
+  '''Destruction is a school of magic which involves...'''
+  return skill_check(corpus, proficiency, dc)
+
+def s_augmentation(corpus, proficiency, dc):
+  '''Augmentation is a school of magic which involves...'''
+  return skill_check(corpus, proficiency, dc)
+
+def s_diminution(corpus, proficiency, dc):
+  '''Diminution is a school of magic which involves...'''
+  return skill_check(corpus, proficiency, dc)
+
+ 
 
 # Fill the namespace without needing to type skill names and descriptions
 # into a crowded dict. Do not remove this call.
