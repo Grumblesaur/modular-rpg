@@ -9,10 +9,10 @@ will provide a large bonus, using improvised tools for a
 task will provide a small bonus, and using no tools
 will incur a small penalty.
 
-Appraise, Cook, Craft, Play, Repair, and Wield are skills
-that apply to different kinds of objects. Actors may have
-multiple copies of these skills, "instantiated" for the
-particular class of item. One actor may be skilled in
+Appraise, Cook, Craft, Play, Repair, Treat, and Wield are
+skills that apply to different kinds of objects. Actors may
+have multiple copies of these skills, "instantiated" for
+the particular class of item. One actor may be skilled in
 Appraise <Jewelry>, but another might be skilled in
 Appraise <Real Estate>. The categories are left to the
 player's imagination and the game master's discretion.
@@ -68,8 +68,6 @@ Listen                  [Intuition]
 Look                    [Intuition]
 Navigate                [Knowledge]
 Persuade                [Allure]
-Pick Lock               [Finesse]
-Pick Pocket             [Finesse]
 Play <Instrument>       [Knowledge]
 Recall                  [Knowledge]
 Repair <Type of Item>   [Knowledge]
@@ -79,9 +77,10 @@ Sense Motive            [Intuition]
 Sing                    [Allure]
 Sneak                   [Agility]
 Swim                    [Resilience]
+Tamper                  [Finesse]
 Track Creature          [Intuition]
-Treat Disease           [Knowledge]
-Treat Injury            [Knowledge]
+Treat <Type of Disease> [Knowledge]
+Treat <Type of Injury>  [Knowledge]
 Wield <Type of Melee>   [Vigor]
 Wield <Type of Aimed>   [Finesse]
 Wield <Type of Thrown>  [Finesse]

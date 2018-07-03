@@ -10,9 +10,22 @@ class Finesse:
   perks  = { }
 
 # Add your skills and perks here
-def s_example(finesse, proficiency, dc):
-  '''Example skill check.'''
+def s_fasten(finesse, proficiency, dc):
+  '''Secure objects and creatures with straps and knots.'''
   return skill_check(finesse, proficiency, dc)
+
+def s_handwrite(finesse, proficiency, dc):
+  '''Forge signatures, calligraph documents, and compare handwriting.'''
+  return skill_check(finesse, proficiency, dc)
+
+def s_tamper(finesse, proficiency, dc):
+  '''Pick locks, disarm traps, and maneuver small objects.'''
+  return skill_check(finesse, proficiency, dc)
+
+def s_wield_aimed(finesse, profifiency, dc):
+  '''Fight with weapons which require precision distance shots.'''
+  return skill_check(finesse, proficiency, dc)
+
 
 # Fill the namespace without needing to type skill names and descriptions
 # into a crowded dict. Do not remove this call.

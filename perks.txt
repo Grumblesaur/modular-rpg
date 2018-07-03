@@ -1,12 +1,16 @@
-Sense of Direction: Can use Intuition instead of Knowledge for Navigate checks,
-  but cannot benefit from orienteering tools when using Intuition.
+Character Creation Quirks:
 
-Nonverbal Intimidation: Can use Vigor instead of Presence for Intimidate
-  checks.
+Sense of Direction: Replace Knowledge with Intuition for Navigate checks, but
+  receive no bonus for using orienteering tools when doing so, and receive no
+  penalties for doing so without any tools at all.
+
+Silent But Deadly: Replace Presence with Vigor for Intimidate checks.
 
 Dueling Artist: Can use Finesse instead of Vigor when wielding a Melee weapon.
 
 Gone Ballistic: Can use Vigor instead of Finesse when wielding a Thrown weapon.
+
+Tread Lightly: Replace Agility with Finesse when Sneaking.
 
 
 
