@@ -83,7 +83,6 @@ Treat <Type of Disease> [Knowledge]
 Treat <Type of Injury>  [Knowledge]
 Wield <Type of Melee>   [Vigor]
 Wield <Type of Aimed>   [Finesse]
-Wield <Type of Thrown>  [Finesse]
 
 --------------------- Optional Skills ---------------------
 

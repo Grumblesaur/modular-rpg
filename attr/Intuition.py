@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 from dice_kernel import skill_check
 from formatinfo import digest
 class Intuition:
