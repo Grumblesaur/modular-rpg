@@ -19,13 +19,34 @@ def s_cook_item(knowledge, proficiency, dc):
   return skill_check(knowledge, proficiency, dc)
 
 def s_craft_item(knowledge, proficiency, dc):
-  '''Create new gear and trinkets, if you have the tools and materials.'''
+  '''Create new gear and trinkets of a chosen type, if you have the tools and
+  materials.'''
   return skill_check(knowledge, proficiency, dc)
 
 def s_navigate(knowledge, proficiency, dc):
   '''Reconcile your direction with your destination, if you have the tools.'''
   return skill_check(knowledge, proficiency, dc)
 
+def s_play_instrument(knowledge, proficiency, dc):
+  '''Perform musically with a chosen instrument, if you have the equipment.'''
+  return skill_check(knowledge, proficiency, dc)
+
+def s_recall(knowledge, proficiency, dc):
+  '''Flex your mind to remember details which escaped you.'''
+  return skill_check(knowledge, proficiency, dc)
+
+def s_repair_item(knowledge, proficiency, dc):
+  '''Mend broken objects of a chosen type, if you have the tools and
+  materials.'''
+  return skill_check(knowledge, proficiency, dc)
+
+def s_treat_disease(knowledge, proficiency, dc):
+  '''Tend to illnesses of a chosen type, if you have the materials.'''
+  return skill_check(knowledge, proficiency, dc)
+
+def s_treat_injury(knowledge, proficiency, dc):
+  '''Tend to injuries of a chosen type, if you have the materials.'''
+  return skill_check(knowledge, proficiency, dc)
 
 
 # Fill the namespace without needing to type skill names and descriptions

@@ -10,9 +10,31 @@ class Allure:
   perks  = { }
 
 # Add your skills and perks here
-def s_example(allure, proficiency, dc):
-  '''Example skill check.'''
+def s_bargain(allure, proficiency, dc):
+  '''Haggle with vendors and strike deals.'''
   return skill_check(allure, proficiency, dc)
+
+def s_charm(allure, proficiency, dc):
+  '''Influence others with your wit and silver tongue.'''
+  return skill_check(allure, proficiency, dc)
+
+def s_deceive(allure, proficiency, dc):
+  '''Lie, distract, and equivocate.'''
+  return skill_check(allure, proficiency, dc)
+
+def s_investigate(allure, proficiency, dc):
+  '''Query locals for information.'''
+  return skill_check(allure, proficiency, dc)
+
+def s_persuade(allure, proficiency, dc):
+  '''Influence others with sound statements and facts.'''
+  return skill_check(allure, proficiency, dc)
+
+def s_sing(allure, proficiency, dc):
+  '''Create music of the voice.'''
+  return skill_check(allure, proficiency, dc)
+
+
 
 # Fill the namespace without needing to type skill names and descriptions
 # into a crowded dict. Do not remove this call.

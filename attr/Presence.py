@@ -10,9 +10,19 @@ class Presence:
   perks  = { }
 
 # Add your skills and perks here
-def s_example(presence, proficiency, dc):
-  '''Example skill check.'''
+def s_blend(presence, proficiency, dc):
+  '''Act natural, and disappear within plain sight.'''
   return skill_check(presence, proficiency, dc)
+
+def s_handle_animal(presence, proficiency, dc):
+  '''Show a beast who's boss.'''
+  return skill_check(presence, proficiency, dc)
+
+def s_intimidate(presence, proficiency, dc):
+  '''Instill fear and exude dominance.'''
+  return skill_check(presence, proficiency, dc)
+
+
 
 # Fill the namespace without needing to type skill names and descriptions
 # into a crowded dict. Do not remove this call.
