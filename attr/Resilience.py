@@ -10,8 +10,12 @@ class Resilience:
   perks  = { }
 
 # Add your skills and perks here
-def s_example(resilience, proficiency, dc):
-  '''Example skill check.'''
+def s_run(resilience, proficiency, dc):
+  '''Give chase or make tracks.'''
+  return skill_check(resilience, proficiency, dc)
+
+def s_swim(resilience, proficiency, dc):
+  '''Dive, swim, or tread water.'''
   return skill_check(resilience, proficiency, dc)
 
 
