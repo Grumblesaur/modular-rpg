@@ -15,6 +15,7 @@ from opt.Arcana import Arcana
 from opt.Anima import Anima
 from opt.Corpus import Corpus
 
+import dice_kernel
 
 modules = (
   Vigor, Resilience, Agility, Allure,
@@ -261,42 +262,6 @@ class Rules:
     than one per their character level plus one.'''
     return character_level + 1
 
-  def skill_check(DC, attribute_score, skill_proficiency, dm_modifier=0):
-    '''When a character makes a skill check, they roll 1d100. When they roll
-       1 or 100, it is possible they may score a critical fail or pass,
-       respectively. A d10 is used to confirm a crit. A 10 confirms 100 as a
-       critical pass, while 9 and below indicate an ordinary pass. A 1
-       confirms 1 as a critical fail, while 2 and above indicate an ordinary
-       fail. Critical passes and fails are, at the DM's discretion, intended
-       to be extraordinary, but can be forgone as a rule if appropriate for
-       the game.
-       
-       Otherwise, the outcome is a pass when the sum of the player's skill
-       proficiency, the score of the attribute relevant to the skill, and any
-       additional bonus or handicap added by the DM as the situation might
-       call for exceeds the difficulty class (DC) of the check. When the DC
-       exceeds the sum, the outcome is a fail. When the two values are
-       exactly equal, the outcome is a draw, and the DM is advised to make a
-       ruling or commence a tiebreaker roll or coinflip.'''
-       
-    roll = random.randint(1, 100)
-    confirm_if_crit = random.randint(1, 10)
-    aggregate = roll + attribute_score + skill_proficiency + dm_modifier
-    if roll == 100:
-      if confirm_if_crit == 10:
-        outcome = Outcomes.Crit_Pass
-      else:
-        outcome = Outcomes.Pass
-    elif roll == 1:
-      if confirm_if_crit == 1:
-        outcome = Outcomes.Crit_Fail
-      else:
-        outcome = Outcomes.Fail
-    elif aggregate > DC:
-      outcome = Outcomes.Pass
-    elif aggregate < DC:
-      outcome = Outcomes.Fail
-    else:
-      outcome = Outcomes.Draw
-    return outcome
-
+  def skill_check(DC, attribute_score, skill_proficiency, gm_bonus=0):
+    dice_kernel.skill_check(attribute_score, skill_proficiency, DC - gm_bonus)
+    
