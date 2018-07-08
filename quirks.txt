@@ -19,7 +19,7 @@ Gone Ballistic:
 Tread Lightly:
   Replace Agility with Finesse as the attribute for Sneak.
 
-Horns/Antlers (Sarav):
+Antlers (Sarav):
   (Fyrdwelli only.) This actor has pointed protrusions extending from their
   head. They cannot wear any headgear which does not accomodate for these
   protrusions. This actor may also make an attack with their horns using a
