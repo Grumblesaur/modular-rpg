@@ -68,17 +68,17 @@ print(' armor_value is 0')
 print(' distance is 0')
 print(' agility_score and intuition_score are')
 print(' random numbers from the previous score arrays')
-adversary_classes = [ ]
+dodge_classes = [ ]
 for x in range(iterations):
-  adversary_classes.append(Rules.adversary_class(
+  dodge_classes.append(Rules.dodge_class(
     0,
     0,
     random.choice(random.choice(score_arrays)),
     random.choice(random.choice(score_arrays))
   ))
 debug_print('Some possible lv 1 values are')
-debug_print(adversary_classes)
-print('avg ac:', avg(adversary_classes))
+debug_print(dodge_classes)
+print('avg ac:', avg(dodge_classes))
 print()
 
 
@@ -92,7 +92,7 @@ print(" s_threat and f_threat are default")
 attack_damages = [ ]
 for x in range(iterations):
   attack_damages.append(Rules.attack(
-    random.choice(adversary_classes),
+    random.choice(dodge_classes),
     random.choice(random.choice(score_arrays)),
     random.choice([0,1,2]),
     "1d6"
@@ -103,22 +103,22 @@ print('avg damage:', avg(attack_damages))
 print()
 
 
-print('Level 3 hit points test')
+print('Level 7 points test')
 print('Parameters:')
 print(' resilience_score is a random value from the attribute arrays')
 starting_hit_points_values = [ ]
-level_three_hp = [ ]
+level_seven_hp = [ ]
 for x in range(iterations):
   resilience = random.choice(random.choice(score_arrays))
   starting_hit_points_values.append(Rules.starting_hit_points(resilience))
-  level_three_hp.append(
-    starting_hit_points_values[x]
-    + Rules.hit_point_max_increase(resilience)
-    + Rules.hit_point_max_increase(resilience)
+  level_seven_hp.append(
+    starting_hit_points_values[x] + sum([
+      Rules.hit_point_max_increase(resilience) for x in range(6)
+    ])
   )  
-debug_print('some possible level 3 hit points values:')
-debug_print(level_three_hp)
-print('avg HP at lv 3:', avg(level_three_hp))
+debug_print('some possible level 7 hit points values:')
+debug_print(level_seven_hp)
+print('avg HP at lv 7:', avg(level_seven_hp))
 print()
 
 
