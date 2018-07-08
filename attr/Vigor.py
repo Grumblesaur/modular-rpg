@@ -14,23 +14,23 @@ class Vigor:
 
 # Add your skills and perks here
 def s_brawl(vigor, proficiency, dc):
-  '''Fight with fist and foot.'''
+  '''(2 GP) Fight with fist and foot.'''
   return skill_check(agility, proficiency, dc)
 
 def s_climb(vigor, proficiency, dc):
-  '''Scale walls, ropes, and slopes.'''
+  '''(2 GP) Scale walls, ropes, and slopes.'''
   return skill_check(agility, proficiency, dc)
 
 def s_jump(vigor, proficiency, dc):
-  '''Cross gaps and grasp for things just out of reach.'''
+  '''(2 GP) Cross gaps and grasp for things just out of reach.'''
   return skill_check(agility, proficiency, dc)
 
 def s_lift(vigor, proficiency, dc):
-  '''Hoist heavy objects with your arms'''
+  '''(2 GP) Hoist heavy objects with your arms'''
   return skill_check(agility, proficiency, dc)
 
 def s_wield_melee(vigor, proficiency, dc):
-  '''Fight with a chosen type of melee weapon.'''
+  '''(1 GP) Fight with a chosen type of melee weapon.'''
   return skill_check(agility, proficiency, dc)
 
 

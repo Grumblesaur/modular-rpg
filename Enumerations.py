@@ -16,6 +16,18 @@ class Action:
   class States(Enum):
     Not_Taken = 0
     Taken     = 1
+
+class Damage(Enum):
+  Bludgeoning,
+  Crushing,
+  Piercing,
+  Slashing,
+  Sonic,
+  Shock,
+  Fire,
+  Frost,
+  Corrosion,
+  Raw
   
 class Turn:
   '''Each actor's turn consists of a primary action, a secondary

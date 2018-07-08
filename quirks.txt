@@ -1,0 +1,32 @@
+  Quirks
+===============================================================================
+Quirks are a feature of character creation. They are minor changes to an actor
+to allow for different gameplay styles and more focused, specialized builds.
+Quirks can also be used to differentiate different races.
+
+Sense of Direction:
+  Replace Knowledge with Intuition for Navigate checks, but receive no bonus
+  for using orienteering tools when doing so, and receive no penalties for
+  doing so without any tools at all.
+
+Silent But Deadly:
+  Replace Presence with Vigor as the attribute for Intimidate.
+
+Gone Ballistic:
+  Can use Vigor instead of Finesse as the attribute for wielding a Thrown
+  weapon.
+
+Tread Lightly:
+  Replace Agility with Finesse as the attribute for Sneak.
+
+Horns/Antlers (Sarav):
+  (Fyrdwelli only.) This actor has pointed protrusions extending from their
+  head. They cannot wear any headgear which does not accomodate for these
+  protrusions. This actor may also make an attack with their horns using a
+  Brawl check. If they moved in a straight line toward the target for at least
+  15 feet before attacking, this attack deals 1d8 piercing damage. Otherwise,
+  it deals 1d6.
+
+
+
+

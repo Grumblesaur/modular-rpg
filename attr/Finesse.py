@@ -14,19 +14,19 @@ class Finesse:
 
 # Add your skills and perks here
 def s_fasten(finesse, proficiency, dc):
-  '''Secure objects and creatures with straps and knots.'''
+  '''(2 GP) Secure objects and creatures with straps and knots.'''
   return skill_check(finesse, proficiency, dc)
 
 def s_handwrite(finesse, proficiency, dc):
-  '''Forge signatures, calligraph documents, and compare handwriting.'''
+  '''(2 GP) Forge signatures, calligraph documents, and compare handwriting.'''
   return skill_check(finesse, proficiency, dc)
 
 def s_tamper(finesse, proficiency, dc):
-  '''Pick locks, disarm traps, and maneuver small objects.'''
+  '''(2 GP) Pick locks, disarm traps, and maneuver small objects.'''
   return skill_check(finesse, proficiency, dc)
 
 def s_wield_aimed(finesse, profifiency, dc):
-  '''Fight with weapons which require precision distance shots.'''
+  '''(1 GP) Fight with weapons which require precision distance shots.'''
   return skill_check(finesse, proficiency, dc)
 
 

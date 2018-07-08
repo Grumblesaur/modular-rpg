@@ -14,15 +14,15 @@ class Agility:
 
 # Add your skills and perks here
 def s_dance(agility, proficiency, dc):
-  '''Move with rhythm to entertain, seduce, or summon.'''
+  '''(2 GP) Move with rhythm to entertain, seduce, or summon.'''
   return skill_check(agility, proficiency, dc)
 
 def s_hide(agility, proficiency, dc):
-  '''Conceal yourself in difficult spaces with your flexibility.'''
+  '''(2 GP) Conceal yourself in difficult spaces with your flexibility.'''
   return skill_check(agility, proficiency, dc)
 
 def s_sneak(agility, proficiency, dc):
-  '''Stalk or skulk and stay out of sight with fleetness of foot.'''
+  '''(2 GP) Stalk or skulk and stay out of sight with fleetness of foot.'''
   return skill_check (agility, proficiency, dc)
 
 

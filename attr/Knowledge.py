@@ -14,41 +14,44 @@ class Knowledge:
 
 # Add your skills and perks here
 def s_appraise_item(knowledge, proficiency, dc):
-  '''Judge the worth of art, craftsmanship, or other items of value.'''
+  '''(1 GP) Judge the worth of art, craftsmanship, or other items of value.'''
   return skill_check(knowledge, proficiency, dc)
 
 def s_cook_item(knowledge, proficiency, dc):
-  '''Prepare and serve a selected type of food, if you have the ingredients.'''
+  '''(1 GP) Prepare and serve a selected type of food, if you have the
+  ingredients.'''
   return skill_check(knowledge, proficiency, dc)
 
 def s_craft_item(knowledge, proficiency, dc):
-  '''Create new gear and trinkets of a chosen type, if you have the tools and
-  materials.'''
+  '''(1 GP) Create new gear and trinkets of a chosen type, if you have the
+  tools and materials.'''
   return skill_check(knowledge, proficiency, dc)
 
 def s_navigate(knowledge, proficiency, dc):
-  '''Reconcile your direction with your destination, if you have the tools.'''
+  '''(2 GP) Reconcile your direction with your destination, if you have the
+  tools.'''
   return skill_check(knowledge, proficiency, dc)
 
 def s_play_instrument(knowledge, proficiency, dc):
-  '''Perform musically with a chosen instrument, if you have the equipment.'''
+  '''(1 GP) Perform musically with a chosen instrument, if you have the
+  equipment.'''
   return skill_check(knowledge, proficiency, dc)
 
 def s_recall(knowledge, proficiency, dc):
-  '''Flex your mind to remember details which escaped you.'''
+  '''(1 GP) Flex your mind to remember details which escaped you.'''
   return skill_check(knowledge, proficiency, dc)
 
 def s_repair_item(knowledge, proficiency, dc):
-  '''Mend broken objects of a chosen type, if you have the tools and
+  '''(1 GP) Mend broken objects of a chosen type, if you have the tools and
   materials.'''
   return skill_check(knowledge, proficiency, dc)
 
 def s_treat_disease(knowledge, proficiency, dc):
-  '''Tend to illnesses of a chosen type, if you have the materials.'''
+  '''(1 GP) Tend to illnesses of a chosen type, if you have the materials.'''
   return skill_check(knowledge, proficiency, dc)
 
 def s_treat_injury(knowledge, proficiency, dc):
-  '''Tend to injuries of a chosen type, if you have the materials.'''
+  '''(1 GP) Tend to injuries of a chosen type, if you have the materials.'''
   return skill_check(knowledge, proficiency, dc)
 
 

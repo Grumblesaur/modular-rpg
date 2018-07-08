@@ -14,15 +14,15 @@ class Presence:
 
 # Add your skills and perks here
 def s_blend(presence, proficiency, dc):
-  '''Act natural, and disappear within plain sight.'''
+  '''(2 GP) Act natural, and disappear within plain sight.'''
   return skill_check(presence, proficiency, dc)
 
 def s_handle_animal(presence, proficiency, dc):
-  '''Show a beast who's boss.'''
+  '''(2 GP) Show a beast who's boss.'''
   return skill_check(presence, proficiency, dc)
 
 def s_intimidate(presence, proficiency, dc):
-  '''Instill fear and exude dominance.'''
+  '''(2 GP) Instill fear and exude dominance.'''
   return skill_check(presence, proficiency, dc)
 
 
