@@ -1,0 +1,19 @@
+===============================================================================
+  Modular RPG System
+===============================================================================
+  Table of Contents
+    00 : System Parameters
+    01 : Character Creation
+       : Attribute Generation
+       : Attribute Growth Table
+       : Hit Points, Vitality, and Exhaustion
+       : Skill Proficiencies
+       : Quirks
+    02 : Gameplay
+       : Skill Checks
+       : Combat
+    03 : Leveling Up
+       : Attribute Growths
+       : Growth Points
+
+

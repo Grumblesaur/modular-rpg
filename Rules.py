@@ -67,7 +67,7 @@ class Rules:
     '''Growth points are awarded on leveling up, and can be used to
     improve skill proficiencies or purchase perks. Growth points
     can be saved for later use.'''
-    return len(attributes)
+    return len(attributes) * 2
   
   def attribute_points(growth_distro, actor_attributes, attribute_focus):
     '''Attribute points are awarded on leveling up, and are used to
@@ -163,9 +163,9 @@ class Rules:
       'Knowledge' : knowledge, 'Intuition' : intuition
     }
   
-  def adversary_class(armor, distance, agility_score, intuition_score):
-    '''Adversary class determines how resistant to physical damage an actor
-    is. Actors roll their attacks against their target's adversary class. AC
+  def dodge_class(armor, distance, agility_score, intuition_score):
+    '''Dodge class determines how resistant to physical damage an actor
+    is. Actors roll their attacks against their target's dodge class. DC 
     is the sum of 50, any bonus from armor, one tenth of the distance
     between attacker and target (rounded down), and one tenth of the higher
     of Agility and Intuition, rounded down.
@@ -217,9 +217,9 @@ class Rules:
     raw_hit_roll = random.randint(1,100)
     
     critical_status = Rules.attack_crit(raw_hit_roll, s_threat, f_threat)
-    if critical_status == Outcomes.Crit_Pass:
+    if critical_status == Outcomes.Marvel:
       damage = roll_damage() + roll_damage() + attr_mod
-    elif critical_status == Outcomes.Crit_Fail:
+    elif critical_status == Outcomes.Fumble:
       damage = 0
     elif critical_status is None:
       hit_total = raw_hit_roll + weap_prof + attr_mod
