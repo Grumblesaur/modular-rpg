@@ -3,6 +3,7 @@
 Quirks are a feature of character creation. They are minor changes to an actor
 to allow for different gameplay styles and more focused, specialized builds.
 Quirks can also be used to differentiate different races.
+===============================================================================
 
 Sense of Direction:
   Replace Knowledge with Intuition for Navigate checks, but receive no bonus
@@ -13,8 +14,8 @@ Silent But Deadly:
   Replace Presence with Vigor as the attribute for Intimidate.
 
 Gone Ballistic:
-  Can use Vigor instead of Finesse as the attribute for wielding a Thrown
-  weapon.
+  Replace Finesse with Vigor as the attribute for Wield when making a thrown
+  weapon attack.
 
 Tread Lightly:
   Replace Agility with Finesse as the attribute for Sneak.
@@ -26,6 +27,39 @@ Antlers (Sarav):
   Brawl check. If they moved in a straight line toward the target for at least
   15 feet before attacking, this attack deals 1d8 piercing damage. Otherwise,
   it deals 1d6.
+
+Spirit of the Phoenix:
+  This actor has their Vital Threshold lowered by two permanently, but once
+  during their life they will recover from having their Vitality Points
+  reduced to -1 or from having their exhaustion raised beyond their maximum
+  VP.
+  
+  They will become conscious eight hours after the blow that should have killed
+  them, although they will remain incapacitated until their exhaustion is no
+  longer greater than their max VP. They will also have suffered a permanent
+  injury, regardless of whether the attack that invoked this quirk was a
+  critical hit. The rest of the recovery process plays as usual.
+ 
+Artist of Seduction:
+  Replace Agility with Allure as the attribute for Dance.
+
+Apothecary:
+  (Requires Corpus module) Replace Knowledge with Corpus as the
+  attribute for a Treat Disease skill.
+
+A Good Offense is a Good Defense:
+  This actor wins all ties in skill competitions they initiate, but loses
+  all ties in skill competitions others initiate with them.
+
+Play It Cool:
+  This actor loses all ties in skill competitions they initiate, but wins
+  all ties in skill competitions others initiate with them.
+
+Determination of the Roach:
+  This actor has +1 maximum VP, but -10 maximum HP.
+
+Aggression of the Wasp:
+  This actor has -1 maximum VP, but +10 maximum HP.
 
 
 

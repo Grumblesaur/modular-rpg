@@ -27,6 +27,7 @@ class Damage(Enum):
   Fire,
   Frost,
   Corrosion,
+  Psychic,
   Raw
   
 class Turn:
