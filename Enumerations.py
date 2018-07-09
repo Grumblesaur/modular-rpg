@@ -29,7 +29,7 @@ class Damage(Enum):
   Frost       = 8,
   Corrosion   = 9,
   Psychic     = 10
-  
+ 
 class Turn:
   '''Each actor's turn consists of a primary action, a secondary
   action, a tertiary action, and a movement. These components may
