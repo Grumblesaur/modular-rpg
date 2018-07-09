@@ -18,16 +18,17 @@ class Action:
     Taken     = 1
 
 class Damage(Enum):
-  Bludgeoning,
-  Crushing,
-  Piercing,
-  Slashing,
-  Sonic,
-  Shock,
-  Fire,
-  Frost,
-  Corrosion,
-  Raw
+  Raw         = 0
+  Bludgeoning = 1,
+  Crushing    = 2,
+  Piercing    = 3,
+  Slashing    = 4,
+  Sonic       = 5,
+  Shock       = 6,
+  Fire        = 7,
+  Frost       = 8,
+  Corrosion   = 9,
+  Psychic     = 10
   
 class Turn:
   '''Each actor's turn consists of a primary action, a secondary
