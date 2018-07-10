@@ -1,138 +1,78 @@
 from Enumerations import Damage
 
+
 class Weapon(object):
-  def __init__(self, name, die, dmgtypes, hands):
-    self.die   = die
-    self.type  = dmgtypes
-    self.name  = name
-    self.hands = hands
-    self.description = ''
-    self.cost = 0
+  name_default   = '(unarmed)'
+  die_default    = '1d4'
+  types_default  = [Damage.Bludgeoning]
+  range_default  = 0
+  reach_default  = 0
+  thrown_default = False
+  hands_default  = 1
   
-class Melee(Weapon):
-  def __init__(self, weapon_name, damage_die, dmgtypes, reach, hands):
-    super(Melee, self).__init__(weapon_name, damage_die, dmgtypes, hands)
-    self.reach = reach
+  def __init__(self,
+      name=name_default,
+      die=die_default,
+      types=types_default,
+      max_range=range_default,
+      reach=reach_default,
+      thrown=thrown_default,
+      hands=hands_default
+    ):
+    
+    self.name        = name
+    self.die         = die
+    self.types       = types
+    self.range       = max_range
+    self.reach       = reach
+    self.thrown      = thrown
+    self.hands       = hands
+    self.description = ""
+    self.cost        = 0
+    self.weight      = 0
+
   
-  header = "Name\tDie\tType\tReach\tHands"
-   
-  def __repr__(self):
-    return "%s\t%s\t%s\t%s\t%s" % (
-      self.name, self.die, self.type, self.reach or '-', self.hands
-    )
+  fstr = '''{name}:
+  {description}
+    damage        {die}/{types}
+    throwable     {throwable}
+    range/reach   {range_}/{reach}
+    hands/weight  {hands}/{weight}
+    cost          {cost}'''
   
-class Ranged(Weapon):
-  def __init__(self, weapon_name, damage_die, dmgtypes, max_range, hands):
-    super(Ranged, self).__init__(weapon_name, damage_die, dmgtypes, hands)
-    self.max_range = max_range
-  
-  header = "Name\tDie\tType\tRange\tHands"
-  
-  def __repr__(self):
-    return "%s\t%s\t%s\t%s\t%s" % (
-      self.name, self.die, self.type, self.max_range, self.hands
-    )
-  
-  
-class Thrown(Melee, Ranged):
-  def __init__(self, name, die, dmgtypes, maxrange, reach, hands):
-    Melee.__init__(self, name, die, dmgtypes, reach, hands)
-    self.max_range = max_range
-  
-  header = "Name\tDie\tType\tRange\tReach\tHands"
-  
-  def __repr__(self):
-    return "%s\t%s\t%s\t%s\t%s\t%s" % (
-      self.name, self.die, self.type, self.range, self.reach, self.hands
+  def __str__(self):
+    types = ' | '.join([repr(t).replace('Damage', '') for t in self.types])
+    throwable = "yes" if self.thrown else "no"
+    return Weapon.fstr.format(
+      name=self.name, description=self.description, die=self.die,
+      types=self.types, throwable=throwable, range_=self.range,
+      reach=self.reach, hands=self.hands, weight=self.weight,
+      cost=self.cost
     )
 
-
-class Sword(Melee):
-  def __init__(self, name, die, reach, hands):
-    super(Sword, self).__init__(
-      name, die, [Damage.Piercing, Damage.Slashing], reach, hands
-    )
-
-class Shortsword(Sword):
-  def __init__(self, name='Shortsword'):
-    super(Shortsword, self).__init__(
-      name, '1d8', 0, 1
-    )
-
-class Longsword(Sword):
-  def __init__(self, name='Longsword'):
-    super(Longsword, self).__init__(
-      name, '1d10', 0, 2
+  
+  @staticmethod
+  def Ranged(name, die, types, max_range, hands):
+    return Weapon(
+      name, die, types, max_range, reach=0, thrown=False, hands=hands
     )
   
-class Dagger(Thrown):
-  def __init__(self, name='Dagger'):
-    super(Dagger, self).__init__(
-      name, '1d6', [Damage.Piercing], 25, 0, 1
-    )
-    self.description = 'A dagger can be wielded as a melee weapon or thrown.'
-
-class Bow(Ranged):
-  def __init__(self, name, die, maxrange):
-    super(Bow, self).__init__(
-      name, die, [Damage.Piercing], maxrange, 2
-    )
+  @staticmethod
+  def Thrown(name, die, types, max_range, reach, hands):
+    return Weapon(name, die, types, max_range, reach, thrown=True, hands=hands)
   
-class Shortbow(Bow):
-  def __init__(self, name='Shortbow'):
-    super(Shortbow, self).__init__(
-      name, '1d6', 150
+  @staticmethod
+  def Melee(name, die, types, reach, hands):
+    return Weapon(
+      name, die, types, max_range=0, reach=reach, thrown=False, hands=hands
     )
-
-class Longbow(Bow):
-  def __init__(self, name='Longbow'):
-    super(Longbow, self).__init__(
-      name, '1d6', 300
-    )
-
-class CompositeBow(Bow):
-  def __init__(self, name='Composite Bow'):
-    super(CompositeBow, self).__init__(
-      name, '1d6', 225
-    )
-
-melee = [
-  Shortsword(),
-  Longsword(),
-]
-
-thrown = [
-  Dagger()
-]
-
-ranged = [
-  Shortbow(),
-  CompositeBow(),
-  Longbow()
-]
 
 if __name__ == "__main__":
-  print(Melee.header)
-  for weapon in melee:
-    print(repr(weapon))
-  
-  print()
-  
-  print(Thrown.header)
-  for weapon in thrown:
-    print(repr(weapon))
-  
-  print()
-  
-  print(Ranged.header)
-  for weapon in ranged:
-    print(repr(weapon))
-
-    
-    
-
-
-
-
-
+  m = Weapon.Melee('Sword', '1d8', [Damage.Slashing, Damage.Piercing], 0, 1)
+  m.description = 'a simple blade'
+  print(m)
+  print( )
+  r = Weapon.Ranged('Longbow', '1d8', [Damage.Piercing], 200, 2)
+  r.description = 'a tall bow with long range'
+  print(r)
 

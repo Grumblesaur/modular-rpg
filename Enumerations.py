@@ -29,6 +29,21 @@ class Damage(Enum):
   Frost       = 8,
   Corrosion   = 9,
   Psychic     = 10
+  
+  def __repr__(self):
+    return {
+      Damage.Raw : 'Raw',
+      Damage.Bludgeoning : 'Bludgeoning',
+      Damage.Crushing : 'Crushing',
+      Damage.Piercing : 'Piercing',
+      Damage.Slashing : 'Slashing',
+      Damage.Sonic    : 'Sonic',
+      Damage.Shock    : 'Shock',
+      Damage.Fire     : 'Fire',
+      Damage.Frost    : 'Frost',
+      Damage.Corrosion: 'Corrosion',
+      Damage.Psychic  : 'Psychic'
+    }[self]
  
 class Turn:
   '''Each actor's turn consists of a primary action, a secondary
