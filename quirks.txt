@@ -25,7 +25,7 @@ Antlers (Sarav):
   head. They cannot wear any headgear which does not accomodate for these
   protrusions. This actor may also make an attack with their horns using a
   Brawl check. If they moved in a straight line toward the target for at least
-  15 feet before attacking, this attack deals 1d8 piercing damage. Otherwise,
+  10 feet before attacking, this attack deals 1d8 piercing damage. Otherwise,
   it deals 1d6.
 
 Spirit of the Phoenix:
@@ -60,6 +60,9 @@ Determination of the Roach:
 
 Aggression of the Wasp:
   This actor has -1 maximum VP, but +10 maximum HP.
+
+
+
 
 
 

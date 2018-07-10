@@ -1,0 +1,38 @@
+  Perks
+===============================================================================
+Perks are a feature of character leveling. They are minor improvements to an
+actor that grant new abilities or bonuses, allowing the actors who take them to
+scale with game difficulty. Perks are purchased with Growth Points, the same
+"currency" with which skill proficiencies are improved. Perks cannot be bought
+more than once unless otherwise specified.
+===============================================================================
+
+Ironskin (15 GP)
+  (Minimum Resilience of 20)
+  Permanently increases the HP of an actor by 5.
+
+Ship Sinker (10 GP)
+  (Minimum Knowledge of 20)
+  Taking this perk represents an actor's practice in studying people's mouths
+  as they speak. They can read lips in one language they are fluent with. This
+  perk may be taken multiple times for different languages.
+
+Bedside Manner (5 GP)
+  (Cannot be taken if actor has taken Combat as a Second Language.)
+  When this actor is speaking to an actor they have treated for injury or
+  disease, they receive a +10 bonus to Sense Motive checks against that actor.
+
+Combat as a Second Language (5 GP)
+  (Cannot be taken if actor has taken Bedside Manner.)
+  When this actor is speaking to an actor they have directly injured, they
+  receive a +10 bonus to Sense Motive checks against that actor.
+
+Charger (10 GP)
+  (Minimum Vigor of 20)
+  If this actor moves in a straight line for at least 10 feet before making an
+  attack with a melee weapon, they receive a +10 bonus to hit their target,
+  and +1 damage of the same type as the attack if the attack was successful.
+
+
+
+

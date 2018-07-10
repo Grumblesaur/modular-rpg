@@ -67,12 +67,13 @@ class Weapon(object):
       name, die, types, max_range=0, reach=reach, thrown=False, hands=hands
     )
 
+instances = [
+  Weapon.Thrown('dagger', '1d6', [Damage.Piercing, Damage.Slashing], 25, 0, 1)
+  
+]
+
+
 if __name__ == "__main__":
-  m = Weapon.Melee('Sword', '1d8', [Damage.Slashing, Damage.Piercing], 0, 1)
-  m.description = 'a simple blade'
-  print(m)
-  print( )
-  r = Weapon.Ranged('Longbow', '1d8', [Damage.Piercing], 200, 2)
-  r.description = 'a tall bow with long range'
-  print(r)
+  for weapon in instances:
+    print(weapon)
 
