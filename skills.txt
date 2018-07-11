@@ -81,8 +81,8 @@ Tamper                  [Finesse]
 Track Creature          [Intuition]
 Treat <Type of Disease> [Knowledge]
 Treat <Type of Injury>  [Knowledge]
-Wield <Type of Melee>   [Vigor]
-Wield <Type of Aimed>   [Finesse]
+Wield <Melee Weapon>    [Vigor]
+Wield <Aimed Weapon>    [Finesse]
 
 --------------------- Optional Skills ---------------------
 
