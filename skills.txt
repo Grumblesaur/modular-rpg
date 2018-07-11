@@ -9,7 +9,7 @@ will provide a large bonus, using improvised tools for a
 task will provide a small bonus, and using no tools
 will incur a small penalty.
 
-Appraise, Cook, Craft, Play, Repair, Treat, and Wield are
+Appraise, Cook, Craft, Dance, Play, Repair, Treat, and Wield are
 skills that apply to different kinds of objects. Actors may
 have multiple copies of these skills, "instantiated" for
 the particular class of item. One actor may be skilled in
@@ -41,48 +41,48 @@ must possess the appropriate equipment when they level up
 to advance these skills. Roleplaying practice is recommended,
 but whether it is required is left to game master discretion.
 
----------------------------------------------------------
-Skill Check            Attribute
----------------------- -----------
-Appraise <Type of Item> [Knowledge]
-Bargain                 [Allure]
-Blend                   [Presence]
-Brawl                   [Vigor]
-Charm                   [Allure]
-Climb                   [Vigor]
-Cook <Type of Food>     [Knowledge]
-Craft <Type of Item>    [Knowledge]
-Dance                   [Agility]
-Deceive                 [Allure]
-Disguise                [Intuition]
-Fasten                  [Finesse]
-Forage                  [Intuition]
-Handle Animal           [Presence]
-Handwrite               [Finesse]
-Hide                    [Agility]
-Intimidate              [Presence]
-Investigate             [Allure]
-Jump                    [Vigor]
-Lift                    [Vigor]
-Listen                  [Intuition]
-Look                    [Intuition]
-Navigate                [Knowledge]
-Persuade                [Allure]
-Play <Instrument>       [Knowledge]
-Recall                  [Knowledge]
-Repair <Type of Item>   [Knowledge]
-Run                     [Resilience]
-Search                  [Intuition]
-Sense Motive            [Intuition]
-Sing                    [Allure]
-Sneak                   [Agility]
-Swim                    [Resilience]
-Tamper                  [Finesse]
-Track Creature          [Intuition]
-Treat <Type of Disease> [Knowledge]
-Treat <Type of Injury>  [Knowledge]
-Wield <Melee Weapon>    [Vigor]
-Wield <Aimed Weapon>    [Finesse]
+-----------------------------------------------------------
+Skill Check              Attribute        Duration
+-----------------------------------------------------------
+Appraise <Type of Item> [Knowledge]       
+Bargain                 [Allure]          Primary
+Blend                   [Presence]        Primary
+Brawl                   [Vigor]           Primary
+Charm                   [Allure]          Primary
+Climb                   [Vigor]           Secondary
+Cook <Type of Food>     [Knowledge]       
+Craft <Type of Item>    [Knowledge]       
+Dance <Style of Dance>  [Agility]         
+Deceive                 [Allure]          Primary
+Disguise                [Intuition]       
+Fasten                  [Finesse]         
+Forage                  [Intuition]       
+Handle Animal           [Presence]        
+Handwrite               [Finesse]         
+Hide                    [Agility]         Primary
+Intimidate              [Presence]        
+Investigate             [Allure]          
+Jump                    [Vigor]           Secondary
+Lift                    [Vigor]           Secondary
+Listen                  [Intuition]       Tertiary
+Look                    [Intuition]       Tertiary
+Navigate                [Knowledge]       
+Persuade                [Allure]          
+Play <Instrument>       [Knowledge]       
+Recall                  [Knowledge]       Primary
+Repair <Type of Item>   [Knowledge]       
+Run                     [Resilience]      Primary
+Search                  [Intuition]       
+Sense Motive            [Intuition]       Secondary
+Sing                    [Allure]          
+Sneak                   [Agility]         Primary
+Swim                    [Resilience]      Secondary
+Tamper                  [Finesse]         
+Track Creature          [Intuition]       
+Treat <Type of Disease> [Knowledge]       
+Treat <Type of Injury>  [Knowledge]       
+Wield <Melee Weapon>    [Vigor]           Primary
+Wield <Aimed Weapon>    [Finesse]         Primary
 
 --------------------- Optional Skills ---------------------
 
