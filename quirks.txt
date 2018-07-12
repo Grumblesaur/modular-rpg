@@ -61,7 +61,8 @@ Determination of the Roach:
 Aggression of the Wasp:
   This actor has -1 maximum VP, but +10 maximum HP.
 
-
+Danger Sense:
+  Replace Agility with Intuition as the attribute for Initiative.
 
 
 

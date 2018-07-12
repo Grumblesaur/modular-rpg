@@ -44,6 +44,9 @@ class Rules:
   target     = len(attributes) * dice
   handicap   = target // 2
   
+  def remember_this():
+    return "NO RETCONS. EVER."
+  
   def score(sides=sides, dice=dice, drop=drop, handicap=handicap):
     '''Generates a single attribute score.'''
     return sum(
@@ -63,6 +66,11 @@ class Rules:
       array.append(target - sum(array))
     return array
     
+  def starting_growth_points():
+    '''When creating a character, you have a number of growth points
+    equal to three times the number of attributes in use.'''
+    return len(attributes) * 3
+  
   def growth_points():
     '''Growth points are awarded on leveling up, and can be used to
     improve skill proficiencies or purchase perks. Growth points
@@ -162,7 +170,18 @@ class Rules:
       'Agility' : agility, 'Finesse' : finesse,
       'Knowledge' : knowledge, 'Intuition' : intuition
     }
-  
+ 
+  def initiative(agility_score):
+    '''Initiative is a measure of reaction time and preparedness for
+    combat. Actors with higher initiative will tend to take their turn
+    first at the beginning of a round.
+    
+    Initiative is re-rolled at the start of each round, to simulate the
+    change in the flow of battle. Actors take their turns in order from
+    highest to lowest.
+    '''
+    return dice_kernel.base_roll() + agility_score
+ 
   def dodge_class(armor, distance, agility_score, intuition_score):
     '''Dodge class determines how resistant to physical damage an actor
     is. Actors roll their attacks against their target's dodge class. DC 
@@ -172,7 +191,7 @@ class Rules:
     
     Distance is measured in feet.'''
     ac  = 50 + armor + (distance // 10)
-    ac += max(agility_score, intuition_score) // 10
+    ac += agility_score // 10
     return ac
    
   def hit_point_max_increase(resilience_score):
@@ -193,75 +212,15 @@ class Rules:
     higher.'''
     return max(resilience_score // 2, 0) + 10
   
-  def attack(ac, attr_score, weap_prof, dmg_die, s_threat=1, f_threat=1):
-    '''When an actor attacks, their attack must meet or beat the
-    adversary class of their target. The accuracy of an actor's attack
-    is determined by one tenth of the attribute score required by the
-    weapon in use and the actor's proficiency with the weapon. The weapon
-    (which could just be the actor's fist or foot) has a damage die, a
-    success threat, and a failure threat. The success threat determines
-    the range of values over which the weapon will roll double the number
-    of damage dice.
-    
-    The failure threat determines the range of values over which the
-    attack will automatically miss.
-    
-    The damage die is a string of the form MdN, where M is the number of
-    dice to roll, and N is the number of sides on the die.'''
-    
-    attr_mod     = attr_score // 10
-    dice, sides  = Rules.parse_damage_die(dmg_die)
-    roll_damage  = lambda: sum(
-      [random.randint(1,sides) for x in range(dice)]
-    )
-    raw_hit_roll = random.randint(1,100)
-    
-    critical_status = Rules.attack_crit(raw_hit_roll, s_threat, f_threat)
-    if critical_status == Outcomes.Marvel:
-      damage = roll_damage() + roll_damage() + attr_mod
-    elif critical_status == Outcomes.Fumble:
-      damage = 0
-    elif critical_status is None:
-      hit_total = raw_hit_roll + weap_prof + attr_mod
-      if hit_total > ac:
-        damage = roll_damage() + attr_mod
-      elif hit_total < ac:
-        damage = 0
-      else:
-        damage = min(roll_damage(), roll_damage()) + attr_mod
-    return damage
-  
-  def parse_damage_die(s):
-    '''Returns a tuple of `(dice, sides)` from a string `'MdN'` where
-    M is the number of dice to roll and N is the number of sides of each
-    die.'''
-    return tuple(map(int,s.split('d')))
-
-  def attack_crit(roll, s_threat=1, f_threat=1):
-    '''Critical attacks naturally have a critical threat range of 1. An
-    attacker scores a critical automatically on 100, although if their
-    critical threat range is wider than 1, that range expands downward
-    from 100. If the threat range is 2, a critical success happens on
-    99 or 100. Critical successes and critical failures have differing
-    threat ranges, which may be affected by equipment, perks, or other
-    things.
-    
-    Critical failures expand upwards from 1 in a similar manner. If the
-    threat range is 2, a critical failure happens on 1 or 2.
-    
-    Criticals of either type do not need to be confirmed for attacks.'''
-    outcome = None
-    if roll in range(101-s_threat,101):
-      outcome = Outcomes.Crit_Pass
-    elif roll in range(1, 1+f_threat):
-      outcome = Outcomes.Crit_Fail
-    return outcome
-
   def max_skill_ranks(character_level):
     '''An actor cannot invest more than skill point into a skill proficiency
     than one per their character level plus one.'''
     return character_level + 1
 
   def skill_check(DC, attribute_score, skill_proficiency, gm_bonus=0):
-    dice_kernel.skill_check(attribute_score, skill_proficiency, DC - gm_bonus)
-    
+    dice_kernel.skill_check(
+      attribute_score, skill_proficiency, DC - gm_bonus
+    )
+  
+  
+  

@@ -2,75 +2,57 @@ from Enumerations import Damage
 
 
 class Weapon(object):
-  name_default   = '(unarmed)'
-  die_default    = '1d4'
-  types_default  = [Damage.Bludgeoning]
-  range_default  = 0
-  reach_default  = 0
-  thrown_default = False
-  hands_default  = 1
+  default_fields = {
+    'name' : 'weapon',    # The weapon's moniker or identifier
+    'description' : '',   # Optional flavor text.
+    'range' : 0,          # Greatest distance for which a thrown or
+                          #   launched weapon is effective (unit: tiles).
+    'reach' : 1,          # Greatest distance for which a weapon is
+                          #   effective without being thrown or launched.
+    'two-handed' : False, # Must be wielded with two hands, no exceptions.
+    'versatile' : False,  # Can be wielded with one hand if Vigor >= 25.
+    'light' : True,       # Can be wielded in off-hand without -10 penalty
+                          #   to hit.
+    'die' : '1d6',        # Dice algebra string indicating damage output.
+    'damage' : [          # List of Damage enum items indicating the types
+      Damage.Slashing     #   of damage which can be dealt when wielding
+    ],                    #   this weapon.
+    'short' : False,      # -10 to hit when attacking with this weapon
+                          #   against or as a mounted actor.
+    'long' : False,       # -10 to hit when attacking with this weapon
+                          #   against a target in an adjacent tile.
+    'heavy' : False,      # -10 to hit when attacking with this weapon with
+                          #   both Vigor and Resilience below 20.
+    'quickdraw' : False,  # Stowing and retrieving this weapon are Tertiary
+                          #   actions.
+  }
   
-  def __init__(self,
-      name=name_default,
-      die=die_default,
-      types=types_default,
-      max_range=range_default,
-      reach=reach_default,
-      thrown=thrown_default,
-      hands=hands_default
-    ):
+  def __init__(self, **kw):
+    fields = { }
+    self.other = { }
+    for key in default_fields:
+      if key not in kw:
+        fields[key] = default_fields[key]
+      elif key not in default_fields:
+        self.other[key] = kw[key]
+      else:
+        fields[key] = kw[key]
     
-    self.name        = name
-    self.die         = die
-    self.types       = types
-    self.range       = max_range
-    self.reach       = reach
-    self.thrown      = thrown
-    self.hands       = hands
-    self.description = ""
-    self.cost        = 0
-    self.weight      = 0
+    self.name        = fields['name']
+    self.description = fields['description']
+    self.range       = fields['range']
+    self.reach       = fields['reach']
+    self.two_handed  = fields['two-handed']
+    self.versatile   = fields['versatile']
+    self.light       = fields['light']
+    self.die         = fields['die']
+    self.damage      = fields['damage']
+    self.short       = fields['short']
+    self.long        = fields['long']
+    self.heavy       = fields['heavy']
+    self.quickdraw   = fields['quickdraw']
 
-  
-  fstr = '''{name}:
-  {description}
-    damage        {die}/{types}
-    throwable     {throwable}
-    range/reach   {range_}/{reach}
-    hands/weight  {hands}/{weight}
-    cost          {cost}'''
-  
-  def __str__(self):
-    types = ' | '.join([repr(t).replace('Damage', '') for t in self.types])
-    throwable = "yes" if self.thrown else "no"
-    return Weapon.fstr.format(
-      name=self.name, description=self.description, die=self.die,
-      types=self.types, throwable=throwable, range_=self.range,
-      reach=self.reach, hands=self.hands, weight=self.weight,
-      cost=self.cost
-    )
 
-  
-  @staticmethod
-  def Ranged(name, die, types, max_range, hands):
-    return Weapon(
-      name, die, types, max_range, reach=0, thrown=False, hands=hands
-    )
-  
-  @staticmethod
-  def Thrown(name, die, types, max_range, reach, hands):
-    return Weapon(name, die, types, max_range, reach, thrown=True, hands=hands)
-  
-  @staticmethod
-  def Melee(name, die, types, reach, hands):
-    return Weapon(
-      name, die, types, max_range=0, reach=reach, thrown=False, hands=hands
-    )
-
-instances = [
-  Weapon.Thrown('dagger', '1d6', [Damage.Piercing, Damage.Slashing], 25, 0, 1)
-  
-]
 
 
 if __name__ == "__main__":

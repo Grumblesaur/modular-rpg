@@ -1,0 +1,47 @@
+Elements:
+  Fire    Sonic
+  Frost   Corrosion
+  Shock   Psychic
+
+Burst <Element> (12 GP)
+  <Fire>      -> Firebolt    (Flames are briefly visible around the target.)
+  <Frost>     -> Icicle      (Chips of ice surround the target for two tiles.)
+  <Shock>     -> Spark       (Hair on the target and others for two tiles out
+                              stands on end.)
+  <Sonic>     -> Thunderclap (Thunder is heard for 40 tiles from the target.)
+  <Corrosion> -> Acid Stream (Vegetation withers for two tiles out.)
+  
+  Casting time: 1 primary action
+  Duration:     Instantaneous
+  
+  When first taking this spell, you select one element, and that will be the
+  damage type for this spell. This spell may be taken multiple times for
+  different elements. Make a [Spellcasting Skill] check against the target's
+  dodge class. If you succeed, you deal 1d10 + ([Attribute] // 10) of
+  <Element> damage, with the secondary effect listed with each element applied
+  as well.
+  
+Dowse (10 GP)
+  Casting time: 1 minute
+  Duration: 10 minutes
+  
+  Use magic forces to guide you to a source of water, a type of vegetation,
+  a suspected hidden item, or a type of ore. The game master sets a difficulty
+  class, against which you roll a [Spellcasting Skill] check. If the check
+  succeeds, then a mystical force will gently pull you toward the object of
+  your desires for the duration, out to 60 tiles from where you initially cast
+  this spell.
+
+Find North (8 GP)
+  Casting time: 1 primary action
+  Duration:     1 hour
+  
+  When using this spell, an illusory image of an arrow appears on the back of
+  one of the caster's hands. The arrow always points toward True North, thus
+  the image will rotate, as if a tattoo come to life. A slight burning
+  sensation is felt when facing due South.
+
+
+
+
+

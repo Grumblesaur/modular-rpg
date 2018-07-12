@@ -17,6 +17,23 @@ class Action:
     Not_Taken = 0
     Taken     = 1
 
+
+actions = {
+  Action.Types.Primary : [
+    'Active Skill Check', 'Ready', 'Dash', 'Dodge', 'Disengage'
+  ],
+  
+  Action.Types.Secondary : [
+    'Passive Skill Check', 'Retrieve Item', 'Stash Item',
+    'Use Item', '5 Foot Step'
+  ],
+  
+  Action.Types.Tertiary : [
+    'Drop Item From Hand'
+  ],
+}
+
+
 class Damage(Enum):
   Raw         = 0
   Bludgeoning = 1,

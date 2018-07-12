@@ -33,6 +33,14 @@ Charger (10 GP)
   attack with a melee weapon, they receive a +10 bonus to hit their target,
   and +1 damage of the same type as the attack if the attack was successful.
 
+The Art of War (12 GP)
+  In addition to different styles of dancing, taking this perk allows an actor
+  to specialize in dances of weapons. The actor may instantiate Dance for any
+  melee weapon not possessing the "Heavy" characteristic, and for such
+  instantiations, will use their Agility attribute for combat when they elect
+  to Dance instead of Wield.
+
+
 
 
 
