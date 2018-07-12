@@ -12,6 +12,9 @@ class Finesse:
   skills = { }
   perks  = { }
 
+def s_draw(finesse, proficiency, dc):
+  '''Sketch objects, creatures, and scenes.'''
+  return skill_check(finesse, proficiency, dc)
 # Add your skills and perks here
 def s_fasten(finesse, proficiency, dc):
   '''(2 GP) Secure objects and creatures with straps and knots.'''
