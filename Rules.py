@@ -194,18 +194,6 @@ class Rules:
     ac += agility_score // 10
     return ac
    
-  def hit_point_max_increase(resilience_score):
-    '''Upon leveling up, an actor receives an increase in maximum hit
-    points equal to 1d10 + 1. Additionally, they receive one tenth of
-    their Resilience score, rounded down, to their max HP. For example,
-    if the actor has a Resilience score of 37, their max HP increases
-    by an additional 3. For actors with negative Resilience scores,
-    this factor has a lower bound of zero.
-    
-    Hit point increases should be calculated after attribute points
-    are distributed.'''
-    return 1 + max(resilience_score // 10, 0) + random.randint(1,10)
-    
   def starting_hit_points(resilience_score):
     '''At first level, an actor starts with a max HP of 10, and adds
     half their Resilience score rounded down or zero, whichever is

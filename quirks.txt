@@ -64,7 +64,10 @@ Aggression of the Wasp:
 Danger Sense:
   Replace Agility with Intuition as the attribute for Initiative.
 
+Space Synesthesia:
+  Replace Intuition with Soul as the attribute for Recall.
 
-
+Green Thumb:
+  Replace Knowledge with Intuition as the attribute for Garden.
 
 
