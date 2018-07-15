@@ -1,0 +1,27 @@
+Carrying Capacity and Movement of Heavy Objects
+==============================================================================
+
+An actor's carry weight is the maximum amount of weight in pounds that
+they can carry without adverse effects. It is calculated as:
+  
+  Carry Weight = 50 + (5 * floor(Vigor / 10)) + (5 * floor(Resilience / 10)) lb
+  
+An actor can carry up to their carry weight in their hands, in bags, pouches,
+holsters, loops, and pockets fastened to their body or clothes, or some
+combination thereof without any adverse effects.
+
+In some circumstances, an actor's carry weight is insufficient for what they
+need to carry. For these circumstances, they can carry up to their Overload:
+  
+  Overload = Carry Weight + floor(Carry Weight / 2) lb
+  
+While the amount an actor is carrying is between their carry weight and their
+overload, their speed and dodge class are lowered:
+
+  Overloaded Speed = Speed - 15
+  
+  Overloaded Dodge Class = Dodge Class - 25
+
+Overloaded actors will also lose 2 HP per hour from carrying excess weight.
+
+

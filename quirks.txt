@@ -20,6 +20,18 @@ Gone Ballistic:
 Tread Lightly:
   Replace Agility with Finesse as the attribute for Sneak.
 
+Rules Lawyer:
+  Replace Allure with Knowledge as the attribute for Persuade.
+
+Folk Musician:
+  Replace Knowledge with Allure as the attribute for Play.
+
+Opera Singer:
+  Replace Allure with Knowledge as the attribute for Sing.
+
+Gear Head:
+  Replace Knowledge with Intuition as the attribute for Repair.
+
 Antlers (Sarav):
   (Fyrdwelli only.) This actor has pointed protrusions extending from their
   head. They cannot wear any headgear which does not accomodate for these

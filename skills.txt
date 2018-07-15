@@ -62,7 +62,8 @@ skill check according to what supplies they have:
 Where the game master deems appropriate, skill checks may situationally call
 for a different attribute. Any skill check may be rolled with Knowledge in
 place of its usual Attribute for history or technical information about that
-skill, as an example.
+skill, as an example. The use of skills as a knowledge check never requires
+tools
 
 
 Appraise <Type of Item>
@@ -134,7 +135,9 @@ Climb
   
   Climb is a measure of an actor's ability to scale and rappel steep surfaces
   and objects. In instances of scaling a wall or cliff with few handholds,
-  tools are necessary.
+  tools are necessary. When climbing in combat, surfaces that require a Climb
+  check are considered difficult terrain for movement expense, and require a
+  successful climb check in order to be traversed.
 
 Cook <Type of Food>
   Attribute: Knowledge
@@ -142,8 +145,7 @@ Cook <Type of Food>
   Tools: Dishes, cooking vessels, utensils.
   
   Cook is a measure of an actor's ability to produce palatable, nutritious
-  food of the specified type. Use of this skill as a measure of cooking
-  knowledge does not require tools.
+  food of the specified type.
 
 Craft <Type of Item> 
   Attribute: Knowledge
@@ -151,8 +153,7 @@ Craft <Type of Item>
   Tools: Trade-specific.
   
   Craft is a measure of an actor's ability to create items of the specified
-  type. Use of this skill as a measure of crafting knowledge does not require
-  tools.
+  type.
   
 Dance <Style of Dance>
   Attribute: Agility         
@@ -183,34 +184,260 @@ Disguise
   Disguise is a measure of an actor's ability to conceal the identity of
   themselves or another actor by altering their external appearance
   
-Draw                      Attribute: Finesse
-Fasten                    Attribute: Finesse
-Forage                    Attribute: Intuition
-Garden <Type of Plant>    Attribute: Knowledge
-Handle Animal             Attribute: Presence
-Handwrite                 Attribute: Finesse
-Hide                      Attribute: Agility
-Intimidate                Attribute: Presence
-Investigate               Attribute: Allure
-Jump                      Attribute: Vigor
-Lift                      Attribute: Vigor
-Listen                    Attribute: Intuition
-Look                      Attribute: Intuition
-Navigate                  Attribute: Knowledge
-Persuade                  Attribute: Allure
-Play <Type of Instrument> Attribute: Knowledge
-Recall                    Attribute: Knowledge
-Repair <Type of Item>     Attribute: Knowledge
-Run                       Attribute: Resilience
-Search                    Attribute: Intuition
-Sense Motive              Attribute: Intuition
-Sing                      Attribute: Allure
-Sneak                     Attribute: Agility
-Swim                      Attribute: Resilience
-Tamper                    Attribute: Finesse
+Draw
+  Attribute: Finesse
+  Usage: Non-combat
+  Tools: A writing utensil and a surface to draw on.
+  
+  Draw is a measure of an actor's ability to accurately depict creatures,
+  objects, scenes, or diagrams in an artistic or informative manner.
+
+Fasten
+  Attribute: Finesse
+  Usage: Non-combat
+  Tools: Rope, straps, chains, cuffs, cords, or string, as appropriate.
+  
+  Fasten is a measure of an actor's ability to secure objects with restraints
+  or fibers.
+
+Forage
+  Attribute: Intuition
+  Usage: Primary
+  
+  Forage is a measure of an actor's ability to find useful natural resources
+  in the wilderness.
+
+Garden <Type of Plant>
+  Attribute: Knowledge
+  Usage: Non-combat
+  Tools: A vessel of water, shovel, trowel, rake, hoe, pitchfork, or other
+  implements as appropriate.
+  
+  Garden is a measure of an actor's ability to tend to plants of the specified
+  type.
+
+Handle Animal
+  Attribute: Presence
+  Usage: Non-combat
+  
+  Handle Animal is a measure of an actor's ability to demand the attention of
+  and give commands to animals.
+
+Handwrite
+  Attribute: Finesse
+  Usage: Non-combat
+  Tools: A writing utensil and a surface to write on.
+  
+  Handwrite is a measure of an actor's ability to imitate the penmanship of
+  other actors (forgery) and to create aesthetically beautiful and official
+  written documents (calligraphy).
+  
+Hide
+  Attribute: Agility
+  Usage: Primary
+  
+  Hide is a measure of an actor's ability to make themselves unseen when
+  remaining still, often by contorting their body to squeeze into small
+  spaces. Attempting to move while hiding will initiate a Sneak check.
+
+Intimidate
+  Attribute: Presence
+  Usage: Secondary
+  
+  Intimidate is a measure of an actor's ability to take advantage of another
+  actor's fears and insecurities, or to project a sense of ferocity about
+  themselves, to influence their mood or point of view.
+
+Investigate
+  Attribute: Allure
+  Usage: Non-combat
+  
+  Investigate is a measure of an actor's ability to discover information from
+  other actors and their environment about a particular person, location, or
+  object of interest. (This skill is usually used in place of multiple smaller
+  conversations with individual NPC actors.)
+
+Jump
+  Attribute: Vigor
+  Usage: Primary
+  
+  Jump is a measure of an actor's ability to leap gaps or spring upwards. With
+  a running start of at least 10 feet in a straight line, an actor can perform
+  a long jump on a successful Jump check. A long jump's maximum distance is:
+    
+    Long jump = 5 + floor(Vigor / 5) feet
+  
+  An actor can perform a high jump with a running start of at least 5 feet and
+  a successful Jump check. A high jump's maximum height is:
+  
+    High jump = floor(Vigor / 10) feet or 1 foot, whichever's higher.
+
+Lift
+  Attribute: Vigor
+  Usage: Primary
+  Lift is a measure of an actor's ability to suspend heavy objects with their
+  body. The amount an actor can lift freely is their Carry Weight, but for
+  carrying weight between their carry weight and their overload, an actor must
+  succeed on a Lift check.
+  
+  Actors who team up to lift objects together will evenly divide the weight
+  across their carry weights. Actors whose fair share of the load falls into
+  their overload range must make a Lift check.
+
+Listen
+  Attribute: Intuition
+  Usage: Tertiary
+  
+  Listen is a measure of an actor's sense of hearing and is part of their
+  general situational awareness.
+
+Look
+  Attribute: Intuition
+  Usage: Tertiary
+  
+  Look is a measure of an actor's eyesight and is part of their general
+  situational awareness.
+
+Navigate
+  Attribute: Knowledge
+  Usage: Non-combat
+  Tools: Sextant and star chart, or map and compass, or directions
+         and landmarks, or a similar combination appropriate to the situation.
+  
+  Navigate is a measure of an actor's ability to orient themselves and plan
+  routes with the tools available.
+
+Persuade
+  Attribute: Allure
+  Usage: Secondary
+  
+  Persuade is a measure of an actor's ability to appeal to another actor's
+  logical senses and intelligence to change their mood or point of view.
+
+Play <Type of Instrument>
+  Attribute: Knowledge
+  Usage: Non-combat
+  Tools: An instrument of the chosen type.
+  
+  Play is a measure of an actor's ability and practice with instruments of the
+  specified type.
+
+Recall
+  Attribute: Knowledge
+  Usage: Secondary
+  
+  Recall is a measure of an actor's ability to recall important details and
+  facts when the player controlling the actor might have forgotten. It's a
+  skill that reaches into a metagame environment, but to prevent players from
+  getting stuck to the game master's frustration.
+
+Repair <Type of Object>
+  Attribute: Knowledge
+  Usage: Non-combat
+  Tools: Trade-specific
+  
+  Repair is a measure of an actor's ability to mend, recalibrate, or adjust
+  objects of the specified type.
+
+Run
+  Attribute: Resilience
+  Usage: Primary
+  
+  Run is a measure of an actor's ability to maintain a fast, steady pace on
+  foot for an extended period of time. When using the Dash action in combat to
+  rush past an adversary, the adversary may initiate an attack of opportunity.
+  If they do so, the actor who is dashing must make make a Run roll of a total
+  greater than their adversary's attack roll to avoid being hit.
+  
+  Outside of combat, Run is used to sustain speed during when the actor is
+  racing or attempting to escape something. The game master sets the DC and
+  the effects on the actor's movement for a success or a failure.
+
+Search
+  Attribute: Intuition
+  Usage: Primary
+  
+  Search is a measure of an actor's ability to find lost or hidden objects,
+  typically non-natural ones like switches, items, and weapons, in their
+  environment.
+
+Sense Motive
+  Attribute: Intuition
+  Usage: Secondary
+  
+  Sense Motive is a measure of an actor's ability to estimate the intentions
+  of another actor, in speech, writing, or the layout of their environment.
+  This skill will often be used as a dynamic means of creating a DC for
+  Charm, Deceive, Intimidate, or Persuade checks.
+
+Sing
+  Attribute: Allure
+  Usage: Secondary
+  
+  Sing is a measure of an actor's ability to create or recite music vocally,
+  particularly in a way that other actors will find entertaining or artistic.
+
+Shift
+  Attribute: Vigor
+  Usage: Non-combat
+  
+  Shift is a measure of an actor's ability to push, pull, or drag objects
+  along the ground. An actor can freely push, pull, and drag objects up to
+  their overload in weight at their overloaded speed. For objects greater than
+  their overload in weight, the difficulty class for Shift is:
+  
+    Shift DC = 50 + floor(10 * (Weight / Overload))
+  
+  After a successful shift check, the actor can move the object at their
+  overloaded speed for up to one minute at a time.
+  
+  Actors who team up to move large objects will evenly divide the load across
+  their overloads. For actors whose fair share of the load is greater than
+  their overload, they will need to make a Shift check.
+  
+Sneak
+  Attribute: Agility
+  Usage: Primary
+  
+  Sneak is a measure of an actor's ability to go unnoticed in movement, by
+  either moving quickly and staying out of sight, or by moving silently, as
+  the situation requires.
+
+Swim
+  Attribute: Resilience
+  Usage: Primary
+  
+  Swim is a measure of an actor's ability to stay afloat and move in water or
+  other liquids. A failed Swim check in slow-moving or still water does not
+  immediately result in drowning, but rather prevents the actor from moving
+  their speed in water (i.e. they are treading water). A successful swim check
+  must be made before an actor can use their speed in water.
+  
+  Failed Swim checks in stronger currents, or after multiple failures, may
+  result in the actor floundering or drowning.
+  
+  Water does not count as difficult terrain if the actor is swimming. Wading
+  in water causes the water to act like difficult terrain.
+  
+
+Tamper
+  Attribute: Finesse
+  Usage: Primary
+  Tools: Optional, bonuses granted by game master
+  
+  Tamper is a measure of an actor's ability to disarm, dislodge, unlock, or
+  otherwise manipulate mechanical devices.
+
 Track Creature            Attribute: Intuition
+
 Treat <Type of Disease>   Attribute: Knowledge
+
 Treat <Type of Injury>    Attribute: Knowledge
+
 Wield <Melee Weapon>      Attribute: Vigor           Primary
+
 Wield <Aimed Weapon>      Attribute: Finesse         Primary
+
 Wield <Type of Magic>     Attribute: Soul*
+
+
