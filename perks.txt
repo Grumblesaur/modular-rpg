@@ -38,7 +38,8 @@ The Art of War (12 GP)
   to specialize in dances of weapons. The actor may instantiate Dance for any
   melee weapon not possessing the "Heavy" characteristic, and for such
   instantiations, will use their Agility attribute for combat when they elect
-  to Dance instead of Wield.
+  to Dance instead of Wield. Using Dance in the context of combat is a Primary
+  Action.
 
 
 

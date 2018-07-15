@@ -41,11 +41,8 @@ class Rules:
   sides      = 10
   dice       = 4
   drop       = 1
-  target     = len(attributes) * dice
+  target     = len(attributes) * (dice + 1)
   handicap   = target // 2
-  
-  def remember_this():
-    return "NO RETCONS. EVER."
   
   def score(sides=sides, dice=dice, drop=drop, handicap=handicap):
     '''Generates a single attribute score.'''

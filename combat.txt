@@ -1,0 +1,121 @@
+Combat Rules
+==============================================================================
+
+Combat is played in a series of rounds. Each round, actors who are taking part
+in the fight will have a turn to perform a set of actions. A round's length is
+conceptually variable, as the flow of combat can change in mere seconds for a
+brief skirmish between a few individuals to hours or days for a large scale
+battle between armies. Modular RPG assumes smaller fights, with only a handful
+of combatants per side, so for these purposes, a round can be expected to take
+6 seconds (for ten even divisions of a minute). Game masters who adjust this
+value will need to account for the change in their actors' speed, which is
+a distance in feet that the actor can move in one round.
+
+  Speed = 30 + (5 * floor(Agility / 10))  (Subject to Quirks and Perks.)
+
+When using a grid to determine the movement of actors, a square or a hexagon
+is considered to be a space which takes 5 feet of movement to traverse. Grids
+which use hexagons are recommended for their greater flexibility of angled
+movement, but if squares must be used, the game master should specify rules
+for diagonal movement, if any.
+
+Grid scale can, of course, be scaled up or down by the game master as they see
+fit.
+
+The order in which actors take their turns is determined by initiative. At the
+start of each round of combat, actors roll initiative.
+
+  Initiative = 1d100 + Agility  (Subject to Quirks and Perks.)
+
+Actors are ordered from greatest to least initiative. Initiative is rerolled
+each round to better simulate the changing flow of battle, and how the
+readiness of individual combatants can shift from moment to moment.
+
+Each actor's turn is composed of four types of action:
+  
+  Movement
+  Primary Actions
+  Secondary Actions
+  Tertiary Actions
+
+Movement is the simplest part. During an actor's turn, they may move up to
+their Speed in a round during their turn at any point in their turn. Movement
+may be broken up between actions in a round.
+
+Some areas may be deemed difficult terrain if the surfaces are especially
+soft, slippery, or hard to see, etc. Difficult terrain costs twice as much
+speed to traverse as normal terrain.
+
+Primary actions are an actor's main method of changing the state of battle.
+Most skill checks that can be used in battle are primary actions, and will be
+marked as Primary in the skill list if they can be used in this context. Other
+options for primary actions include:
+  
+  Dash
+  Evade
+  Ready
+  
+Dash replaces a primary action with a second movement. With this, an actor may
+move double their usual speed in the round when this action is taken, with any
+modifiers to the actor's speed taken into account before doubling it.
+
+Evade is an action that increases an actor's dodge class until their next turn
+or until combat ends, whichever comes first. The formula:
+  
+  Evade Dodge Class = Dodge Class + floor(Dodge Class / 2)
+
+Ready is an action that delay's an actor's action for up to a round, and
+allows them to leave their decision to the actions of other actors in battle.
+When taking Ready, an actor must specify a trigger -- an event that might
+occur sometime before their next turn -- and then they specify two courses of
+play -- one that happens if the trigger does occur, and one that happens if it
+doesn't occur. Each course of play must have one primary action, and may
+include a secondary action, a tertiary action, and the remainder of the
+actor's movement if they had not used them prior to taking Ready. When the
+trigger does occur, the appropriate course of play happens at that instant.
+When the trigger fails to occur, the course of play must happen before the
+actor's next turn.
+
+Secondary actions are faster, smaller actions that can be taken within the
+duration of a round that do not interfere with a primary action. Some skill
+checks that can be used in battle are secondary actions, and will be marked as
+Secondary in the skill list if they can be used in this context. Other options
+for primary actions include:
+  
+  Five Foot Step
+  Retrieve Item
+  Stash Item
+  Use Item
+
+A five foot step is a step that an actor can take to square up to the right
+position for attacking an enemy, leaving range, or just pushing themselves a
+little bit farther without needing to dash. The five foot step does not count
+as movement for the purposes of dash, and can be taken without using the
+movement portion of the turn.
+
+Retrieving an item allows an actor to liberate an item stashed on the outside
+of their body in an easily-accessible pouch, quiver, scabbard, sheath, pocket,
+holster, loop, or other means of attachment, or to pick up from the ground in
+the five foot space where they are standing.
+
+Stashing an item allows an actor return an item to a secure means of holding
+(as in the examples specified for Retrieve Item).
+
+Using an item permits the usage of items that cannot strictly be construed as
+attacks, such as taking a dose of a potion, spiking a weapon or arrow with
+poison, throwing a smoke bomb, tossing marbles or caltrops, or emptying a
+bucket of liquid, provided that the necessary materials are already in hand.
+
+Tertiary actions are actions which can be done concurrently with the rest of
+an actor's turn, taking less mental or physical effort than a secondary or
+primary action. A handful of skill checks that can be used in battle are
+tertiary actions, and will be marked as Tertiary in the skill list if they can
+be used in this context. Other options for tertiary actions include:
+  
+  Drop Item
+
+Dropping an item releases it from the player's hand onto the ground where they
+are standing.
+
+
+
