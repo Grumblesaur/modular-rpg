@@ -41,66 +41,176 @@ must possess the appropriate equipment when they level up
 to advance these skills. Roleplaying practice is recommended,
 but whether it is required is left to game master discretion.
 
-<<<<<<< HEAD
----------------------------------------------------------
-Skill Check            Attribute
----------------------- -----------
-Appraise <Type of Item> [Knowledge]
-Bargain                 [Allure]
-Blend                   [Presence]
-Brawl                   [Vigor]
-Charm                   [Allure]
-Climb                   [Vigor]
-Cook <Type of Food>     [Knowledge]
-Craft <Type of Item>    [Knowledge]
-Dance <Style of Dance>  [Agility]         
-Deceive                 [Allure]
-Disguise                [Intuition]
-Draw                    [Finesse]
-Fasten                  [Finesse]
-Forage                  [Intuition]
-Garden <Type of Plant>  [Knowledge]
-Handle Animal           [Presence]
-Handwrite               [Finesse]
-Hide                    [Agility]
-Intimidate              [Presence]
-Investigate             [Allure]
-Jump                    [Vigor]
-Lift                    [Vigor]
-Listen                  [Intuition]
-Look                    [Intuition]
-Navigate                [Knowledge]
-Persuade                [Allure]
-Play <Instrument>       [Knowledge]
-Recall                  [Knowledge]
-Repair <Type of Item>   [Knowledge]
-Run                     [Resilience]
-Search                  [Intuition]
-Sense Motive            [Intuition]
-Sing                    [Allure]
-Sneak                   [Agility]
-Swim                    [Resilience]
-Tamper                  [Finesse]
-Track Creature          [Intuition]
-Treat <Type of Disease> [Knowledge]
-Treat <Type of Injury>  [Knowledge]
-Wield <Melee Weapon>    [Vigor]           Primary
-Wield <Aimed Weapon>    [Finesse]         Primary
+Skills whose attribute is marked with a * are from a non-core module, but are
+being used in current playtesting and development.
 
---------------------- Optional Skills ---------------------
+Skills have usage limitations. Non-combat skills cannot be used under the
+stress of fighting, but can be used in other contexts. Combat skills can only
+be used in combat as the type of action they are specified for (i.e. Primary,
+Secondary, or Tertiary), but can be used out of combat in any context which is
+appropriate.
 
-Forms of Magic  [Attribute]
----------------------------
-  Conjuration   [Anima]
-  Illusion      [Anima]
-  Divination    [Anima]
-  Manipulation  [Anima]
-  Restoration   [Corpus]
-  Destruction   [Corpus]
-  Augmentation  [Corpus]
-  Diminution    [Corpus]
-  Enchantment   [Arcana]
-  Alchemy       [Arcana]
-  Transmutation [Arcana]
-  Obvocation    [Arcana]
+Some skills involve tools. The game master can decide whether a task is
+impossible or merely impeded due to a lack of tools. When an actor engages in
+a task that is merely impeded without tools, a modifier is applied to their
+skill check according to what supplies they have:
 
+  No tools:                    -10
+  Partial or improvised tools:  0
+  Appropriate tools:           +10
+
+Where the game master deems appropriate, skill checks may situationally call
+for a different attribute. Any skill check may be rolled with Knowledge in
+place of its usual Attribute for history or technical information about that
+skill, as an example.
+
+
+Appraise <Type of Item>
+  Attribute: Knowledge
+  Usage: Non-combat
+  
+  Appraise is a measure of an actor's ability to judge the usefulness and
+  monetary value of items, objects, or services of the specified type. An
+  actor might use this skill when deciding what to bring back from a treasure
+  horde, or when looking for an item in a shop to haggle with the shopkeeper
+  about.
+
+Attune
+  Attribute: Soul*
+  Usage: Secondary
+  
+  Attune is a measure of an actor's ability to interface with magical items
+  and constructs, and attempting to use such items will require an Attune
+  check.
+  
+Bargain
+  Attribute: Allure
+  Usage: Primary
+  
+  Bargain is a measure of an actor's ability to strike and close deals, be
+  those deals of a mundane monetary nature, or when negotiating the terms of
+  far-reaching political intrigue. This can also be used to attempt to bring
+  combat to a peaceful end, either by surrendering or by yielding, as
+  appropriate.
+
+Blend
+  Attribute: Presence
+  Usage: Non-combat
+  
+  Blend is a measure of an actor's ability to act like other actors in their
+  environment, and to go unnoticed despite being an outsider. Blending hides
+  the actor in plain sight, without disguise or stealth, causing them to go
+  unnoticed purely because nothing about them seems worth noticing.
+
+Brawl
+  Attribute: Vigor
+  Usage: Primary
+  
+  Brawl is a measure of an actor's ability to fight with only their body --
+  arms, legs, hands, feet, head, etc. 
+
+Cast <Type of Magic>
+  Attribute: Soul*
+  Usage: Non-combat
+  
+  Cast is a measure of an actor's ability to cast spells that require time and
+  patience. This is the mechanism by which spells with long casting times or
+  lots of requisite preparation are cast, although spells which ordinarily are
+  used in combat can be cast with this skill for utility purposes when not
+  under duress. 
+  
+Charm
+  Attribute: Allure
+  Usage: Secondary
+  
+  Charm is a measure of an actor's ability to appeal to another actor's
+  emotions or attractions to influence their mood or point of view.
+  
+Climb
+  Attribute: Vigor
+  Usage: Primary
+  Tools: Pitons and rope or a grappling hook for scaling vertically without
+         handholds.
+  
+  Climb is a measure of an actor's ability to scale and rappel steep surfaces
+  and objects. In instances of scaling a wall or cliff with few handholds,
+  tools are necessary.
+
+Cook <Type of Food>
+  Attribute: Knowledge
+  Usage: Non-combat
+  Tools: Dishes, cooking vessels, utensils.
+  
+  Cook is a measure of an actor's ability to produce palatable, nutritious
+  food of the specified type. Use of this skill as a measure of cooking
+  knowledge does not require tools.
+
+Craft <Type of Item> 
+  Attribute: Knowledge
+  Usage: Non-combat
+  Tools: Trade-specific.
+  
+  Craft is a measure of an actor's ability to create items of the specified
+  type. Use of this skill as a measure of crafting knowledge does not require
+  tools.
+  
+Dance <Style of Dance>
+  Attribute: Agility         
+  Usage: Non-combat
+  
+  Dance is a measure of an actor's ability to move rhythmically as a means of
+  artistic expression, in a specified style that they practice.
+
+Deceive
+  Attribute: Allure
+  Usage: Secondary
+  
+  Deceive is a measure of an actor's ability to convincingly conceal or
+  corrupt the truth by how they control their voice and choose to reveal or
+  omit information.
+
+Detect Magic
+  Attribute: Soul*
+  Usage: Tertiary
+  Detect Magic is a measure of an actor's ability to sense magical effects or
+  metaphysical presences in their environment.
+
+Disguise
+  Attribute: Intuition
+  Usage: Non-combat
+  Tools: Clothes, cosmetics, and props as appropriate
+  
+  Disguise is a measure of an actor's ability to conceal the identity of
+  themselves or another actor by altering their external appearance
+  
+Draw                      Attribute: Finesse
+Fasten                    Attribute: Finesse
+Forage                    Attribute: Intuition
+Garden <Type of Plant>    Attribute: Knowledge
+Handle Animal             Attribute: Presence
+Handwrite                 Attribute: Finesse
+Hide                      Attribute: Agility
+Intimidate                Attribute: Presence
+Investigate               Attribute: Allure
+Jump                      Attribute: Vigor
+Lift                      Attribute: Vigor
+Listen                    Attribute: Intuition
+Look                      Attribute: Intuition
+Navigate                  Attribute: Knowledge
+Persuade                  Attribute: Allure
+Play <Type of Instrument> Attribute: Knowledge
+Recall                    Attribute: Knowledge
+Repair <Type of Item>     Attribute: Knowledge
+Run                       Attribute: Resilience
+Search                    Attribute: Intuition
+Sense Motive              Attribute: Intuition
+Sing                      Attribute: Allure
+Sneak                     Attribute: Agility
+Swim                      Attribute: Resilience
+Tamper                    Attribute: Finesse
+Track Creature            Attribute: Intuition
+Treat <Type of Disease>   Attribute: Knowledge
+Treat <Type of Injury>    Attribute: Knowledge
+Wield <Melee Weapon>      Attribute: Vigor           Primary
+Wield <Aimed Weapon>      Attribute: Finesse         Primary
+Wield <Type of Magic>     Attribute: Soul*
