@@ -1,6 +1,9 @@
 Combat Rules
 ==============================================================================
 
+General Rules
+-------------
+
 Combat is played in a series of rounds. Each round, actors who are taking part
 in the fight will have a turn to perform a set of actions. A round's length is
 conceptually variable, as the flow of combat can change in mere seconds for a
@@ -31,12 +34,25 @@ Actors are ordered from greatest to least initiative. Initiative is rerolled
 each round to better simulate the changing flow of battle, and how the
 readiness of individual combatants can shift from moment to moment.
 
+
+Action Economy
+--------------
+
 Each actor's turn is composed of four types of action:
   
   Movement
-  Primary Actions
-  Secondary Actions
-  Tertiary Actions
+  Primary actions
+  Secondary actions
+  Tertiary actions
+
+There are some special actions which can be taken, which have their own rules:
+  
+  Full-round actions
+  Reactions
+
+
+Movement
+--------
 
 Movement is the simplest part. During an actor's turn, they may move up to
 their Speed in a round during their turn at any point in their turn. Movement
@@ -45,6 +61,10 @@ may be broken up between actions in a round.
 Some areas may be deemed difficult terrain if the surfaces are especially
 soft, slippery, or hard to see, etc. Difficult terrain costs twice as much
 speed to traverse as normal terrain.
+
+
+Primary Actions
+---------------
 
 Primary actions are an actor's main method of changing the state of battle.
 Most skill checks that can be used in battle are primary actions, and will be
@@ -57,7 +77,10 @@ options for primary actions include:
   
 Dash replaces a primary action with a second movement. With this, an actor may
 move double their usual speed in the round when this action is taken, with any
-modifiers to the actor's speed taken into account before doubling it.
+modifiers to the actor's speed taken into account before doubling it. Dashing
+also allows an actor to rush through the space an adversary is standing in,
+possibly provoking an attack of opportunity. A Run check by the actor is used
+as the DC for the adversary's attack of opportunity.
 
 Evade is an action that increases an actor's dodge class until their next turn
 or until combat ends, whichever comes first. The formula:
@@ -75,6 +98,10 @@ actor's movement if they had not used them prior to taking Ready. When the
 trigger does occur, the appropriate course of play happens at that instant.
 When the trigger fails to occur, the course of play must happen before the
 actor's next turn.
+
+
+Secondary Actions
+-----------------
 
 Secondary actions are faster, smaller actions that can be taken within the
 duration of a round that do not interfere with a primary action. Some skill
@@ -106,6 +133,9 @@ attacks, such as taking a dose of a potion, spiking a weapon or arrow with
 poison, throwing a smoke bomb, tossing marbles or caltrops, or emptying a
 bucket of liquid, provided that the necessary materials are already in hand.
 
+Tertiary Actions
+----------------
+
 Tertiary actions are actions which can be done concurrently with the rest of
 an actor's turn, taking less mental or physical effort than a secondary or
 primary action. A handful of skill checks that can be used in battle are
@@ -117,5 +147,36 @@ be used in this context. Other options for tertiary actions include:
 Dropping an item releases it from the player's hand onto the ground where they
 are standing.
 
+Full-Round Actions
+------------------
+
+Full-round actions are actions which consume an actor's entire turn, including
+movement and reaction, due to the amount of concentration, precision, or
+attention they require. A handful of skill checks that can be used in battle
+are full-round actions, and will be marked as Full-round in the skill list if
+they can be used in this context. Other options for tertiary actions include:
+  
+  Surrender
+  Yield
+
+Conceptually, Surrender and Yield are the same action, although Surrender is
+for when the actor taking this action is at a clear disadvantage, while Yield
+is a show of good faith from an actor with the upper hand. When surrendering
+or yielding, the actor must signal to their adversaries their intention,
+possibly including addressing them, and be convincing. The game master may
+call for a Bargain, Charm, Deceive, Intimidate, or Persuade check here,
+depending the actor's intentions and methods, and the feelings and motivations
+of the actor's adversaries.
+
+
+Reactions
+---------
+
+Reactions are actions which are performed reflexively or opportunistically by
+an actor. They do not have to be performed on the actor's turn, but an actor
+can only take up to one reaction per round. A handful of skill checks that can
+be used in battle are reactions. Other options for reactions include:
+  
+  <none?>
 
 

@@ -1,45 +1,35 @@
------------------- Skill Proficiencies ------------------
-The following skill checks are equivalent to checks with
-the toolkit appropriate to performing the skill. Worded
-differently, skill proficiencies are tool proficiencies
-and vice-versa.
+Skills and Their Applications
+==============================================================================
+The following skill checks are equivalent to checks with the toolkit
+appropriate to performing the skill. Worded differently, skill proficiencies
+are tool proficiencies and vice-versa.
 
-Possessing the correct tools for a task
-will provide a large bonus, using improvised tools for a
-task will provide a small bonus, and using no tools
+Possessing the correct tools for a task will provide a large bonus, using
+improvised tools for a task will provide a small bonus, and using no tools
 will incur a small penalty.
 
-Appraise, Cook, Craft, Dance, Play, Repair, Treat, and Wield are
-skills that apply to different kinds of objects. Actors may
-have multiple copies of these skills, "instantiated" for
-the particular class of item. One actor may be skilled in
-Appraise <Jewelry>, but another might be skilled in
-Appraise <Real Estate>. The categories are left to the
-player's imagination and the game master's discretion.
+Appraise, Cook, Craft, Dance, Play, Repair, Track, Treat, and Wield are skills
+that apply to different kinds of objects. Actors may have multiple copies of
+these skills, "instantiated" for the particular class of item. One actor may
+be skilled in Appraise <Jewelry>, but another might be skilled in Appraise
+<Real Estate>. The categories are left to the player's imagination and the
+game master's discretion.
 
-Too general a category will grant too much leeway, but
-too specific and the actor will seldom find it useful.
-Craft <Musical Instrument> may be too broad, while
-Craft <Violin> might be too narrow. A middle ground, such
-as Craft <Bowed Instrument>, might be more suitable for
-one actor.
+Too general a category will grant too much leeway, but too specific and the
+actor will seldom find it useful. Craft <Musical Instrument> may be too broad,
+while Craft <Violin> might be too narrow. A middle ground, such as Craft
+<Bowed Instrument>, might be more suitable for one actor.
 
-Play and Wield are intended to be somewhat more specific.
-It would not be unreasonable for an actor to simply have
-Play <Guitar> or Wield <Longsword>.
+The game master should offer advice as to what level of detail they will be
+running the game at, and whether specificity or generality is preferred for
+the roleplaying environment.
 
-The game master should offer advice as to what level of
-detail they will be running the game at, and whether
-specificity or generality is preferred for the roleplaying
-environment.
-
-It is the player's decision as to whether they specialize
-in a small set of skills which they grow quickly, or to
-spread out among several different disciplines. For skills
-which require tools, instruments, or weapons, the player
-must possess the appropriate equipment when they level up
-to advance these skills. Roleplaying practice is recommended,
-but whether it is required is left to game master discretion.
+It is the player's decision as to whether they specialize in a small set of
+skills which they grow quickly, or to spread out among several different
+disciplines. For skills which require tools, instruments, or weapons, the
+player must possess the appropriate equipment when they level up to advance
+these skills. Roleplaying practice is recommended, but whether it is required
+is left to game master discretion.
 
 Skills whose attribute is marked with a * are from a non-core module, but are
 being used in current playtesting and development.
@@ -83,17 +73,15 @@ Attune
   Attune is a measure of an actor's ability to interface with magical items
   and constructs, and attempting to use such items will require an Attune
   check.
-  
+
 Bargain
   Attribute: Allure
-  Usage: Primary
+  Usage: Non-combat
   
   Bargain is a measure of an actor's ability to strike and close deals, be
   those deals of a mundane monetary nature, or when negotiating the terms of
-  far-reaching political intrigue. This can also be used to attempt to bring
-  combat to a peaceful end, either by surrendering or by yielding, as
-  appropriate.
-
+  far-reaching political intrigue.
+  
 Blend
   Attribute: Presence
   Usage: Non-combat
@@ -314,13 +302,13 @@ Persuade
   Persuade is a measure of an actor's ability to appeal to another actor's
   logical senses and intelligence to change their mood or point of view.
 
-Play <Type of Instrument>
+Play <Type of Instrument or Game>
   Attribute: Knowledge
   Usage: Non-combat
   Tools: An instrument of the chosen type.
   
-  Play is a measure of an actor's ability and practice with instruments of the
-  specified type.
+  Play is a measure of an actor's ability and practice with an instrument or a
+  game of the specified type.
 
 Recall
   Attribute: Knowledge
@@ -379,7 +367,7 @@ Sing
 
 Shift
   Attribute: Vigor
-  Usage: Non-combat
+  Usage: Full-round
   
   Shift is a measure of an actor's ability to push, pull, or drag objects
   along the ground. An actor can freely push, pull, and drag objects up to
@@ -419,25 +407,73 @@ Swim
   Water does not count as difficult terrain if the actor is swimming. Wading
   in water causes the water to act like difficult terrain.
   
-
 Tamper
   Attribute: Finesse
-  Usage: Primary
-  Tools: Optional, bonuses granted by game master
+  Usage: Full-round
+  Tools: Determinant on the object being manipulated.
   
   Tamper is a measure of an actor's ability to disarm, dislodge, unlock, or
-  otherwise manipulate mechanical devices.
+  otherwise manipulate mechanical devices without them necessarily remaining
+  functional or being able to be restored to normal operation afterward.
 
-Track Creature            Attribute: Intuition
+Track <Type of Creature>
+  Attribute: Intuition
+  Usage: Non-combat
+  
+  Track is a measure of an actor's ability to follow a creature of the
+  specified type from its foot prints, scents, telltale effects on features of
+  the flora and fauna of the environment, and an understanding of its natural
+  behaviors and instincts.
 
-Treat <Type of Disease>   Attribute: Knowledge
+Treat <Type of Disease>
+  Attribute: Knowledge
+  Usage: Non-combat
+  Tools: Determinant on the type of disease, but likely to involve remedies,
+         special procedures, physical assistance, food, water, or rest.
+  
+  Treat Disease is a measure of an actor's ability to provide care or cure to
+  other actors (or themselves) as they suffer from an illness of the specified
+  type.
 
-Treat <Type of Injury>    Attribute: Knowledge
+Treat <Type of Injury>
+  Attribute: Knowledge
+  Usage: Full-round
+  Tools: Determinant on the type of injury, but likely to involve salves,
+         bandages, bindings, food, water, or rest.
+  
+  Treat Injury is a measure of an actor's ability to provide care and medicine
+  to other actors as they suffer from a wound of the specified type. When used
+  as an action in combat, a Treat Injury check may be used to apply a bandage
+  or tourniquet to a wounded actor to prevent a grave injury from growing
+  worse later.
 
-Wield <Melee Weapon>      Attribute: Vigor           Primary
+Wield <Type of Melee Weapon>
+  Attribute: Vigor 
+  Usage: Primary, Reaction
+  Tools: A weapon of the specified type.
+  
+  Wield Melee is a measure of an actor's ability to fight effectively with a
+  weapon of the specified type.
+  
+  In certain circumstances, Wield Melee can be taken as a reaction. When an
+  adversary dashes through an actor's space, they make a Wield Melee check
+  against a Run check by the adversary. The attack succeeds if it beats the DC
+  set by the Run check.
 
-Wield <Aimed Weapon>      Attribute: Finesse         Primary
 
-Wield <Type of Magic>     Attribute: Soul*
-
-
+Wield <Aimed Weapon>
+  Attribute: Finesse
+  Usage: Primary
+  Tools: A weapon of the specified type.
+  
+  Wield Aimed is a measure of an actor's ability to fight effectively with a
+  weapon of the specified type.
+  
+Wield <Type of Magic>
+  Attribute: Soul*
+  Usage: Primary
+  Tools: A spell of the specified type of magic.
+  
+  Wield Magic is a measure of an actor's ability to cast spells of a
+  specified type of magic under duress.
+  
