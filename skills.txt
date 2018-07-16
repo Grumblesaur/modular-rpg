@@ -74,6 +74,18 @@ Attune
   and constructs, and attempting to use such items will require an Attune
   check.
 
+Balance:
+  Attribute: Finesse
+  Usage: Primary
+  
+  Balance is a measure of an actor's equilibrium and ability to stand on or
+  traverse narrow surfaces without falling or faltering. When an actor should
+  attempt to enter such a scenario, a Balance check will determine their
+  success.
+  
+  Balance is also the skill that defends an actor from a Trip check made
+  against them.
+
 Bargain
   Attribute: Allure
   Usage: Non-combat
@@ -90,13 +102,16 @@ Blend
   environment, and to go unnoticed despite being an outsider. Blending hides
   the actor in plain sight, without disguise or stealth, causing them to go
   unnoticed purely because nothing about them seems worth noticing.
+  
+  When a character is in a situation where they need to suppress an emotional
+  reaction, they will need to make a Blend check.
 
 Brawl
   Attribute: Vigor
   Usage: Primary
   
   Brawl is a measure of an actor's ability to fight with only their body --
-  arms, legs, hands, feet, head, etc. 
+  arms, legs, hands, feet, head, etc.
 
 Cast <Type of Magic>
   Attribute: Soul*
@@ -203,6 +218,25 @@ Garden <Type of Plant>
   
   Garden is a measure of an actor's ability to tend to plants of the specified
   type.
+  
+Grapple
+  Attribute: Vigor
+  Usage: Primary
+  
+  Grapple is a measure of an actor's ability to wrestle and maintain control
+  of another actor. The target of a Grapple check sets the DC with a Brawl
+  check of their own. If the grappler succeeds, they restrain the target
+  with their arms. If they fail, the target slips out of their grasp.
+  
+  Following a successful Grapple check, the target's attempt to escape the
+  grappler is the same skill competition. The grappler may use a full-round
+  action to pin the target to the ground, or a primary action to make a Brawl
+  check to attack the target. This Brawl check is made with a +10 bonus. Also
+  as a primary action, the grappler may wrest a weapon from the target's hands
+  and knock it to the ground.
+  
+  While grappling, an actor moves at half their speed. The target of a grapple
+  cannot move of their own volition until they break the grapple.
 
 Handle Animal
   Attribute: Presence
@@ -446,6 +480,24 @@ Treat <Type of Injury>
   as an action in combat, a Treat Injury check may be used to apply a bandage
   or tourniquet to a wounded actor to prevent a grave injury from growing
   worse later.
+
+Trip
+  Attribute: Agility
+  Usage: Primary
+  
+  Trip is a measure of an actor's ability to take other actors by surprise and
+  throw them off balance. The target of a Trip check sets the DC with a
+  Balance check. If the actor making the Trip check beats the DC, the target
+  falls to the ground. The game master determines whether the player falls
+  supine or prone, as would be appropriate for the scenario. If the Trip check
+  fails, the target remains standing.
+
+Tumble
+  Attribute: Finesse
+  Usage: Secondary
+  
+  Tumble is a measure of an actor's ability to gracefully fall and catch
+  themselves with reduced or no injury.
 
 Wield <Type of Melee Weapon>
   Attribute: Vigor 

@@ -41,7 +41,11 @@ The Art of War (12 GP)
   to Dance instead of Wield. Using Dance in the context of combat is a Primary
   Action.
 
-
+The Fist and the Furious (12 GP)
+  Taking this perk permits an actor to use Dance in place of Brawl in combat
+  provided they are not encumbered above their carry weight. Using Dance in
+  place of Brawl in the context of combat is a Primary Action, and may be used
+  to thwart Grapple checks.
 
 
 

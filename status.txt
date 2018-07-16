@@ -1,0 +1,72 @@
+Status Conditions
+==============================================================================
+In Modular RPG, actors can have a variety of status conditions, which change
+some of their character statistics.
+  
+  Normal
+  Incapacitated
+  Disabled
+  Unconscious
+  Asleep
+
+Actors with Normal status are suffering from no other conditions, and function
+as their statistics describe without modification.
+
+An actor becomes Incapacitated when their HP drops to 0 but their VP remains
+above 0. In this state, an actor is lying on the ground, either prone or
+supine, with their speed dropped to 0 and their VT reduced by half. They
+cannot take Reactions, Full-round actions, or movement (except for 5 feet of
+movement offered by a Secondary action) and may not use a full round action.
+If another actor makes a successful Treat Injury check on an Incapacitated
+actor, that actor regains 1 HP and becomes Disabled instead. An actor who is
+Incapacitated will return to Normal status after a short rest.
+
+When an actor is Disabled, their speed and VT are halved. They cannot take
+Reactions or Full-round actions. An actor who is Disabled will return to
+Normal status after a short rest.
+
+When an actor is Unconscious, their VT drops to 1 and they are unable to move,
+take actions, make skill checks, or respond to stimuli. An actor becomes
+Unconscious by having their VP drop to 0. After a short rest, an Unconscious
+actor will return to Normal status and gain 1 VP and 1 EP, in addition to the
+HP recovery from a short rest.
+
+When an actor is Asleep, their VT drops to 1 and they are unable to move,
+take actions, or make skill checks, but they can still respond to stimuli. A
+sleeping actor will awaken if they are attacked and not killed, if they are
+touched or shaken repeatedly, or if they are subjected to bright lights or
+loud sounds.
+
+
+Body Positions
+--------------
+
+Some minor effects are applied to an actor depending on their position.
+  
+  Standing
+  Crouching
+  Prone
+  Supine
+
+A standing actor has no advantages or ill effects.
+
+A crouching actor has a +10 bonus to their dodge class against Aimed attacks,
+but a -10 to their dodge class against Melee attacks. An actor can drop into a
+crouching stance for free, but must expend 10 feet of movement to rise to a
+standing position.
+
+A prone actor has a +15 bonus to their dodge class against Aimed attacks, but
+a -15 to their dodge class against Melee attacks. All terrain is considered
+difficult terrain while prone. They have -10 on any checks made as attacks,
+but a +10 on Trip checks. An actor can drop prone for free, but must expend
+15 feet of movement to rise to a standing position.
+
+A supine actor has a +15 bonus to their dodge class against Aimed attacks, but
+a -15 to their dodge class against Melee attacks. An actor must make a DC 50
+Tumble check to fall supine. On a pass, they fall gracefully. On a failure,
+they take 1d4 bludgeoning damage. A supine actor cannot move, and they must
+expend all their speed to return to a standing position, or 15 feet of
+movement to flip to a prone position.
+
+
+

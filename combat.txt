@@ -109,10 +109,16 @@ checks that can be used in battle are secondary actions, and will be marked as
 Secondary in the skill list if they can be used in this context. Other options
 for primary actions include:
   
+  Direct
   Five Foot Step
   Retrieve Item
   Stash Item
   Use Item
+
+An actor may direct allies with instructions in a language they understand.
+This act of communication does not require a check, but limits the number of
+times an actor may speak during combat. Other acts of speech as defined in the
+skills list are also secondary actions.
 
 A five foot step is a step that an actor can take to square up to the right
 position for attacking an enemy, leaving range, or just pushing themselves a
