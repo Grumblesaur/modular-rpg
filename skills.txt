@@ -122,6 +122,13 @@ Cast <Type of Magic>
   lots of requisite preparation are cast, although spells which ordinarily are
   used in combat can be cast with this skill for utility purposes when not
   under duress. 
+
+Catch
+  Attribute: Finesse
+  Usage: Reaction
+  
+  Catch is a measure of an actor's ability to track and snatch a fast-
+  approaching object or creature and either hold them or redirect them.
   
 Charm
   Attribute: Allure
