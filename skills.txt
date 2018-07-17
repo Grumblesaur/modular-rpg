@@ -297,6 +297,7 @@ Jump
 Heft
   Attribute: Vigor
   Usage: Primary
+  
   Heft is a measure of an actor's ability to move large, heavy objects under
   their own strength. The amount an actor can lift freely is their Carry
   Weight, but for carrying weight between their carry weight and their
