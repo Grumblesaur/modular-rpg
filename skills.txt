@@ -127,8 +127,10 @@ Catch
   Attribute: Finesse
   Usage: Reaction
   
-  Catch is a measure of an actor's ability to track and snatch a fast-
-  approaching object or creature and either hold them or redirect them.
+  Catch is a measure of an actor's ability to track and snatch or swat away a
+  fast-approaching object or creature from the air. Munitions, such as arrows,
+  darts, bullets, or bolts as fired from weapons are not considered to be
+  objects that can be caught or deflected under normal circumstances.
   
 Charm
   Attribute: Allure
