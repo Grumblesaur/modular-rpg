@@ -294,18 +294,30 @@ Jump
   
     High jump = floor(Vigor / 10) feet or 1 foot, whichever's higher.
 
-Lift
+Heft
   Attribute: Vigor
   Usage: Primary
-  Lift is a measure of an actor's ability to suspend heavy objects with their
-  body. The amount an actor can lift freely is their Carry Weight, but for
-  carrying weight between their carry weight and their overload, an actor must
-  succeed on a Lift check.
+  Heft is a measure of an actor's ability to move large, heavy objects under
+  their own strength. The amount an actor can lift freely is their Carry
+  Weight, but for carrying weight between their carry weight and their
+  overload, an actor must succeed on a Heft check:
+    
+    DC = Weight of object in pounds - floor(Carry weight / 2)
   
   Actors who team up to lift objects together will evenly divide the weight
   across their carry weights. Actors whose fair share of the load falls into
-  their overload range must make a Lift check.
-
+  their overload range must make a Heft check.
+  
+  Pushing, pulling, and dragging objects follow similar rules. An actor can
+  push, pull, or drag their overload in weight at their overloaded speed. For
+  loads greater than that, use the following formula for the Heft check:
+    
+    DC = 50 + floor(10 * (Weight / Overload))
+  
+  Actors who team up to push, pull, or drag an object will evenly divide the
+  load between them. Actors whose fair share of the load exceeds their
+  overload must make a Heft check.
+  
 Listen
   Attribute: Intuition
   Usage: Tertiary
@@ -391,24 +403,7 @@ Sing
   Sing is a measure of an actor's ability to create or recite music vocally,
   particularly in a way that other actors will find entertaining or artistic.
 
-Shift
-  Attribute: Vigor
-  Usage: Full-round
-  
-  Shift is a measure of an actor's ability to push, pull, or drag objects
-  along the ground. An actor can freely push, pull, and drag objects up to
-  their overload in weight at their overloaded speed. For objects greater than
-  their overload in weight, the difficulty class for Shift is:
-  
-    Shift DC = 50 + floor(10 * (Weight / Overload))
-  
-  After a successful shift check, the actor can move the object at their
-  overloaded speed for up to one minute at a time.
-  
-  Actors who team up to move large objects will evenly divide the load across
-  their overloads. For actors whose fair share of the load is greater than
-  their overload, they will need to make a Shift check.
-  
+ 
 Sneak
   Attribute: Agility
   Usage: Primary
