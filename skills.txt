@@ -63,8 +63,7 @@ Appraise <Type of Item>
   Appraise is a measure of an actor's ability to judge the usefulness and
   monetary value of items, objects, or services of the specified type. An
   actor might use this skill when deciding what to bring back from a treasure
-  horde, or when looking for an item in a shop to haggle with the shopkeeper
-  about.
+  horde, or when haggling with a shopkeeper over the cost of merchandise.
 
 Attune
   Attribute: Soul*
@@ -74,26 +73,19 @@ Attune
   and constructs, and attempting to use such items will require an Attune
   check.
 
-Balance:
+Flourish:
   Attribute: Finesse
   Usage: Primary
   
-  Balance is a measure of an actor's equilibrium and ability to stand on or
-  traverse narrow surfaces without falling or faltering. When an actor should
-  attempt to enter such a scenario, a Balance check will determine their
+  Flourish is a measure of an actor's equilibrium and ability to stand on or
+  traverse narrow surfaces without falling or faltering, or when the time
+  comes to fall, to fall gracefully or catch themselves. When an actor should
+  attempt to enter such a scenario, a Flourish check will determine their
   success.
   
-  Balance is also the skill that defends an actor from a Trip check made
+  Flourish is also the skill that defends an actor from a Trip check made
   against them.
 
-Bargain
-  Attribute: Allure
-  Usage: Non-combat
-  
-  Bargain is a measure of an actor's ability to strike and close deals, be
-  those deals of a mundane monetary nature, or when negotiating the terms of
-  far-reaching political intrigue.
-  
 Blend
   Attribute: Presence
   Usage: Non-combat
@@ -219,14 +211,13 @@ Forage
   Forage is a measure of an actor's ability to find useful natural resources
   in the wilderness.
 
-Garden <Type of Plant>
+Garden
   Attribute: Knowledge
   Usage: Non-combat
   Tools: A vessel of water, shovel, trowel, rake, hoe, pitchfork, or other
   implements as appropriate.
   
-  Garden is a measure of an actor's ability to tend to plants of the specified
-  type.
+  Garden is a measure of an actor's ability to tend to plants and other flora.
   
 Grapple
   Attribute: Vigor
@@ -362,14 +353,6 @@ Recall
   skill that reaches into a metagame environment, but to prevent players from
   getting stuck to the game master's frustration.
 
-Repair <Type of Object>
-  Attribute: Knowledge
-  Usage: Non-combat
-  Tools: Trade-specific
-  
-  Repair is a measure of an actor's ability to mend, recalibrate, or adjust
-  objects of the specified type.
-
 Run
   Attribute: Resilience
   Usage: Primary
@@ -450,14 +433,15 @@ Swim
   Water does not count as difficult terrain if the actor is swimming. Wading
   in water causes the water to act like difficult terrain.
   
-Tamper
-  Attribute: Finesse
+Tinker
+  Attribute: Knowledge
   Usage: Full-round
   Tools: Determinant on the object being manipulated.
   
-  Tamper is a measure of an actor's ability to disarm, dislodge, unlock, or
-  otherwise manipulate mechanical devices without them necessarily remaining
-  functional or being able to be restored to normal operation afterward.
+  Tamper is a measure of an actor's ability to repair, recalibrate, disarm,
+  dislodge, unlock, or otherwise manipulate mechanical devices without them
+  necessarily remaining functional or being able to be restored to normal
+  operation afterward.
 
 Track <Type of Creature>
   Attribute: Intuition
@@ -468,27 +452,25 @@ Track <Type of Creature>
   the flora and fauna of the environment, and an understanding of its natural
   behaviors and instincts.
 
-Treat <Type of Disease>
+Treat Disease
   Attribute: Knowledge
   Usage: Non-combat
   Tools: Determinant on the type of disease, but likely to involve remedies,
          special procedures, physical assistance, food, water, or rest.
   
   Treat Disease is a measure of an actor's ability to provide care or cure to
-  other actors (or themselves) as they suffer from an illness of the specified
-  type.
+  other actors (or themselves) as they suffer from an illness.
 
-Treat <Type of Injury>
+Treat Injury
   Attribute: Knowledge
   Usage: Full-round
   Tools: Determinant on the type of injury, but likely to involve salves,
          bandages, bindings, food, water, or rest.
   
   Treat Injury is a measure of an actor's ability to provide care and medicine
-  to other actors as they suffer from a wound of the specified type. When used
-  as an action in combat, a Treat Injury check may be used to apply a bandage
-  or tourniquet to a wounded actor to prevent a grave injury from growing
-  worse later.
+  to other actors as they suffer from a wound. When used as an action in
+  combat, a Treat Injury check may be used to apply a bandage or tourniquet to
+  a wounded actor to prevent a grave injury from growing worse later.
 
 Trip
   Attribute: Agility
@@ -496,17 +478,10 @@ Trip
   
   Trip is a measure of an actor's ability to take other actors by surprise and
   throw them off balance. The target of a Trip check sets the DC with a
-  Balance check. If the actor making the Trip check beats the DC, the target
+  Flourish check. If the actor making the Trip check beats the DC, the target
   falls to the ground. The game master determines whether the player falls
   supine or prone, as would be appropriate for the scenario. If the Trip check
   fails, the target remains standing.
-
-Tumble
-  Attribute: Finesse
-  Usage: Secondary
-  
-  Tumble is a measure of an actor's ability to gracefully fall and catch
-  themselves with reduced or no injury.
 
 Wield <Type of Melee Weapon>
   Attribute: Vigor 
