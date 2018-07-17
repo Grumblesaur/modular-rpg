@@ -1,5 +1,117 @@
-Status Conditions
+Character Status
 ==============================================================================
+
+* Indicates a feature of an additional module included for playtesting.
+
+Character Statistics
+--------------------
+
+The well-being, fighting fitness, and general readiness of a character are
+measured by several statistics:
+  
+  Hit Points
+  Dodge Class
+  Vitality Points
+  Vital Threshold
+  Exhaustion Points
+  Mana Points*
+
+
+Hit Points and Dodge Class
+--------------------------
+  
+Hit points are a measure of an actor's combat readiness, aggregating physical
+and mental health in addition to the actor's will to fight or take risks. An
+actor will have few if any opportunities to increase their hit point maximum.
+Hit point statistics follow these formulas:
+  
+  Hit Point Maximum = 35 + floor(resilience at level one / 2)
+  
+  Hit Point Recovery = 5 + floor(resilience / 10) per short rest.
+  
+Actors whose Hit Points drop to zero while their Vitality Points number at
+least one become Incapacitated, described under Conditions.
+
+An actor's dodge class is a measure of how difficult they are to strike in
+combat, either from nimbleness or armor. It is calculated:
+  
+  Dodge Class = 50 + armor bonus + floor(agility / 10) + situational bonus
+
+When an attack roll (made with a Wield or Brawl check, ordinarily) exceeds an
+actor's dodge class, that actor is struck by the attack, and the attacker will
+roll to determine the damage.
+
+
+Vitality and Exhaustion
+-----------------------
+
+Vitality Points are a measure of an actor's ability to withstand physical
+shock. Severe attacks cause injuries that require greater recovery times and
+more rest. Most actors have only 3 VP, although these values can be changed in
+some rare circumstances, as through quirks, perks, or story events. Vitality
+point statisics follow these formulas:
+  
+  Max Vitality Points = 3
+  
+  Vitality Point Recovery = All on long rest when not Exhausted
+  
+An actor's Vital Threshold is the amount of damage which will incur vital
+damage, that is, damage at which the actor's VP is diminished. An actor's
+vital threshold is:
+  
+  Vital Threshold = 10 + floor(resilience at level one / 10)
+
+When an actor takes damage, the method by which VP damage is calculated is:
+
+  Vitality Damage = floor(damage taken / vital threshold)
+
+In other words, vitality damage is taken whenever an attack's damage output is
+at least equal to the actor's vital threshold, with an extra point for every
+multiple above that it reaches.
+
+When an actor's Vitality Points drop to zero, they fall Unconscious, described
+under Conditions below. If an actor's Vitality Points fall below zero, they
+are dead.
+
+If an actor is not killed while they are unconscious, and they are taken to
+where they can safely recover, they will awaken after a short rest, with 1 VP
+restored, and 1 Exhaustion Point, as well as the HP they recover from a short
+rest.
+
+When an actor has Exhaustion Points, they are unable to recover Vitality from
+a long rest. One Exhaustion Point is removed from an actor for every long rest
+until they reach zero, at which point long rests will begin to restore
+Vitality Points for them again. Exhausted actors suffer the following effects:
+
+  Exhaustion Penalty =
+    Penalty to all skill checks of -5 * EP,
+    Hit Point recovery penalty of  -1 * EP
+
+Actors with more than 3 VP will suffer an additional -5 penalty to all skill
+checks and an additional -1 HP recovery for each additional EP they accrue.
+
+Should an actor's EP ever exceed their max VP, they will die at some point
+during the course of the eight hours to follow, barring a miracle of game
+master intervention of course. This slow death can be used as an opportunity
+by the actor to voice their last words.
+
+
+Mana Points*
+-----------
+
+Mana Points are a measure of the size and might of an actor's soul. Actors who
+use magic and cast spells will utilize energy from this pool. The pool is of
+the size:
+  
+  Mana Point Maximum = 35 + floor(soul at first level / 2)
+
+Like Vitality and Hit Points, the circumstances under which an actor's Mana
+Point Maximuim changes are few in number.
+
+
+Conditions
+----------
+
 In Modular RPG, actors can have a variety of status conditions, which change
 some of their character statistics.
   
@@ -67,6 +179,5 @@ Tumble check to fall supine. On a pass, they fall gracefully. On a failure,
 they take 1d4 bludgeoning damage. A supine actor cannot move, and they must
 expend all their speed to return to a standing position, or 15 feet of
 movement to flip to a prone position.
-
 
 
