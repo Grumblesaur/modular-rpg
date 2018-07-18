@@ -79,9 +79,19 @@ Flourish
   
   Flourish is a measure of an actor's equilibrium and ability to stand on or
   traverse narrow surfaces without falling or faltering, or when the time
-  comes to fall, to fall gracefully or catch themselves. When an actor should
-  attempt to enter such a scenario, a Flourish check will determine their
-  success.
+  comes to fall, to fall gracefully or catch themselves while or before
+  plunging. When an actor should enter such a scenario, a Flourish check will
+  determine whether their posture upon landing is favorable.
+  
+  When an actor falls, they take damage in relation to the height of their
+  fall. The formula for fall damage is:
+    
+    Dice to roll = floor(Height of fall in feet / 10)
+    
+    Damage = (Dice to roll)d8
+    
+  In other words, for every 10 feet an actor falls, they suffer 1d8 damage.
+  For falls shorter than 10 feet, actors take no damage. 
   
   Flourish is also the skill that defends an actor from a Trip check made
   against them.
