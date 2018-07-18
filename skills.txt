@@ -108,12 +108,12 @@ Brawl
 Cast <Type of Magic>
   Attribute: Soul*
   Usage: Determinant on spell specification.
+  Tools: Determinant on spell specification.
   
-  Cast is a measure of an actor's ability to cast spells that require time and
-  patience. This is the mechanism by which spells with long casting times or
-  lots of requisite preparation are cast, although spells which ordinarily are
-  used in combat can be cast with this skill for utility purposes when not
-  under duress. 
+  Cast is a measure of an actor's ability to cast spells. A spell's function
+  in combat, if any, is left to the specification of the spell's description
+  as a perk. As such, a spell use up any kind of action slot in combat, or be
+  inapplicable during a fight. 
 
 Charm
   Attribute: Allure
