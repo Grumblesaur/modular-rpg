@@ -59,7 +59,7 @@ An actor's Vital Threshold is the amount of damage which will incur vital
 damage, that is, damage at which the actor's VP is diminished. An actor's
 vital threshold is:
   
-  Vital Threshold = 10 + floor(resilience at level one / 10)
+  Vital Threshold = 10 + floor(resilience / 20)
 
 When an actor takes damage, the method by which VP damage is calculated is:
 
