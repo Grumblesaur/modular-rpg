@@ -115,15 +115,7 @@ Cast <Type of Magic>
   used in combat can be cast with this skill for utility purposes when not
   under duress. 
 
-Catch
-  Attribute: Finesse
-  Usage: Reaction
-  
-  Catch is a measure of an actor's ability to track and snatch or swat away a
-  fast-approaching object or creature from the air. Munitions, such as arrows,
-  darts, bullets, or bolts as fired from weapons are not considered to be
-  objects that can be caught or deflected under normal circumstances.
-  
+ 
 Charm
   Attribute: Allure
   Usage: Secondary
@@ -219,24 +211,18 @@ Garden
   
   Garden is a measure of an actor's ability to tend to plants and other flora.
   
-Grapple
-  Attribute: Vigor
-  Usage: Primary
+Grasp
+  Attribute: Finesse
+  Usage: Reaction
+  Tools: Determinant on the situation.
   
-  Grapple is a measure of an actor's ability to wrestle and maintain control
-  of another actor. The target of a Grapple check sets the DC with a Brawl
-  check of their own. If the grappler succeeds, they restrain the target
-  with their arms. If they fail, the target slips out of their grasp.
+  Grasp is a measure of an actor's manual dexterity, to include handwriting
+  and the art of imitating another's, tracking and snatching fast-approaching
+  objects, and various other gestures and maneuvers of the hand.
   
-  Following a successful Grapple check, the target's attempt to escape the
-  grappler is the same skill competition. The grappler may use a full-round
-  action to pin the target to the ground, or a primary action to make a Brawl
-  check to attack the target. This Brawl check is made with a +10 bonus. Also
-  as a primary action, the grappler may wrest a weapon from the target's hands
-  and knock it to the ground.
-  
-  While grappling, an actor moves at half their speed. The target of a grapple
-  cannot move of their own volition until they break the grapple.
+  Specifically, the act of catching or swatting away an object may be used in
+  combat as a reaction, provided the target of the act is not ammunition for
+  a weapon.
 
 Handle Animal
   Attribute: Presence
@@ -245,15 +231,6 @@ Handle Animal
   Handle Animal is a measure of an actor's ability to demand the attention of
   and give commands to animals.
 
-Handwrite
-  Attribute: Finesse
-  Usage: Non-combat
-  Tools: A writing utensil and a surface to write on.
-  
-  Handwrite is a measure of an actor's ability to imitate the penmanship of
-  other actors (forgery) and to create aesthetically beautiful and official
-  written documents (calligraphy).
-  
 Hide
   Attribute: Agility
   Usage: Primary
@@ -404,7 +381,6 @@ Sing
   Sing is a measure of an actor's ability to create or recite music vocally,
   particularly in a way that other actors will find entertaining or artistic.
 
- 
 Sneak
   Attribute: Agility
   Usage: Primary

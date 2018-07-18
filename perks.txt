@@ -47,5 +47,21 @@ The Fist and the Furious (12 GP)
   place of Brawl in the context of combat is a Primary Action, and may be used
   to thwart Grapple checks.
 
+Grappler (15 GP)
+  Grapple is a maneuver which allows and actor to wrestle and maintain control
+  of another actor. The actor taking Grapple (which is a Primary Action) must
+  be standing adjacent to the target. The Grapple action starts a competition
+  between the grappler and the target. Each makes a Brawl check. If the
+  grappler rolls higher, the grappler has taken hold of the target, and they
+  both are standing in the space where the target was standing.
+  
+  Following a successful Grapple check, the target's attempt to escape the
+  grappler (also a Primary Action) is the same skill competition. The grappler
+  may use a full-round action to pin the target to the ground, or a primary
+  action to make a Brawl check to attack the target. This Brawl check is made
+  with a +10 bonus. Also as a primary action, the grappler may wrest a weapon
+  from the target's hands and knock it to the ground.
 
+  While grappling, an actor moves at half their speed. The target of a grapple
+  cannot move of their own volition until they break the grapple. 
 
