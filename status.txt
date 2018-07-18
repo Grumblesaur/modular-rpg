@@ -22,10 +22,10 @@ Hit Points and Dodge Class
   
 Hit points are a measure of an actor's combat readiness, aggregating physical
 and mental health in addition to the actor's will to fight or take risks. An
-actor will have few if any opportunities to increase their hit point maximum.
-Hit point statistics follow these formulas:
+actor's hit point maximum increases slowly as they develop. Hit point
+statistics follow these formulas:
   
-  Hit Point Maximum = 35 + floor(resilience at level one / 2)
+  Hit Point Maximum = 35 + floor(resilience / 5)
   
   Hit Point Recovery = 5 + floor(resilience / 10) per short rest.
   
@@ -103,10 +103,7 @@ Mana Points are a measure of the size and might of an actor's soul. Actors who
 use magic and cast spells will utilize energy from this pool. The pool is of
 the size:
   
-  Mana Point Maximum = 35 + floor(soul at first level / 2)
-
-Like Vitality and Hit Points, the circumstances under which an actor's Mana
-Point Maximuim changes are few in number.
+  Mana Point Maximum = 35 + floor(soul / 5)
 
 
 Conditions
