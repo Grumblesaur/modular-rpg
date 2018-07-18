@@ -73,7 +73,7 @@ Attune
   and constructs, and attempting to use such items will require an Attune
   check.
 
-Flourish:
+Flourish
   Attribute: Finesse
   Usage: Primary
   
@@ -115,7 +115,6 @@ Cast <Type of Magic>
   used in combat can be cast with this skill for utility purposes when not
   under duress. 
 
- 
 Charm
   Attribute: Allure
   Usage: Secondary
@@ -415,7 +414,7 @@ Tinker
   necessarily remaining functional or being able to be restored to normal
   operation afterward.
 
-Track <Type of Creature>
+Track Creature
   Attribute: Intuition
   Usage: Non-combat
   
@@ -467,7 +466,6 @@ Wield <Type of Melee Weapon>
   adversary dashes through an actor's space, they make a Wield Melee check
   against a Run check by the adversary. The attack succeeds if it beats the DC
   set by the Run check.
-
 
 Wield <Aimed Weapon>
   Attribute: Finesse
