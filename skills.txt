@@ -142,7 +142,7 @@ Craft <Type of Item>
   Craft is a measure of an actor's ability to assemble, cook, or design items
   of the specified type.
   
-Dance <Style of Dance>
+Dance
   Attribute: Agility         
   Usage: Non-combat
   
