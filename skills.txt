@@ -147,7 +147,7 @@ Dance
   Usage: Non-combat
   
   Dance is a measure of an actor's ability to move rhythmically as a means of
-  artistic expression, in a specified style that they practice.
+  artistic expression.
 
 Deceive
   Attribute: Allure
