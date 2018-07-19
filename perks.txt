@@ -1,11 +1,12 @@
-  Perks
 ===============================================================================
+Perks
+===============================================================================
+
 Perks are a feature of character leveling. They are minor improvements to an
 actor that grant new abilities or bonuses, allowing the actors who take them to
 scale with game difficulty. Perks are purchased with Growth Points, the same
 "currency" with which skill proficiencies are improved. Perks cannot be bought
 more than once unless otherwise specified.
-===============================================================================
 
 Ironskin (15 GP)
   (Minimum Resilience of 20)
@@ -64,4 +65,3 @@ Grappler (15 GP)
   cannot move of their own volition until they break the grapple. 
 
 
-  

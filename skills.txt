@@ -1,3 +1,4 @@
+==============================================================================
 Skills and Their Applications
 ==============================================================================
 The following skill checks are equivalent to checks with the toolkit
@@ -56,15 +57,6 @@ skill, as an example. The use of skills as a knowledge check never requires
 tools
 
 
-Barter <Type of Item>
-  Attribute: Knowledge
-  Usage: Non-combat
-  
-  Barter is a measure of an actor's ability to judge the usefulness and
-  monetary value of items, objects, or services of the specified type. An
-  actor might use this skill when deciding what to bring back from a treasure
-  horde, or when haggling with a shopkeeper over the cost of merchandise.
-
 Attune
   Attribute: Soul*
   Usage: Secondary
@@ -73,28 +65,14 @@ Attune
   and constructs, and attempting to use such items will require an Attune
   check.
 
-Flourish
-  Attribute: Finesse
-  Usage: Primary
+Barter <Type of Item>
+  Attribute: Knowledge
+  Usage: Non-combat
   
-  Flourish is a measure of an actor's equilibrium and ability to stand on or
-  traverse narrow surfaces without falling or faltering, or when the time
-  comes to fall, to fall gracefully or catch themselves while or before
-  plunging. When an actor should enter such a scenario, a Flourish check will
-  determine whether their posture upon landing is favorable.
-  
-  When an actor falls, they take damage in relation to the height of their
-  fall. The formula for fall damage is:
-    
-    Dice to roll = floor(Height of fall in feet / 10)
-    
-    Damage = (Dice to roll)d8
-    
-  In other words, for every 10 feet an actor falls, they suffer 1d8 damage.
-  For falls shorter than 10 feet, actors take no damage. 
-  
-  Flourish is also the skill that defends an actor from a Trip check made
-  against them.
+  Barter is a measure of an actor's ability to judge the usefulness and
+  monetary value of items, objects, or services of the specified type. An
+  actor might use this skill when deciding what to bring back from a treasure
+  horde, or when haggling with a shopkeeper over the cost of merchandise.
 
 Blend
   Attribute: Presence
@@ -196,6 +174,29 @@ Fasten
   
   Fasten is a measure of an actor's ability to secure objects with restraints
   or fibers.
+
+Flourish
+  Attribute: Finesse
+  Usage: Primary
+  
+  Flourish is a measure of an actor's equilibrium and ability to stand on or
+  traverse narrow surfaces without falling or faltering, or when the time
+  comes to fall, to fall gracefully or catch themselves while or before
+  plunging. When an actor should enter such a scenario, a Flourish check will
+  determine whether their posture upon landing is favorable.
+  
+  When an actor falls, they take damage in relation to the height of their
+  fall. The formula for fall damage is:
+    
+    Dice to roll = floor(Height of fall in feet / 10)
+    
+    Damage = (Dice to roll)d8
+    
+  In other words, for every 10 feet an actor falls, they suffer 1d8 damage.
+  For falls shorter than 10 feet, actors take no damage. 
+  
+  Flourish is also the skill that defends an actor from a Trip check made
+  against them.
 
 Forage
   Attribute: Intuition

@@ -1,9 +1,10 @@
-  Quirks
 ===============================================================================
+Quirks
+===============================================================================
+
 Quirks are a feature of character creation. They are minor changes to an actor
 to allow for different gameplay styles and more focused, specialized builds.
 Quirks can also be used to differentiate different races.
-===============================================================================
 
 Sense of Direction:
   Replace Knowledge with Intuition for Navigate checks, but receive no bonus
