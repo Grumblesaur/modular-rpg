@@ -33,14 +33,12 @@ Charger (10 GP)
   attack with a melee weapon, they receive a +10 bonus to hit their target,
   and +1 damage of the same type as the attack if the attack was successful.
 
-The Art of War (12 GP)
-  In addition to different styles of dancing, taking this perk allows an actor
-  to specialize in dances of weapons. The actor may instantiate Dance for any
-  melee weapon not possessing the "Heavy" characteristic, and for such
-  instantiations, will use their Agility attribute for combat when they elect
-  to Dance instead of Wield. Using Dance in the context of combat is a Primary
-  Action.
-
+Flashing Swords (6 GP)
+  Taking this perk allows an actor to switch their attribute for a Wield Melee
+  skill from Vigor to Agility as long as the type of melee weapon used by that
+  skill does not have the Heavy weapon characteristic. This perk can be taken
+  multiple times, once for each different Wield Melee skill.
+ 
 The Fist and the Furious (12 GP)
   Taking this perk permits an actor to use Dance in place of Brawl in combat
   provided they are not encumbered above their carry weight. Using Dance in
@@ -65,3 +63,5 @@ Grappler (15 GP)
   While grappling, an actor moves at half their speed. The target of a grapple
   cannot move of their own volition until they break the grapple. 
 
+
+  
