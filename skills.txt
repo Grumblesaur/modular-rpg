@@ -169,7 +169,7 @@ Draw
 
 Fasten
   Attribute: Finesse
-  Usage: Non-combat
+  Usage: Full-round
   Tools: Rope, straps, chains, cuffs, cords, or string, as appropriate.
   
   Fasten is a measure of an actor's ability to secure objects with restraints

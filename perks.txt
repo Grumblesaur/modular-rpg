@@ -62,6 +62,7 @@ Grappler (15 GP)
   from the target's hands and knock it to the ground.
 
   While grappling, an actor moves at half their speed. The target of a grapple
-  cannot move of their own volition until they break the grapple. 
+  cannot move of their own volition until they break the grapple. The grappler
+  must have both hands free to initiate a grapple. 
 
 
