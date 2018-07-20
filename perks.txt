@@ -58,8 +58,9 @@ Grappler (15 GP)
   grappler (also a Primary Action) is the same skill competition. The grappler
   may use a full-round action to pin the target to the ground, or a primary
   action to make a Brawl check to attack the target. This Brawl check is made
-  with a +10 bonus. Also as a primary action, the grappler may wrest a weapon
-  from the target's hands and knock it to the ground.
+  with a +10 bonus. Also as a primary action, the grappler may make a Brawl
+  check to wrest a weapon from the target's hands and knock it to the ground,
+  where the target sets the DC with a Grasp roll.
 
   While grappling, an actor moves at half their speed. The target of a grapple
   cannot move of their own volition until they break the grapple. The grappler
