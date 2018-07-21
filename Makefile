@@ -1,4 +1,4 @@
-all: clean check
+all: guide
 
 guide:
 	cat\
@@ -11,8 +11,5 @@ guide:
 	> guide.txt
 
 clean:
-	rm attr/__pycache__ opt/__pycache__ __pycache__ -rf
-
-check:
-	python3 Rules.py
+	rm guide.txt
 
