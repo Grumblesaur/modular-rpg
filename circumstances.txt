@@ -1,0 +1,22 @@
+==============================================================================
+Environments, Circumstances, and Their Effects on Skills
+==============================================================================
+
+Light Levels
+------------
+
+The light level in an environment will affect an actor's ability to see. This
+applies a factor to skill checks that the actor makes which require their
+vision:
+  
+  Blinding     0x the roll's value
+  Very Bright  1/2x the roll's value
+  Normal       1x the roll's value
+  Dim          1/2x the roll's value
+  Dark         0x the roll's value
+  
+Very brightly lit environments are not simply outdoors during hours of bright
+sunlight, but are so bright that the actor's eyes cannot properly adjust to
+the light level and cause pain or distress to the actor until the light dims.
+  
+
