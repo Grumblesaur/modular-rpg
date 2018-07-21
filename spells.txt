@@ -1,10 +1,20 @@
 ==============================================================================
-Spells
+Spells and Casting Rules
 ==============================================================================
+
+Basic Spells
+------------
+
+A spell is a perk that an actor can take, provided they have a prerequisite 
+
+
+
+
+
 Elements:
   Fire    Sonic
   Frost   Corrosion
-  Shock   Psychic
+  Shock
 
 Burst <Element> (12 GP)
   <Fire>      -> Firebolt    (Flames are briefly visible around the target.)

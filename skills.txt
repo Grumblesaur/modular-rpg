@@ -332,13 +332,14 @@ Persuade
   Persuade is a measure of an actor's ability to appeal to another actor's
   logical senses and intelligence to change their mood or point of view.
 
-Play <Type of Instrument or Game>
+Play <Type of Instrument or Activity>
   Attribute: Knowledge
   Usage: Non-combat
   Tools: An instrument of the chosen type.
   
   Play is a measure of an actor's ability and practice with an instrument or a
-  game of the specified type.
+  game of the specified type. Play accepts many different kinds of paramters,
+  for example, singing is treated as Play <Voice>.
 
 Recall
   Attribute: Knowledge
@@ -348,6 +349,14 @@ Recall
   facts when the player controlling the actor might have forgotten. It's a
   skill that reaches into a metagame environment, but to prevent players from
   getting stuck to the game master's frustration.
+
+Resist
+  Attribute: Soul*
+  Usage: Determinant on situation.
+  
+  Resist is a measure of an actor's ability to press on despite magical
+  effects in their environment, or to diminish the effects of certain magical
+  attacks.
 
 Run
   Attribute: Resilience
@@ -379,13 +388,6 @@ Sense Motive
   of another actor, in speech, writing, or the layout of their environment.
   This skill will often be used as a dynamic means of creating a DC for
   Charm, Deceive, Intimidate, or Persuade checks.
-
-Sing
-  Attribute: Allure
-  Usage: Secondary
-  
-  Sing is a measure of an actor's ability to create or recite music vocally,
-  particularly in a way that other actors will find entertaining or artistic.
 
 Sneak
   Attribute: Agility

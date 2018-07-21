@@ -15,7 +15,8 @@ of combatants per side, so for these purposes, a round can be expected to take
 value will need to account for the change in their actors' speed, which is
 a distance in feet that the actor can move in one round.
 
-  Speed = 30 + (5 * floor(Agility / 10))  (Subject to Quirks and Perks.)
+  Speed = 30 + (5 * floor(Agility / 10)) or 15, whichever is higher.
+    (Subject to Quirks and Perks.)
 
 When using a grid to determine the movement of actors, a square or a hexagon
 is considered to be a space which takes 5 feet of movement to traverse. Grids

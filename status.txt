@@ -36,7 +36,7 @@ least one become Incapacitated, described under Conditions.
 An actor's dodge class is a measure of how difficult they are to strike in
 combat, either from nimbleness or armor. It is calculated:
   
-  Dodge Class = 50 + armor bonus + floor(agility / 10) + situational bonus
+  Dodge Class = 50 + armor bonus + floor(agility / 5) + situational bonus
 
 When an attack roll (made with a Wield or Brawl check, ordinarily) exceeds an
 actor's dodge class, that actor is struck by the attack, and the attacker will
