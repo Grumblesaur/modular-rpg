@@ -136,7 +136,61 @@ An example table looks something like this:
   Soul       |      100
 
 So if the player whose actor has this table rolls a 100, they gain a point in
-Soul. If they roll at 48, they gain a point in Finesse.
+Soul. If they roll at 48, they gain a point in Finesse, and so on.
+
+
+Skills, Perks, and Quirks
+-------------------------
+
+On character creation, a player receives an allotment of points to spend on
+perks and skills for their character. These are called growth points, and the
+amount is calculated thus:
+  
+  Character Creation Growth Points = 3 * Number of attributes in use
+  
+Players may invest points into skills or perks as they see fit. Skills ranks,
+which increase the proficiency of an actor in a particular skill, are bought
+for 2 growth points, or 1 growth point for parameterized skills. The point
+cost of perks is listed in their description. Some perks have prerequisites,
+and those must be met before the perk can be purchased.
+
+A skill cannot be invested in beyond the limit:
+  
+  Skill Rank Limit = 2 * Character level
+
+Skill points may be held by the player until later to spend on a more costly
+perk if they so choose.
+
+Quirks are character features that incur no cost, but must be chosen on
+character creation. They are indicative of particularities of an actor's core
+personality, mindset, and innate abilities, and usually consist of either an
+advantage and a disadvantage or a difference that isn't inherently better or
+worse for the character.
+
+Quirks may be chosen in any amount, although some of them have features that
+cancel out the features of another quirk. The game master may inject their own
+discretion as to any limitations on the number of quirks a character can have.
+
+Leveling Up
+-----------
+
+When a character levels up, the player is allotted a number of growth points
+to distribute into their character's skills. The standard amount is determined
+by the formula:
+  
+  Level Up Growth Points = 2 * Number of attributes in use
+  
+They also receive attribute points in the amounts:
+  
+  Total Attribute Growth = ceiling(Number of attributes in use / 2)
+  
+  Distributed by table = ceiling(Total attribute growth / 2)
+  
+  Distributed by player = floor(Total attribute growth / 2) 
+  
+As attributes are boosted past certain thresholds, some values that are
+determined by a portion of an attribute will change, such as HP recovery, or
+vital threshold. Players are advised to account for these changes.
 
 
 
