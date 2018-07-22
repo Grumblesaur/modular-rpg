@@ -159,14 +159,6 @@ Disguise
   Disguise is a measure of an actor's ability to conceal the identity of
   themselves or another actor by altering their external appearance
   
-Draw
-  Attribute: Finesse
-  Usage: Non-combat
-  Tools: A writing utensil and a surface to draw on.
-  
-  Draw is a measure of an actor's ability to accurately depict creatures,
-  objects, scenes, or diagrams in an artistic or informative manner.
-
 Fasten
   Attribute: Finesse
   Usage: Full-round
@@ -177,13 +169,11 @@ Fasten
 
 Flourish
   Attribute: Finesse
-  Usage: Primary
+  Usage: Primary, Reaction
   
   Flourish is a measure of an actor's equilibrium and ability to stand on or
-  traverse narrow surfaces without falling or faltering, or when the time
-  comes to fall, to fall gracefully or catch themselves while or before
-  plunging. When an actor should enter such a scenario, a Flourish check will
-  determine whether their posture upon landing is favorable.
+  traverse narrow surfaces without falling or faltering, catching oneself or
+  falling gracefully, and catching or deflecting incoming objects.
   
   When an actor falls, they take damage in relation to the height of their
   fall. The formula for fall damage is:
@@ -197,6 +187,10 @@ Flourish
   
   Flourish is also the skill that defends an actor from a Trip check made
   against them.
+  
+  The act of catching or swatting away an object may be used in
+  combat as a reaction, provided the target of the act is not ammunition for
+  a weapon.
 
 Forage
   Attribute: Intuition
@@ -213,19 +207,6 @@ Garden
   
   Garden is a measure of an actor's ability to tend to plants and other flora.
   
-Grasp
-  Attribute: Finesse
-  Usage: Reaction
-  Tools: Determinant on the situation.
-  
-  Grasp is a measure of an actor's manual dexterity, to include handwriting
-  and the art of imitating another's, tracking and snatching fast-approaching
-  objects, and various other gestures and maneuvers of the hand.
-  
-  Specifically, the act of catching or swatting away an object may be used in
-  combat as a reaction, provided the target of the act is not ammunition for
-  a weapon.
-
 Handle Animal
   Attribute: Presence
   Usage: Non-combat
@@ -388,6 +369,15 @@ Run
   Outside of combat, Run is used to sustain speed during when the actor is
   racing or attempting to escape something. The game master sets the DC and
   the effects on the actor's movement for a success or a failure.
+
+Scribe
+  Attribute: Finesse
+  Usage: Non-combat
+  Tools: A writing utensil and a surface to draw on.
+  
+  Draw is a measure of an actor's ability to accurately depict creatures,
+  objects, scenes, or diagrams in an artistic or informative manner, as well
+  as imitate the penmanship of other actors or write in a calligraphic style.
 
 Search
   Attribute: Intuition
