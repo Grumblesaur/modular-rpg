@@ -233,6 +233,35 @@ Handle Animal
   Handle Animal is a measure of an actor's ability to demand the attention of
   and give commands to animals.
 
+Heft
+  Attribute: Vigor
+  Usage: Primary
+  
+  Heft is a measure of an actor's ability to move large, heavy objects under
+  their own strength. The amount an actor can lift freely is their carry
+  weight, but an actor must succeed on a Heft check to exceed that amount:
+    
+    DC = Weight of object in pounds - floor(Carry weight / 2)
+  
+  Actors who team up to lift objects together will evenly divide the weight
+  across their carry weights. Actors whose fair share of the load exceeds
+  their carry weight must make a skill check for lifting their portion of the
+  load.
+  
+  Actors cannot lift or carry more than their overload weight, except for very
+  short distances or periods of time.
+  
+  Pushing, pulling, and dragging objects follow similar rules. An actor can
+  push, pull, or drag up to their overload in weight at their overloaded
+  speed. For loads greater than that, use the following formula for the DC of
+  the Heft check:
+    
+    DC = floor((Weight / 3) + (Weight / Overload) * 10)
+  
+  Actors who team up to push, pull, or drag an object will evenly divide the
+  load between them. Actors whose fair share of the load exceeds their
+  overload must make a Heft check for the weight of their fair share.
+ 
 Hide
   Attribute: Agility
   Usage: Primary
@@ -273,35 +302,6 @@ Jump
   
     High jump = floor(Vigor / 10) feet or 1 foot, whichever's higher.
 
-Heft
-  Attribute: Vigor
-  Usage: Primary
-  
-  Heft is a measure of an actor's ability to move large, heavy objects under
-  their own strength. The amount an actor can lift freely is their carry
-  weight, but an actor must succeed on a Heft check to exceed that amount:
-    
-    DC = Weight of object in pounds - floor(Carry weight / 2)
-  
-  Actors who team up to lift objects together will evenly divide the weight
-  across their carry weights. Actors whose fair share of the load exceeds
-  their carry weight must make a skill check for lifting their portion of the
-  load.
-  
-  Actors cannot lift or carry more than their overload weight, except for very
-  short distances or periods of time.
-  
-  Pushing, pulling, and dragging objects follow similar rules. An actor can
-  push, pull, or drag up to their overload in weight at their overloaded
-  speed. For loads greater than that, use the following formula for the DC of
-  the Heft check:
-    
-    DC = floor((Weight / 3) + (Weight / Overload) * 10)
-  
-  Actors who team up to push, pull, or drag an object will evenly divide the
-  load between them. Actors whose fair share of the load exceeds their
-  overload must make a Heft check for the weight of their fair share.
-  
 Listen
   Attribute: Intuition
   Usage: Tertiary
