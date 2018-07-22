@@ -67,6 +67,7 @@ Grappler (15 GP)
   must have both hands free to initiate a grapple. 
 
 Theodore Roosevelt (6 GP)
-  When wielding a heavy bludgeon or staff, +10 to the actor's presence.
+  When wielding a heavy bludgeon or staff, +10 to checks involving the actor's
+  Presence attribute.
 
 
