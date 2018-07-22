@@ -302,6 +302,14 @@ Jump
   
     High jump = floor(Vigor / 10) feet or 1 foot, whichever's higher.
 
+Know <Discipline of Information>
+  Attribute: Knowledge
+  Usage: Secondary
+  
+  Know is a measure of an actor's memory and understanding of traditions,
+  rituals, and academic disciplines which have no corresponding trade, skill,
+  or activity, but are nonetheless useful or important.
+
 Listen
   Attribute: Intuition
   Usage: Tertiary

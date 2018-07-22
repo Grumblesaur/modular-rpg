@@ -28,6 +28,9 @@ Folk Musician:
   Replace Knowledge with Allure as the attribute for Play when the parameter is
   a type of instrument or the actor's voice.
 
+Hard Bargainer
+  Replace Allure with Knowledge as the attribute for Barter.
+
 Gear Head:
   Replace Knowledge with Intuition as the attribute for Repair.
 
