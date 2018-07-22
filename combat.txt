@@ -52,6 +52,9 @@ There are some special actions which can be taken, which have their own rules:
   Full-round actions
   Reactions
 
+A primary action may be substituted with a secondary or tertiary action, and a
+secondary action may be substituted with a tertiary action.
+
 
 Movement
 --------
@@ -94,12 +97,13 @@ allows them to leave their decision to the actions of other actors in battle.
 When taking Ready, an actor must specify a trigger -- an event that might
 occur sometime before their next turn -- and then they specify two courses of
 play -- one that happens if the trigger does occur, and one that happens if it
-doesn't occur. Each course of play must have one primary action, and may
-include a secondary action, a tertiary action, and the remainder of the
-actor's movement if they had not used them prior to taking Ready. When the
-trigger does occur, the appropriate course of play happens at that instant.
-When the trigger fails to occur, the course of play must happen before the
-actor's next turn.
+doesn't occur.
+
+Each course of play must have one primary action, and may include a secondary
+action, a tertiary action, and the remainder of the actor's movement if they
+had not used them prior to taking Ready. When the trigger does occur, the
+appropriate course of play happens at that instant. When the trigger fails to
+occur, the course of play must happen before the actor's next turn.
 
 
 Secondary Actions
