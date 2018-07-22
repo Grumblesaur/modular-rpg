@@ -34,6 +34,9 @@ Hard Bargainer
 Gear Head:
   Replace Knowledge with Intuition as the attribute for Repair.
 
+Survivalist:
+  Replace Intuition with Knowledge as the attribute for Forage.
+
 Antlers (Sarav):
   (Fyrdwelli only.) This actor has pointed protrusions extending from their
   head. They cannot wear any headgear which does not accomodate for these
