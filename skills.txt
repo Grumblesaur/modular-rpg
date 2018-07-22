@@ -306,20 +306,6 @@ Know <Discipline of Information>
   rituals, and academic disciplines which have no corresponding trade, skill,
   or activity, but are nonetheless useful or important.
 
-Listen
-  Attribute: Intuition
-  Usage: Tertiary
-  
-  Listen is a measure of an actor's sense of hearing and is part of their
-  general situational awareness.
-
-Look
-  Attribute: Intuition
-  Usage: Tertiary
-  
-  Look is a measure of an actor's eyesight and is part of their general
-  situational awareness.
-
 Navigate
   Attribute: Knowledge
   Usage: Non-combat
