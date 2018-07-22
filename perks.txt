@@ -35,10 +35,9 @@ Charger (10 GP)
   and +1 damage of the same type as the attack if the attack was successful.
 
 Lithe Lethality (6 GP)
-  Taking this perk allows an actor to switch their attribute for a Wield Melee
-  skill from Vigor to Agility as long as the type of melee weapon used by that
-  skill does not have the Heavy weapon characteristic. This perk can be taken
-  multiple times, once for each different Wield Melee skill.
+  For a particular type of melee weapon, an actor who takes this perk for that
+  type of melee weapon is able to use their Agility attribute instead of Vigor
+  for any weapons of that type which don't have the Heavy property.
  
 The Fist and the Furious (12 GP)
   Taking this perk permits an actor to use Dance in place of Brawl in combat
