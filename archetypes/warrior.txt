@@ -1,0 +1,46 @@
+==============================================================================
+Warrior Archetype
+==============================================================================
+
+A character of the warrior archetype focuses on their combat prowess and their
+physical attributes, with less attention to their mental or aesthetic aspects.
+
+Attribute Scores
+----------------
+
+Vigor       15
+Resilience  10
+Agility     10
+Finesse      5
+Knowledge    0
+Intuition    5
+Allure     -10
+Presence     5
+Soul         0
+
+Attribute Table
+---------------
+
+Vigor       01-20  20%
+Resilience  21-35  15%
+Agility     36-50  15%
+Finesse     51-60  10%
+Knowledge   61-65   5%
+Intuition   66-75  10%
+Allure      76-82   7%
+Presence    83-92  10%
+Soul        93-100  8%
+
+
+Recommended Skills
+------------------
+
+Brawl
+Heft
+Intimidate
+Trip
+Wield <Choose one type of Melee>
+Wield <Choose one type or Melee or one type of Aimed>
+
+
+
