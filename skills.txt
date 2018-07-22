@@ -270,6 +270,15 @@ Hide
   remaining still, often by contorting their body to squeeze into small
   spaces. Attempting to move while hiding will initiate a Sneak check.
 
+Inspire
+  Attribute: Presence
+  Usage: Secondary
+  
+  Inspire is a measure of an actor's ability to impress, awe, or motivate
+  another actor by virtue of their own mannerisms of speech and confidence in
+  their own actions. To inspire an actor is to help them overcome their fears
+  and apprehensions to follow through on a course of action.
+
 Intimidate
   Attribute: Presence
   Usage: Secondary
