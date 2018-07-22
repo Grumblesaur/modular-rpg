@@ -34,11 +34,6 @@ Charger (10 GP)
   attack with a melee weapon, they receive a +10 bonus to hit their target,
   and +1 damage of the same type as the attack if the attack was successful.
 
-Lithe Lethality (6 GP)
-  For a particular type of melee weapon, an actor who takes this perk for that
-  type of melee weapon is able to use their Agility attribute instead of Vigor
-  for any weapons of that type which don't have the Heavy property.
- 
 The Fist and the Furious (12 GP)
   Taking this perk permits an actor to use Dance in place of Brawl in combat
   provided they are not encumbered above their carry weight. Using Dance in
@@ -68,16 +63,4 @@ Grappler (15 GP)
 Theodore Roosevelt (6 GP)
   When wielding a heavy bludgeon or staff, +10 to checks involving the actor's
   Presence attribute.
-
-Arms Akimbo (20 GP)
-  With this perk, an actor may wield two weapons, one in each hand. While
-  wielding two weapons, the actor may use a Secondary Action to make a Wield
-  check with the weapon in their non-dominant hand. This secondary Wield check
-  is made with a -10 penalty.
-  
-  The weapon in the actor's non-dominant hand must have the Light property.
-  
-  
-
-
 

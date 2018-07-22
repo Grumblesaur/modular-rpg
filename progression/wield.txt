@@ -1,0 +1,41 @@
+==============================================================================
+Perks for Wield
+==============================================================================
+
+Shock and Awe (20 Ranks)
+  For the chosen type of weapon of this wield skill, an actor's fearsome blows
+  or precise aim in combat evoke fear in their adversary's mind. When an
+  attack with this Wield skill is made and misses within a margin of 5 of the
+  target's DC, this attack deals 1 damage anyway.
+
+Lithe Lethality (20 Ranks) (Melee Only)
+  For the chosen type of weapon of this wield skill, an actor may substitute
+  their Finesse score in place of their Vigor score for Wield checks made with
+  this skill, provided the weapon in use does not have the Heavy property.
+
+Marksman (20 Ranks) (Aimed Only)
+  For the chosen type of weapon of this wield skill, an actor may substitute
+  their Agility score in place of their Vigor score (replace a strong, held
+  draw with a fast one), or their Resilience score in place of their Finesse
+  score (for a shot aimed and braced by the body to maintain steady, rather
+  than by the arms), as is appropriate to the attribute required by the
+  weapon.
+
+Arms Akimbo (30 Ranks) (Melee Only)
+  For the chosen type of weapon of this wield skill, an actor is able to wield
+  two weapons, one in each hand. The actor may use a Secondary Action to make a
+  Wield check with the weapon in their non-dominant hand. This additional
+  attack is made with a -10 penalty to the Wield check.
+  
+  The weapon in the actor's non-dominant hand must have the Light property.
+
+Focus Fire (30 Ranks) (Aimed Only)
+  For the chosen type of weapon of this wield skill, an actor is able to make
+  a second wield check with this weapon as a Secondary Action. This additional
+  attack is made with a -10 penalty to the wield check.
+  
+  The weapon that the actor is using must be a two-handed weapon, such as a
+  bow or crossbow.
+
+
+
