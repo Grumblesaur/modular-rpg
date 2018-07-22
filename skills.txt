@@ -206,6 +206,13 @@ Garden
   implements as appropriate.
   
   Garden is a measure of an actor's ability to tend to plants and other flora.
+
+Grasp
+  Attribute: Finesse
+  Usage: Primary
+  
+  Grasp is a measure of an actor's ability to gently handle fragile objects,
+  pick pockets, and maneuver things with deft hands.
   
 Handle Animal
   Attribute: Presence
