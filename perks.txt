@@ -34,7 +34,7 @@ Charger (10 GP)
   attack with a melee weapon, they receive a +10 bonus to hit their target,
   and +1 damage of the same type as the attack if the attack was successful.
 
-Flashing Swords (6 GP)
+Lithe Lethality (6 GP)
   Taking this perk allows an actor to switch their attribute for a Wield Melee
   skill from Vigor to Agility as long as the type of melee weapon used by that
   skill does not have the Heavy weapon characteristic. This perk can be taken
