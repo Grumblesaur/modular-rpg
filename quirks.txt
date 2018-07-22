@@ -25,10 +25,8 @@ Rules Lawyer:
   Replace Allure with Knowledge as the attribute for Persuade.
 
 Folk Musician:
-  Replace Knowledge with Allure as the attribute for Play.
-
-Opera Singer:
-  Replace Allure with Knowledge as the attribute for Sing.
+  Replace Knowledge with Allure as the attribute for Play when the parameter is
+  a type of instrument or the actor's voice.
 
 Gear Head:
   Replace Knowledge with Intuition as the attribute for Repair.
