@@ -470,25 +470,17 @@ Trip
   supine or prone, as would be appropriate for the scenario. If the Trip check
   fails, the target remains standing.
 
-Wield <Type of Melee Weapon>
-  Attribute: Vigor 
+Wield <Type of Weapon>
+  Attribute: Determinant on Weapon Type.
   Usage: Primary, Reaction
   Tools: A weapon of the specified type.
   
-  Wield Melee is a measure of an actor's ability to fight effectively with a
-  weapon of the specified type.
+  Wield is a measure of an actor's ability to fight effectively with a weapon
+  of the specified type.
   
-  In certain circumstances, Wield Melee can be taken as a reaction. When an
-  adversary dashes through an actor's space, they make a Wield Melee check
-  against a Run check by the adversary. The attack succeeds if it beats the DC
-  set by the Run check.
+  In certain circumstances, Wield can be taken as a reaction with a melee
+  weapon. When an adversary dashes through an actor's space, they make a Wield
+  check against a Run check by the adversary. The attack succeeds if it beats
+  the DC set by the Run check.
 
-Wield <Aimed Weapon>
-  Attribute: Finesse
-  Usage: Primary
-  Tools: A weapon of the specified type.
-  
-  Wield Aimed is a measure of an actor's ability to fight effectively with a
-  weapon of the specified type.
-  
  
