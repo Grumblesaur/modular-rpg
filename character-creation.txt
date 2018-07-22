@@ -139,12 +139,11 @@ So if the player whose actor has this table rolls a 100, they gain a point in
 Soul. If they roll at 48, they gain a point in Finesse, and so on.
 
 
-Skills, Perks, and Quirks
+Skills and Quirks
 -------------------------
 
-On character creation, a player receives an allotment of points to spend on
-perks and skills for their character. These are called growth points, and the
-amount is calculated thus:
+On character creation, a player receives an allotment of skill points to spend
+on increasing the ranks of their skills.
   
   Character Creation Growth Points = 3 * Number of attributes in use
   
@@ -158,8 +157,13 @@ A skill cannot be invested in beyond the limit:
   
   Skill Rank Limit = 2 * Character level
 
-Skill points may be held by the player until later to spend on a more costly
-perk if they so choose.
+For every ten ranks invested in a skill, an actor reaches a milestone in that
+skill, where they are offered a choice of perks, which will grant them special
+abilities or bonuses.
+
+Skill points may be held by the player until later, if they need time to
+decide how to distribute the points. Skill points should be allotted to skills
+only during downtime, such as short or long rests.
 
 Quirks are character features that incur no cost, but must be chosen on
 character creation. They are indicative of particularities of an actor's core
