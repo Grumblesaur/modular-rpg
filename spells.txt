@@ -1,15 +1,29 @@
 ==============================================================================
-Spells and Casting Rules
+Spells
 ==============================================================================
 
-Basic Spells
-------------
+Basic Spells and Modifications
+------------------------------
 
 A spell is a perk that an actor can take, provided they have a prerequisite 
+perk that allocates them the ability to cast spells. A spell's description
+consists of its name, growth point cost to purchase, casting time, duration of
+effect, and a brief text explaining conditions, damage, or rules.
+
+Spell modifications may also be purchased. Modifications are a collection of
+generic, general-purpose improvements which can be applied to spells. Not all
+modifications can be applied to every spell.
+
+Modifications must be purchased individually for each spell, as they are a
+measure of an actor's practice and ability to improvise with that particular
+spell. When casting, spell modifications will add their own magic cost to the
+cost of a spell. When spell modifications are applied, the cheapest-costing
+spell modification's magic point cost is ignored. As such, casting a spell
+with a single modification has no additional cost.
 
 
-
-
+Spell Examples
+--------------
 
 Elements:
   Fire    Sonic
