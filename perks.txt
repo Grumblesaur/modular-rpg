@@ -69,4 +69,15 @@ Theodore Roosevelt (6 GP)
   When wielding a heavy bludgeon or staff, +10 to checks involving the actor's
   Presence attribute.
 
+Arms Akimbo (20 GP)
+  With this perk, an actor may wield two weapons, one in each hand. While
+  wielding two weapons, the actor may use a Secondary Action to make a Wield
+  check with the weapon in their non-dominant hand. This secondary Wield check
+  is made with a -10 penalty.
+  
+  The weapon in the actor's non-dominant hand must have the Light property.
+  
+  
+
+
 
