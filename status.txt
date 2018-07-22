@@ -29,6 +29,7 @@ statistics follow these formulas:
   Hit Point Maximum = 35 + floor(resilience / 5)
   
   Hit Point Recovery = 5 + floor(resilience / 10) per short rest.
+                     = to maximum HP on long rest.
   
 Actors whose Hit Points drop to zero while their Vitality Points number at
 least one become Incapacitated, described under Conditions.
@@ -105,6 +106,11 @@ use magic and cast spells will utilize energy from this pool. The pool is of
 the size:
   
   Mana Point Maximum = 35 + floor(soul / 5)
+
+Mana Points are also recovered as Hit Points are.
+  
+  Mana Point Recovery = 5 + floor(soul / 10) per short rest
+                      = to maximum MP on long rest.
 
 
 Conditions

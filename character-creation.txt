@@ -193,6 +193,3 @@ determined by a portion of an attribute will change, such as HP recovery, or
 vital threshold. Players are advised to account for these changes.
 
 
-
-
-
