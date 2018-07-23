@@ -28,12 +28,6 @@ Combat as a Second Language (5 GP)
   When this actor is speaking to an actor they have directly injured, they
   receive a +10 bonus to Sense Motive checks against that actor.
 
-Charger (10 GP)
-  (Minimum Vigor of 20)
-  If this actor moves in a straight line for at least 10 feet before making an
-  attack with a melee weapon, they receive a +10 bonus to hit their target,
-  and +1 damage of the same type as the attack if the attack was successful.
-
 The Fist and the Furious (12 GP)
   Taking this perk permits an actor to use Dance in place of Brawl in combat
   provided they are not encumbered above their carry weight. Using Dance in

@@ -36,6 +36,9 @@ Actors are ordered from greatest to least initiative. Initiative is rerolled
 each round to better simulate the changing flow of battle, and how the
 readiness of individual combatants can shift from moment to moment.
 
+Actors wielding aimed weapons who are attacking targets wielding melee weapons
+within the melee weapon's reach make their wield checks with a -10 penalty.
+
 
 Action Economy
 --------------

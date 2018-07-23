@@ -2,7 +2,22 @@
 Perks for Wield
 ==============================================================================
 
-Shock and Awe (20 Ranks)
+First Milestone
+---------------
+
+Strafe I (10 Ranks)
+  While wielding the chosen type of weapon for this wield skill, the actor's
+  speed is increased by 5 feet.
+
+Sidestep I (10 Ranks)
+  While wielding the chosen type of weapon for this wield skill, the actor's
+  dodge class is increased by 5.
+
+
+Second Milestone
+----------------
+
+Shock and Awe I (20 Ranks)
   For the chosen type of weapon of this wield skill, an actor's fearsome blows
   or precise aim in combat evoke fear in their adversary's mind. When an
   attack with this Wield skill is made and misses within a margin of 5 of the
@@ -21,21 +36,174 @@ Marksman (20 Ranks) (Aimed Only)
   than by the arms), as is appropriate to the attribute required by the
   weapon.
 
-Arms Akimbo (30 Ranks) (Melee Only)
+
+Third Milestone
+---------------
+
+Strafe II (30 Ranks) (Requires Strafe I)
+  Increase the bonus conferred by Strafe I by an additional 5 feet.
+
+Sidestep II (30 Ranks) (Requires Sidestep II)
+  Increase the bonus conferred by Sidestep I by an additional 5.
+
+Arms Akimbo I (30 Ranks) (Melee Only)
   For the chosen type of weapon of this wield skill, an actor is able to wield
   two weapons, one in each hand. The actor may use a Secondary Action to make a
   Wield check with the weapon in their non-dominant hand. This additional
-  attack is made with a -10 penalty to the Wield check.
+  attack is made with a -15 penalty to the Wield check, and the damage is
+  dealt without the attribute bonus.
   
   The weapon in the actor's non-dominant hand must have the Light property.
 
-Focus Fire (30 Ranks) (Aimed Only)
+Charger I (30 Ranks) (Melee Only)
+  While wielding a weapon of the chosen type for this wield skill, an actor
+  who moves in a straight line for at least 10 feet before making this kind of
+  wield check receives a +10 bonus to hit their target and +1 damage of the
+  same type as the attack if the attack was successful.
+
+Focus Fire I (30 Ranks) (Aimed Only)
   For the chosen type of weapon of this wield skill, an actor is able to make
   a second wield check with this weapon as a Secondary Action. This additional
-  attack is made with a -10 penalty to the wield check.
+  attack is made with a -15 penalty to the wield check, and the damage is
+  is dealt without the attribute bonus.
   
   The weapon that the actor is using must be a two-handed weapon, such as a
   bow or crossbow.
+
+Parabolic Arc I (30 Ranks) (Aimed Only)
+  While wielding a weapon of the chosen type for this wield skill, an actor
+  making this kind of wield check can choose to take it as a full-round action
+  for a 20% increase in the weapon's range.
+
+
+Fourth Milestone
+----------------
+
+Shock and Awe II (40 Ranks) (Requires Shock and Awe I)
+  Increase the miss margin from Shock and Awe I from 5 to 10.
+
+Quickdraw (40 Ranks)
+  If a weapon of the chosen type for this wield skill is holstered, hung,
+  sheathed, or otherwise kept on an actor's body or clothing, the actor can
+  draw or stow that weapon as a Tertiary action instead of a Secondary action.
+
+Cleave (40 Ranks) (Melee Only)
+  While wielding a weapon of the chosen type for this wield skill, an actor is
+  able to use a full-round action to attack two adjacent targets with the same
+  swing or thrust of the weapon provided both targets are within the weapon's
+  reach and both targets are within 5 feet of each other.
+
+Narrow Spread Burst (40 Ranks) (Aimed Only)
+  While wielding a weapon of the chosen type for this wield skill, an actor is
+  able to use a full-round action to attack two adjacent targets with a quick
+  burst or flurry of projectiles provided both targets are within the weapon's
+  range and both targets are within 5 feet of each other.
+
+
+Fifth Milestone
+---------------
+
+Strafe III (50 Ranks) (Requires Strafe II)
+  Increases the bonus conferred by Strafe II by an additional 5 feet.
+
+Sidestep III (50 Ranks) (Requires Sidestep II)
+  Increases the bonus conferred by Sidestep II by an additional 5.
+
+Focus Fire II (50 Ranks) (Requires Focus Fire I)
+  Reduces the second attack check penalty from -15 to -10.
+
+Arms Akimbo II (50 Ranks) (Requires Arms Akimbo I)
+  Reduces the second attack check penalty from -15 to -10.
+
+Predator I (50 Ranks)
+  Grants a +5 bonus on this skill check when attacking a target using a weapon
+  of the chosen type for this wield skill who has fewer current HP than the
+  actor performing the check.
+
+Underdog I (50 Ranks)
+  Grants a +5 bonus on this skill check when attacking a target using a weapon
+  of the chosen type for this wield skill who has more current HP than the
+  actor performing the check.
+
+
+Sixth Milestone
+---------------
+
+Parabolic Arc II (60 Ranks) (Requires Parabolic Arc I)
+  Raises the range bonus of Parabolic Arc I from a 20% increase to a 30%
+  increase.
+
+Charger II (60 Ranks) (Requires Charger I)
+  Raises the hit bonus of Charger I from +10 to +15.
+
+Lash of the Bullfrog (60 Ranks) (Aimed Only)
+  Once per short rest, an actor with this perk may make one wield check with a
+  weapon of the chosen type against a melee combatant whose weapon can reach
+  them without the close quarters penalty. This must be declared before an
+  outcome is determined for the skill check.
+
+Dance of the Moth (60 Ranks) (Melee Only)
+  Once per short rest, an actor with this perk may increase their dodge class
+  by +10 while wielding a weapon of the chosen type when they are attacked by
+  an actor wielding an aimed weapon. This must be declared before an outcome
+  is determined for the skill check.
+
+
+Seventh Milestone
+-----------------
+
+Predator II (70 Ranks) (Requires Predator I)
+  Increases the bonus from Predator I from +5 to +10.
+
+Underdog II (70 Ranks) (requires Underdog I)
+  Increases the bonus from Underdog I from +5 to +10.
+
+Fearsome Strike (70 Ranks)
+  Grants a +1 damage bonus to attacks made with weapons of the chosen type for
+  this skill check. The damage bonus is of the same type of damage as dealt by
+  the attack.
+
+Training Specialist I (70 Ranks)
+  Once per long rest, an actor with this perk may conduct a practice session,
+  leading the session with a weapon of the chosen type for this wield check.
+  Any actors who participate in this practice session receive a +5 bonus to
+  wield checks of their own, or +10 if they are wielding a weapon of the same
+  type as the actor.
+
+
+Eighth Milestone
+----------------
+
+Focus Fire III (80 Ranks) (Requires Focus Fire II)
+  Reduces the second attack check penalty from -10 to -5.
+
+Arms Akimbo III (80 Ranks) (Requires Arms Akimbo II)
+  Reduces the second attack check penalty from -10 to -5.
+
+Fighting Spirit (80 Ranks)
+  Once per long rest, an actor who successfully defeats a foe in combat with
+  this wield check will regain 3 HP. The player who controls the actor may
+  choose which defeated foe grants them the morale boost.
+
+
+Ninth Milestone
+---------------
+
+Charger III (90 Ranks) (Requires Charger II)
+  Increases the damage bonus for charging from +1 to +2.
+
+Parabolic Arc III (90 Ranks) (Requires Parabolic Arc II)
+  Increases the range bonus for from Parabolic Arc II from 30% to 40%.
+
+Training Specialist II (90 Ranks)
+  Increases the wield buff for allies with different weapons to +10 and the
+  wield buff for allies with similar weapons to +15.
+
+
+Final Milestone
+---------------
+
+
 
 
 
