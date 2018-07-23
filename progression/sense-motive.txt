@@ -1,0 +1,171 @@
+==============================================================================
+Perks for Sense Motive
+==============================================================================
+
+First Milestone (10 Ranks)
+--------------------------
+
+Inquisitor I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors of the same culture as them.
+ 
+Spy I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors of a different culture from theirs.
+
+
+Second Milestone (20 Ranks)
+---------------------------
+
+Home Team Advantage I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors of the same race as them.
+
+Xenophile I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors of a different race from theirs.
+
+
+Third Milestone (30 Ranks)
+--------------------------
+
+David I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors with a greater Vigor score than them.
+
+Goliath I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors with a lesser Vigor score than them.
+
+Inquisitor II (Requires Inquisitor I)
+  Increases the bonus from Inquisitor I by an additional +5.
+
+Spy II (Requires Spy I)
+  Increases the bonus from Spy I by an additional +5.
+
+
+Fourth Milestone (40 Ranks)
+---------------------------
+
+Orwell I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors in positions of authority, such as guards, politicians,
+  professors, or royalty.
+
+Twain I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors not in positions of authority -- commoners, the homeless, and
+  the itinerant.
+
+Home Team Advantage II (Requires Home Team Advantage I)
+  Increases the bonus from Home Team Advantage I by an additional +5.
+
+Xenophile II (Requires Xenophile I)
+  Increases the bonus from Xenophile I by an additional +5.
+
+
+Fifth Milestone (50 Ranks)
+--------------------------
+
+Fighting Words I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors whom they have faced in battle.
+
+Bedside Manner I 
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against actors whom they have medically aided.
+
+Inquisitor III (Requires Inquisitor II)
+  Increases the bonus from Inquisitor II by an additional +5.
+
+Spy III (Requires Spy II)
+  Increases the bonus from Spy II by an additional +5.
+
+David II (Requires David I)
+  Increases the bonus from David I by an additional +5.
+
+Goliath II (Requires Goliath I)
+  Increases the bonus from Goliath I by an additional +5.
+
+
+Sixth Milestone (60 Ranks)
+--------------------------
+
+Idiom Savant I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against writing or recordings written in their native language.
+
+Translator I
+  The actor making the sense motive check receives a +5 bonus to their roll
+  against writing or recordings written in a language other than their native
+  tongue which they are able to read.
+
+Orwell II (Requires Orwell I)
+  Increases the bonus from Orwell I by an additional +5.
+
+Twain II (Requires Twain I)
+  Increases the bonus from Twain I by an additional +5.
+
+Home Team Advantage III (Requires Home Team Advantage II)
+  Increases the bonus from Home Team Advantage II by an additional +5.
+
+Xenophile III (Requires Xenophile II)
+  Increases the bonus from Xenophile II by an additional +5.
+
+
+Seventh Milestone (70 Ranks)
+----------------------------
+
+Fighting Words II (Requires Fighting Words I)
+  Increases the bonus from Fighting Words I by an additional +5.
+
+Bedside Manner II (Requires Bedside Manner I)
+  Increases the bonus from Bedside Manner I by an additional +5.
+
+David III (Requires David II)
+  Increases the bonus from David II by an additional +5.
+
+Goliath III (Requires Goliath II)
+  Increases the bonus from Goliath II by an additional +5.
+
+
+Eighth Milestone (80 Ranks)
+---------------------------
+
+Idiom Savant II (Requires Idiom Savant I)
+  Increases the bonus from Idiom Savant I by an additional +5.
+
+Translator II (Requires Translator I)
+  Increases the bonus from Translator I by an additional +5.
+
+Orwell III (Requires Orwell II)
+  Increases the bonus from Orwell II by an additional +5.
+
+Twain III (Requires Twain II)
+  Increases the bonus from Twain II by an additional +5.
+
+
+Ninth Milestone (90 Ranks)
+--------------------------
+
+Fighting Words III (Requires Fighting Words II)
+  Increases the bonus from Fighting Words II by an additional +5.
+
+Bedside Manner III (Requires Bedside Manner II)
+  Increases the bonus from Bedside Manner II by an additional +5.
+
+
+Final Milestone (100 Ranks)
+---------------------------
+
+Idiom Savant III (Requires Idiom Savant II)
+  Increases the bonus from Idiom Savant II by an additional +5.
+
+Translator III (Requires Translator II)
+  Increases the bonus from Translator II by an additional +5.
+
+
+
+
+
+
