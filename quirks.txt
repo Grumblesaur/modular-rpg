@@ -37,13 +37,28 @@ Gear Head:
 Survivalist:
   Replace Intuition with Knowledge as the attribute for Forage.
 
-Antlers (Sarav):
-  (Fyrdwelli only.) This actor has pointed protrusions extending from their
-  head. They cannot wear any headgear which does not accomodate for these
-  protrusions. This actor may also make an attack with their horns using a
-  Brawl check. If they moved in a straight line toward the target for at least
-  10 feet before attacking, this attack deals 1d8 piercing damage. Otherwise,
-  it deals 1d6.
+Silver Tongue:
+  Replace Presence with Allure as the attribute for Inspire.
+
+Danger Sense:
+  Replace Agility with Intuition as the attribute for Initiative.
+
+Space Synesthesia:
+  Replace Intuition with Soul as the attribute for Recall.
+
+Green Thumb:
+  Replace Knowledge with Intuition as the attribute for Garden.
+
+Artist of Seduction:
+  Replace Agility with Allure as the attribute for Dance.
+
+
+Antlers (Sarav, obligate Fyrdwelli only):
+  This actor has pointed protrusions extending from their head. They cannot
+  wear any headgear which does not accomodate for these protrusions. This actor
+  may also make an attack with their horns using a Brawl check. If they moved
+  in a straight line toward the target for at least 10 feet before attacking,
+  this attack deals 1d8 piercing damage. Otherwise, it deals 1d6.
 
 Spirit of the Phoenix:
   This actor has their Vital Threshold lowered by two permanently, but once
@@ -56,13 +71,6 @@ Spirit of the Phoenix:
   longer greater than their max VP. They will also have suffered a permanent
   injury, regardless of whether the attack that invoked this quirk was a
   critical hit. The rest of the recovery process plays as usual.
- 
-Artist of Seduction:
-  Replace Agility with Allure as the attribute for Dance.
-
-Apothecary:
-  (Requires Corpus module) Replace Knowledge with Corpus as the
-  attribute for a Treat Disease skill.
 
 A Good Offense is a Good Defense:
   This actor wins all ties in skill competitions they initiate, but loses
@@ -77,14 +85,5 @@ Determination of the Roach:
 
 Aggression of the Wasp:
   This actor has -1 maximum VP, but +10 maximum HP.
-
-Danger Sense:
-  Replace Agility with Intuition as the attribute for Initiative.
-
-Space Synesthesia:
-  Replace Intuition with Soul as the attribute for Recall.
-
-Green Thumb:
-  Replace Knowledge with Intuition as the attribute for Garden.
 
 
