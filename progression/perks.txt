@@ -18,16 +18,6 @@ Ship Sinker (10 GP)
   as they speak. They can read lips in one language they are fluent with. This
   perk may be taken multiple times for different languages.
 
-Bedside Manner (5 GP)
-  (Cannot be taken if actor has taken Combat as a Second Language.)
-  When this actor is speaking to an actor they have treated for injury or
-  disease, they receive a +10 bonus to Sense Motive checks against that actor.
-
-Combat as a Second Language (5 GP)
-  (Cannot be taken if actor has taken Bedside Manner.)
-  When this actor is speaking to an actor they have directly injured, they
-  receive a +10 bonus to Sense Motive checks against that actor.
-
 The Fist and the Furious (12 GP)
   Taking this perk permits an actor to use Dance in place of Brawl in combat
   provided they are not encumbered above their carry weight. Using Dance in
