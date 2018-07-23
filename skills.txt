@@ -101,13 +101,6 @@ Cast <Type of Magic>
   in combat, if any, is left to the specification of the spell's description
   as a perk. As such, a spell use up any kind of action slot in combat, or be
   inapplicable during a fight. 
-
-Charm
-  Attribute: Allure
-  Usage: Secondary
-  
-  Charm is a measure of an actor's ability to appeal to another actor's
-  emotions or attractions to influence their mood or point of view.
   
 Climb
   Attribute: Vigor
@@ -257,14 +250,15 @@ Hide
   remaining still, often by contorting their body to squeeze into small
   spaces. Attempting to move while hiding will initiate a Sneak check.
 
-Inspire
+Influence
   Attribute: Presence
   Usage: Secondary
   
-  Inspire is a measure of an actor's ability to impress, awe, or motivate
-  another actor by virtue of their own mannerisms of speech and confidence in
-  their own actions. To inspire an actor is to help them overcome their fears
-  and apprehensions to follow through on a course of action.
+  Inspire is a measure of an actor's ability to impress, charm, motivate, or
+  awe another actor by virtue of their own mannerisms of speech and
+  confidence in their own actions. To inspire an actor is to help them
+  overcome their fears and apprehensions to follow through on a course of
+  action.
 
 Intimidate
   Attribute: Presence
