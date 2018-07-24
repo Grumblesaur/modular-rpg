@@ -148,7 +148,7 @@ Insight (Requires Empathy)
   An actor using their Empathy ability now also can hear the same sounds and
   feel the same physical sensations that their target is feeling, or if using
   this power on traces left by the target, what they heard and felt as they
-  were leaving them.
+  were leaving them, for up to 12 seconds.
 
 
 Eighth Milestone (80 Ranks)
