@@ -25,6 +25,12 @@ Xenophile I
   The actor making the sense motive check receives a +5 bonus to their roll
   against actors of a different race from theirs.
 
+Backtalk
+  Once per short rest, an actor with this perk may use their deductive ability
+  and sharpened attention to re-use the roll result of a successful sense
+  motive check as the roll for a Barter, Deceive, Influence, Intimidate, or
+  Persuade check that follows, provided that the target is the same.
+
 
 Third Milestone (30 Ranks)
 --------------------------
@@ -62,6 +68,12 @@ Home Team Advantage II (Requires Home Team Advantage I)
 
 Xenophile II (Requires Xenophile I)
   Increases the bonus from Xenophile I by an additional +5.
+
+Empathy
+  Once per short rest, an actor with this perk may elect to feel a flash of
+  the emotions of the target of their check within themselves, or if the
+  target is not present, but some trace or remains of an act of theirs
+  remains, the actor feels a flash of what the target felt at the time.
 
 
 Fifth Milestone (50 Ranks)
@@ -164,7 +176,10 @@ Idiom Savant III (Requires Idiom Savant II)
 Translator III (Requires Translator II)
   Increases the bonus from Translator II by an additional +5.
 
-
+Empathic Insight (Requires Empathy)
+  Once per long rest, an actor can mentally relive up to one minute of a
+  non-present target's life as is relevant to the traces or remains they are
+  examining.
 
 
 
