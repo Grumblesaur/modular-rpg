@@ -70,11 +70,14 @@ Xenophile II (Requires Xenophile I)
   Increases the bonus from Xenophile I by an additional +5.
 
 Empathy
-  Once per long rest, an actor with this perk may elect to feel a flash of the
-  emotions and surface thoughts of the target of their check within
-  themselves, or if the target is not present, but some trace or remains of an
-  act of theirs remains, the actor feels a flash of what the target felt at
-  the time.
+  An actor with Empathy has an active imagination and a deep understanding of
+  the emotions and mental heuristics of other actors.
+  
+  Once per long rest, an actor with this perk can, with a successful sense
+  motive check, experience a flash of emotions and surface thoughts of their
+  target within themselves, or if the target is not present, but some trace or
+  remains of an act of theirs remains, the actor feels a flash of what the
+  target felt at the time.
 
 
 Fifth Milestone (50 Ranks)
