@@ -1,0 +1,15 @@
+Crowd Control
+  Once per long rest, an actor may make an persuade check against the average
+  sense motive roll of a crowd of people to entrance or distract them with a
+  spiel for up to a minute. The entire crowd's attention will be focused on
+  the speaker until the duration ceases or until the speaker ceases talking.
+
+Sermon (Requires Crowd Control)
+  Extends the maximum length of Crowd Control to 5 minutes.
+
+Filibuster (Requires Sermon)
+  Extends the maximum length of Sermon to 10 minutes.
+
+
+
+

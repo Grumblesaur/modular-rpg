@@ -15,9 +15,9 @@ Spy I
 
 Backtalk
   Once per short rest, an actor with this perk may use their deductive ability
-  and sharpened attention to re-use the roll result of a successful sense
-  motive check as the roll for a Barter, Deceive, Influence, Intimidate, or
-  Persuade check that follows, provided that the target is the same.
+  and sharp wit to re-use the roll result of a successful sense motive check
+  as the roll for a Barter, Deceive, Influence, Intimidate, or Persuade check
+  that follows, provided that the target is the same.
 
 
 Second Milestone (20 Ranks)
@@ -76,8 +76,8 @@ Empathy
   Once per long rest, an actor with this perk can, with a successful sense
   motive check, experience a flash of emotions and surface thoughts of their
   target within themselves, or if the target is not present, but some trace or
-  remains of an act of theirs remains, the actor feels a flash of what the
-  target felt at the time.
+  remains of an act of the target's is present, the actor feels a momentary
+  flash of what the target felt at the time.
 
 
 Fifth Milestone (50 Ranks)
@@ -145,10 +145,10 @@ Goliath III (Requires Goliath II)
   Increases the bonus from Goliath II by an additional +5.
 
 Insight (Requires Empathy)
-  An actor using their Empathy ability now also can hear the same sounds and
-  feel the same physical sensations that their target is feeling, or if using
-  this power on traces left by the target, what they heard and felt as they
-  were leaving them, for up to 12 seconds.
+  An actor using their Empathy ability now also gains a sense of the sounds
+  and physical sensations that their target might be feeling, or if using this
+  power on traces of the target, what they might have heard and felt at the
+  relevant point in the past, for up to 12 seconds.
 
 
 Eighth Milestone (80 Ranks)
@@ -187,10 +187,11 @@ Translator III (Requires Translator II)
   Increases the bonus from Translator II by an additional +5.
 
 Borrowed Memory (Requires Insight)
-  While using their Empathy power, an actor can mentally connect to their
-  target for 30 seconds, feeling what they feel, seeing what they see, and
-  hearing what they heard. If using this power on traces left by the target,
-  they gain those 30 seconds of sense from a relevant point in the target's
-  past.
+  While using their Insight power, an actor can mentally connect to their
+  target for 30 seconds, vividly imagining what they feel, see, and hear. If
+  using this power on traces left by the target, they gain those 30 secodns of
+  sense from the relevant point in the target's past.
+
+
 
 

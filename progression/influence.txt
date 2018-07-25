@@ -1,0 +1,197 @@
+==============================================================================
+Perks for Influence
+==============================================================================
+
+First Milestone (10 Ranks)
+--------------------------
+
+Kindred Spirit I
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors of the same culture as them.
+ 
+Friendly Foreigner I
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors of a different culture from theirs.
+
+Smooth Operator
+  Once per short rest, an actor with this perk may re-roll a barter, deceive,
+  intimidate, or persuade check as an influence check instead, but only before
+  the game master gives a ruling on the outcome.
+
+
+Second Milestone (20 Ranks)
+---------------------------
+
+Homeword Bound I
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors who speak the same native language as them.
+
+Xenoglossicist I
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors who speak a different native language from them, as long as
+  the actor also speaks it.
+
+
+Third Milestone (30 Ranks)
+--------------------------
+
+Gump I
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors with a greater Knowledge score than them.
+
+Einstein I
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors with a lesser Knowledge score than them.
+
+Kindred Spirit II (Requires Kindred Spirit I)
+  Increases the bonus from Kindred Spirit I by an additional +5.
+
+Friendly Foreigner II (Requires Friendly Foreigner I)
+  Increases the bonus from Friendly Foreigner I by an additional +5.
+
+
+Fourth Milestone (40 Ranks)
+---------------------------
+
+Wormtongue I
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors in positions of authority, such as guards, politicians,
+  professors, or royalty.
+
+Scoundrel I
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors not in positions of authority -- commoners, the homeless, and
+  the itinerant.
+
+Homeword Bound II (Requires Homeword Bound I)
+  Increases the bonus from Homeword Bound I by an additional +5.
+
+Xenoglossicist II (Requires Xenoglossicist I)
+  Increases the bonus from Xenoglossicist I by an additional +5.
+
+Poet Warrior
+  Once per long rest, an actor may make an influence check to inspire or
+  demoralize a target. When a target is inspired, they make any single check
+  of their choice with a +10 bonus. The player may choose to apply this bonus
+  before or after rolling, but it must be before the game master decides the
+  outcome of the check. If the inspired check is an attack, it will deal +1
+  extra damage when successful.
+  
+  When a target is demoralized, they make their next check with a -10 penalty.
+  If the target's next check is an attack, damage will be reduced by 1.
+  
+  An actor cannot be demoralized or inspired by multiple actors at once.
+  Attempting to demoralize an already-inspired actor will have no effect, and
+  attempting to inspire an already-demoralized actor will also have no effect.
+  
+  An inspired actor must use their bonus within one day, or the bonus is
+  forfeit.
+
+
+Fifth Milestone (50 Ranks)
+--------------------------
+
+The Spoken Ward I
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors whom they have faced in battle.
+
+Foil I 
+  The actor making the influence check receives a +5 bonus to their roll
+  against actors whom they have sided with in battle.
+
+Kindred Spirit III (Requires Kindred Spirit II)
+  Increases the bonus from Kindred Spirit II by an additional +5.
+
+Friendly Foreigner III (Requires Friendly Foreigner II)
+  Increases the bonus from Friendly Foreigner II by an additional +5.
+
+Gump II (Requires Gump I)
+  Increases the bonus from Gump I by an additional +5.
+
+Einstein II (Requires Einstein I)
+  Increases the bonus from Einstein I by an additional +5.
+
+
+Sixth Milestone (60 Ranks)
+--------------------------
+
+Crowd Pleaser I
+  The actor making the influence check receives a +5 bonus to their roll when
+  making a check to influence more than one person.
+
+The Loneliest Number I
+  The actor making the influence check receives a +5 bonus to their roll
+  when speaking to only one person.
+
+Wormtongue II (Requires Wormtongue I)
+  Increases the bonus from Wormtongue I by an additional +5.
+
+Scoundrel II (Requires Scoundrel I)
+  Increases the bonus from Scoundrel I by an additional +5.
+
+Homeword Bound III (Requires Homeword Bound II)
+  Increases the bonus from Homeword Bound II by an additional +5.
+
+Xenoglossicist III (Requires Xenoglossicist II)
+  Increases the bonus from Xenoglossicist II by an additional +5.
+
+
+Seventh Milestone (70 Ranks)
+----------------------------
+
+The Spoken Ward II (Requires The Spoken Ward I)
+  Increases the bonus from The Spoken Ward I by an additional +5.
+
+Foil II (Requires Foil I)
+  Increases the bonus from Foil I by an additional +5.
+
+Gump III (Requires Gump II)
+  Increases the bonus from Gump II by an additional +5.
+
+Einstein III (Requires Einstein II)
+  Increases the bonus from Einstein II by an additional +5.
+
+Bardbarian (Requires Poet Warrior)
+  Changes the inspiration bonus from Poet Warrior from +10/+1 to +15/+2 and
+  the demotivate penalty from -10/-1 to -15/-2. 
+
+
+Eighth Milestone (80 Ranks)
+---------------------------
+
+Crowd Pleaser II (Requires Crowd Pleaser I)
+  Increases the bonus from Crowd Pleaser I by an additional +5.
+
+The Loneliest Number II (Requires The Loneliest Number I)
+  Increases the bonus from The Loneliest Number I by an additional +5.
+
+Wormtongue III (Requires Wormtongue II)
+  Increases the bonus from Wormtongue II by an additional +5.
+
+Scoundrel III (Requires Scoundrel II)
+  Increases the bonus from Scoundrel II by an additional +5.
+
+
+Ninth Milestone (90 Ranks)
+--------------------------
+
+The Spoken Ward III (Requires The Spoken Ward II)
+  Increases the bonus from The Spoken Ward II by an additional +5.
+
+Foil III (Requires Foil II)
+  Increases the bonus from Foil II by an additional +5.
+
+
+Final Milestone (100 Ranks)
+---------------------------
+
+Crowd Pleaser III (Requires Crowd Pleaser II)
+  Increases the bonus from Crowd Pleaser II by an additional +5.
+
+The Loneliest Number III (Requires The Loneliest Number II)
+  Increases the bonus from The Loneliest Number II by an additional +5.
+
+Shakespearman (Requires Bardbarian)
+  Permits a second use of this power per long rest.
+
+
