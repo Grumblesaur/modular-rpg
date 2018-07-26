@@ -1,15 +1,183 @@
+==============================================================================
+Perks for Persuade
+==============================================================================
+
+First Milestone (10 Ranks)
+--------------------------
+
+The Pulpit I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors of the same culture as them.
+ 
+The Podium I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors of a different culture from theirs.
+
+Armchair Expert
+  Once per short rest, an actor with this perk may use their argumentative
+  fashions and nimble mind to re-use the roll result of a successful persuade
+  check as the roll for a Know check, or a Repair or Craft check made for
+  information (as opposed to one for fixing or making something) that follows.
+
+
+Second Milestone (20 Ranks)
+---------------------------
+
+Evangelist I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors who adhere to the same pantheon or faith as them.
+
+Missionary I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors who adhere to a different pantheon or faith from them.
+
+
+Third Milestone (30 Ranks)
+--------------------------
+
+Breakout I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors with a greater Presence score than them.
+
+Bully I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors with a lesser Presence score than them.
+
+The Pulpit II (Requires Inquisitor I)
+  Increases the bonus from The Pulpit I by an additional +5.
+
+The Podium II (Requires The Podium I)
+  Increases the bonus from The Podium I by an additional +5.
+
+
+Fourth Milestone (40 Ranks)
+---------------------------
+
+Secretary I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors with wealthy, decadent lifestyles.
+
+Vox Populi I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors with ordinary or even squalid lifestyles. 
+
+Evangelist II (Requires Evangelist I)
+  Increases the bonus from Evangelist I by an additional +5.
+
+Missionary II (Requires Missionary I)
+  Increases the bonus from Missionary I by an additional +5.
+
 Crowd Control
   Once per long rest, an actor may make an persuade check against the average
-  sense motive roll of a crowd of people to entrance or distract them with a
+  persuade roll of a crowd of people to entrance or distract them with a
   spiel for up to a minute. The entire crowd's attention will be focused on
   the speaker until the duration ceases or until the speaker ceases talking.
+
+
+Fifth Milestone (50 Ranks)
+--------------------------
+
+Quid Pro Quo I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors whom they have conducted transactions or made deals with.
+
+Rival I 
+  The actor making the persuade check receives a +5 bonus to their roll
+  against actors whom they have competed with in some way.
+
+The Pulpit III (Requires Inquisitor II)
+  Increases the bonus from The Pulpit II by an additional +5.
+
+The Podium III (Requires The Podium II)
+  Increases the bonus from The Podium II by an additional +5.
+
+Breakout II (Requires Breakout I)
+  Increases the bonus from Breakout I by an additional +5.
+
+Bully II (Requires Bully I)
+  Increases the bonus from Bully I by an additional +5.
+
+
+Sixth Milestone (60 Ranks)
+--------------------------
+
+Aggressive Negotiations I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against an actor whom they are fighting in combat.
+
+Diplomat I
+  The actor making the persuade check receives a +5 bonus to their roll
+  against an actor whom they have never faced in battle.
+
+Secretary II (Requires Secretary I)
+  Increases the bonus from Secretary I by an additional +5.
+
+Vox Populi II (Requires Vox Populi I)
+  Increases the bonus from Vox Populi I by an additional +5.
+
+Evangelist III (Requires Evangelist II)
+  Increases the bonus from Evangelist II by an additional +5.
+
+Missionary III (Requires Missionary II)
+  Increases the bonus from Missionary II by an additional +5.
+
+
+Seventh Milestone (70 Ranks)
+----------------------------
+
+Quid Pro Quo II (Requires Quid Pro Quo I)
+  Increases the bonus from Quid Pro Quo I by an additional +5.
+
+Rival II (Requires Rival I)
+  Increases the bonus from Rival I by an additional +5.
+
+Breakout III (Requires Breakout II)
+  Increases the bonus from Breakout II by an additional +5.
+
+Bully III (Requires Bully II)
+  Increases the bonus from Bully II by an additional +5.
 
 Sermon (Requires Crowd Control)
   Extends the maximum length of Crowd Control to 5 minutes.
 
+
+Eighth Milestone (80 Ranks)
+---------------------------
+
+Aggressive Negotiations II (Requires Aggressive Negotiations I)
+  Increases the bonus from Aggressive Negotiations I by an additional +5.
+
+Diplomat II (Requires Diplomat I)
+  Increases the bonus from Diplomat I by an additional +5.
+
+Secretary III (Requires Secretary II)
+  Increases the bonus from Secretary II by an additional +5.
+
+Vox Populi III (Requires Vox Populi II)
+  Increases the bonus from Vox Populi II by an additional +5.
+
+
+Ninth Milestone (90 Ranks)
+--------------------------
+
+Quid Pro Quo III (Requires Quid Pro Quo II)
+  Increases the bonus from Quid Pro Quo II by an additional +5.
+
+Rival III (Requires Rival II)
+  Increases the bonus from Rival II by an additional +5.
+
+
+Final Milestone (100 Ranks)
+---------------------------
+
+Aggressive Negotiations III (Requires Aggressive Negotiations II)
+  Increases the bonus from Aggressive Negotiations II by an additional +5.
+
+Diplomat III (Requires Diplomat II)
+  Increases the bonus from Diplomat II by an additional +5.
+
 Filibuster (Requires Sermon)
   Extends the maximum length of Sermon to 10 minutes.
-
 
 
 
