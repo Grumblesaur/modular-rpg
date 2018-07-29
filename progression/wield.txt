@@ -203,7 +203,11 @@ Training Specialist II
 Final Milestone (100 Ranks)
 ---------------------------
 
+Lionheart
+  Increases VP by 1.
 
+Ironskin
+  Increases VT by 3.
 
 
 
