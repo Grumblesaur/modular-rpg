@@ -16,6 +16,10 @@ Piano Man I
   a when performing as a house musician for a pub, or when on stage for a
   concert.
 
+Serenade
+  Once per short rest, an actor with this perk may use their musical talents
+  and lyrical prowess to make a play check with the chosen instrument in place
+  of a Deceive, Influence, Intimidate, or Persuade check.
 
 Second Milestone (20 Ranks)
 ---------------------------
