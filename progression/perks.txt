@@ -24,7 +24,7 @@ The Fist and the Furious (12 GP)
   place of Brawl in the context of combat is a Primary Action, and may be used
   to thwart Grapple checks.
 
-Grappler (15 GP)
+Grappler (15 GP) ---->> integrate this into Brawl
   Grapple is a maneuver which allows and actor to wrestle and maintain control
   of another actor. The actor taking Grapple (which is a Primary Action) must
   be standing adjacent to the target. The Grapple action starts a competition
@@ -47,4 +47,17 @@ Grappler (15 GP)
 Theodore Roosevelt (6 GP)
   When wielding a heavy bludgeon or staff, +10 to checks involving the actor's
   Presence attribute.
+
+
+Trip ---->> integrate this into Brawl
+  Attribute: Agility
+  Usage: Primary
+  
+  Trip is a measure of an actor's ability to take other actors by surprise and
+  throw them off balance. The target of a Trip check sets the DC with a
+  Flourish check. If the actor making the Trip check beats the DC, the target
+  falls to the ground. The game master determines whether the player falls
+  supine or prone, as would be appropriate for the scenario. If the Trip check
+  fails, the target remains standing.
+
 

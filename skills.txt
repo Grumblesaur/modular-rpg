@@ -445,17 +445,6 @@ Treat Injury
   combat, a Treat Injury check may be used to apply a bandage or tourniquet to
   a wounded actor to prevent a grave injury from growing worse later.
 
-Trip
-  Attribute: Agility
-  Usage: Primary
-  
-  Trip is a measure of an actor's ability to take other actors by surprise and
-  throw them off balance. The target of a Trip check sets the DC with a
-  Flourish check. If the actor making the Trip check beats the DC, the target
-  falls to the ground. The game master determines whether the player falls
-  supine or prone, as would be appropriate for the scenario. If the Trip check
-  fails, the target remains standing.
-
 Wield <Type of Weapon>
   Attribute: Determinant on Weapon Type.
   Usage: Primary, Reaction
