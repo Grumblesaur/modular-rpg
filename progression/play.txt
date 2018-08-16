@@ -36,10 +36,40 @@ Lead Sheet I
 Third Milestone (30 Ranks)
 --------------------------
 
+Singer-Songwriter I
+  The actor making the play check receives a +5 bonus to their roll when
+  performing solo with the chosen instrument or means.
+
+Bandmate I
+  The actor making the play check receives a +5 bonus to their roll when
+  performing alongside at least one other person while using their chosen
+  instrument or means.
+
+Piano Man II (Requires Piano Man I)
+  Increases the bonus from Piano Man I by +5.
+
+Willy and the Poor Boys II (Requires Willy and the Poor Boys I)
+  Increases the bonus from Willy and the Poor Boys I by +5.
+
 
 Fourth Milestone (40 Ranks)
 ---------------------------
 
+Mr. Tambourine Man I
+  The actor making the play check receives a +5 bonus to their roll when
+  performing outside their home country with their chosen instrument or means.
+
+Country Roads I
+  The actor making the play check receives a +5 bonus to their roll when
+  performing in their home country with their chosen instrument or means.
+
+Vinyl Collection II (Requires Vinyl Collection I)
+  Increases the bonus from Vinyl Collection I by +5.
+
+Lead Sheet II (Requires Lead Sheet I)
+  Increases the bonus from Lead Sheet I by +5.
+
+<SPECIAL PERK I>
 
 Fifth Milestone (50 Ranks)
 --------------------------
